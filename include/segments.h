@@ -1,6 +1,8 @@
 #ifndef _SEGMENTS_H
 #define _SEGMENTS_H
 
+#define USE_EXT_RAM
+
 /*
  * Memory addresses for segments. Ideally, this header file would not be
  * needed, and the addresses would be defined in sm64.ld and linker-inserted

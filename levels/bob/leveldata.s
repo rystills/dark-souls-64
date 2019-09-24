@@ -7,11 +7,6 @@
 
 .include "levels/bob/texture.s"
 .include "levels/bob/areas/1/1/model.s"
-.include "levels/bob/areas/1/2/model.s"
-.include "levels/bob/areas/1/3/model.s"
-.include "levels/bob/areas/1/4/model.s"
-.include "levels/bob/areas/1/5/model.s"
-.include "levels/bob/areas/1/6/model.s"
 .include "levels/bob/chain_chomp_gate/model.s"
 .include "levels/bob/seesaw_platform/model.s"
 .include "levels/bob/grate_door/model.s"

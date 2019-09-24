@@ -1,4 +1,5 @@
 glabel bob_seg7_macro_objs # 0x0701104C - 0x070113BE
+macro_object /*preset*/ macro_bonfire,                   /*yaw*/   0, /*pos*/     0,  4500,     0
 macro_object /*preset*/ macro_chain_chomp,               /*yaw*/   0, /*pos*/   260,   735,  1920
 macro_object /*preset*/ macro_breakable_box_no_coins,    /*yaw*/   0, /*pos*/ -3979,     0,  6827
 macro_object /*preset*/ macro_goomba,                    /*yaw*/   0, /*pos*/ -2713,   152,  5778

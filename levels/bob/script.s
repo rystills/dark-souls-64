@@ -54,10 +54,7 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_BOB_BARS_GRILLS,      /*geo*/ bob_geo_000470
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
-        jump_link /*target*/ script_func_local_1
-        jump_link /*target*/ script_func_local_2
-        jump_link /*target*/ script_func_local_3
-        object /*model*/ MODEL_NONE, /*pos*/ -6558,  1000,  6464, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74
+        object /*model*/ MODEL_NONE, /*pos*/ 0,  4600,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74
         object /*model*/ MODEL_NONE, /*pos*/   583,  2683, -5387, /*angle*/ 0, -154, 0, /*behParam*/ 0x000B0000, /*beh*/ bhvFadingWarp
         object /*model*/ MODEL_NONE, /*pos*/  1680,  3835, -5523, /*angle*/ 0, -153, 0, /*behParam*/ 0x000C0000, /*beh*/ bhvFadingWarp
         object /*model*/ MODEL_NONE, /*pos*/ -6612,  1024, -3351, /*angle*/ 0, 107, 0,  /*behParam*/ 0x000D0000, /*beh*/ bhvFadingWarp
@@ -69,15 +66,14 @@ glabel level_bob_entry
         warp_node /*id*/ 0x0E, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0D, /*unk6*/ 0x0000
         warp_node /*id*/ 0xF0, /*destLevel*/ 0x06, /*destArea*/ 0x01, /*destNode*/ 0x32, /*unk6*/ 0x0000
         warp_node /*id*/ 0xF1, /*destLevel*/ 0x06, /*destArea*/ 0x01, /*destNode*/ 0x64, /*unk6*/ 0x0000
-        terrain /*terrainData*/ bob_seg7_collision_level
-        macro_objects /*objList*/ bob_seg7_macro_objs
+        terrain /*terrainData*/ bob_collision
         show_dialog /*unk2*/ 0x00, /*dialogid*/ 0x00
         set_background_music /*unk2*/ 0x0000, /*seq*/ SEQ_LEVEL_GRASS
         terrain_type /*terrainType*/ TERRAIN_GRASS
     end_area
 
     free_level_pool
-    mario_pos /*area*/ 1, /*yaw*/ 135, /*pos*/ -6558, 0, 6464
+    mario_pos /*area*/ 1, /*yaw*/ 135, /*pos*/ 0, 1100, 0
     call /*arg*/ 0, /*func*/ lvl_init_or_update
     call_loop /*arg*/ 1, /*func*/ lvl_init_or_update
     clear_level
