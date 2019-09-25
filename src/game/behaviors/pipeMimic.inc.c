@@ -1,23 +1,21 @@
-struct ObjectHitbox sPipeMimicHitbox = {
-    /* interactType:      */ 0,
-    /* downOffset:        */ 0,
-    /* damageOrCoinValue: */ 0,
-    /* health:            */ 0,
-    /* numLootCoins:      */ 0,
-    /* radius:            */ 50,
-    /* height:            */ 50,
-    /* hurtboxRadius:     */ 50,
-    /* hurtboxHeight:     */ 50,
-};
-
 void bhv_pipeMimic_init(void) {
-	set_object_hitbox(o, &sPipeMimicHitbox);
+    // use gravity to record state the mimic is stationary
+	o->oGravity = 0;
 }
 
 void bhv_pipeMimic_loop(void) {
-	// if mario enters the inside of the pipe mimic
-	if (is_point_within_radius_of_mario(o->oPosX, o->oPosY-100, o->oPosZ, 130) != 0) {
-		// TODO: attack mario (automatic death?)
-		o->oFaceAngleYaw += 1000;
-	}
+	// if mario enters the inside of the pipe mimic, start the death sequence
+	if (o->oGravity == 0 && is_point_within_radius_of_mario(o->oPosX, o->oPosY-100, o->oPosZ, 110) != 0)
+        o->oGravity = 1;
+    if (o->oGravity == 1) {
+        if (gMarioStates[0].health >= 0x100) {
+            gMarioStates[0].hurtCounter = 25;
+            gMarioStates[0].action = ACT_TWIRLING;
+            spawn_object_relative(0, RandomU16()/325 - 100, 100, RandomU16()/325 - 100, o, RandomU16() >= 32768 ? MODEL_RED_FLAME : MODEL_BLUE_FLAME, bhvFlame);
+        }
+        else {
+            o->oGravity = 2;
+            gMarioStates[0].action = ACT_WATER_DEATH; 
+        }
+    }
 }

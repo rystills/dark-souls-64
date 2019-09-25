@@ -60,6 +60,8 @@ glabel level_main_scripts_entry
     load_model_from_geo /*model*/ MODEL_CARTOON_STAR,            /*geo*/ cartoon_star_geo
     free_level_pool
     call /*arg*/ 0, /*func*/ lvl_init_from_save_file
+    # initial loading is done; jump to bob
+    jump_link /*target*/ L11
     loop_begin
         execute /*seg*/ 0x14, /*script*/ _menuSegmentRomStart, /*scriptEnd*/ _menuSegmentRomEnd, /*entry*/ level_main_menu_entry_2
         jump_link /*target*/ script_func_local_1

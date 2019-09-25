@@ -1,5 +1,5 @@
 script_func_local_1:
-    object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic,  /*acts*/ ALL_ACTS
+    object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
     return
 
 glabel level_bob_entry
@@ -25,12 +25,12 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_PIPEMIMIC,            /*geo*/ pipeMimic_geo
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
-        jump_link /*target*/ script_func_local_1
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74
         object /*model*/ MODEL_NONE, /*pos*/   583,  2683, -5387, /*angle*/ 0, -154, 0, /*behParam*/ 0x000B0000, /*beh*/ bhvFadingWarp
         object /*model*/ MODEL_NONE, /*pos*/  1680,  3835, -5523, /*angle*/ 0, -153, 0, /*behParam*/ 0x000C0000, /*beh*/ bhvFadingWarp
         object /*model*/ MODEL_NONE, /*pos*/ -6612,  1024, -3351, /*angle*/ 0, 107, 0,  /*behParam*/ 0x000D0000, /*beh*/ bhvFadingWarp
         object /*model*/ MODEL_NONE, /*pos*/  1980,   768,  6618, /*angle*/ 0, -151, 0, /*behParam*/ 0x000E0000, /*beh*/ bhvFadingWarp
+        jump_link /*target*/ script_func_local_1
         warp_node /*id*/ 0x0A, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0A, /*unk6*/ 0x0000
         warp_node /*id*/ 0x0B, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0C, /*unk6*/ 0x0000
         warp_node /*id*/ 0x0C, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0B, /*unk6*/ 0x0000
@@ -46,7 +46,7 @@ glabel level_bob_entry
     end_area
 
     free_level_pool
-    mario_pos /*area*/ 1, /*yaw*/ 135, /*pos*/ -6558, 0, 6464
+    mario_pos /*area*/ 1, /*yaw*/ 135, /*pos*/ 0, 500, 0
     call /*arg*/ 0, /*func*/ lvl_init_or_update
     call_loop /*arg*/ 1, /*func*/ lvl_init_or_update
     clear_level

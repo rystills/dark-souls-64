@@ -1,4 +1,6 @@
 glabel level_intro_entry_1
+    # skip the intro and go right to level_main_scripts_entry. once loading is done, we'll jump from there straight into bob
+    exit_and_execute /*seg*/ 0x15, /*script*/ _scriptsSegmentRomStart, /*scriptEnd*/ _scriptsSegmentRomEnd, /*entry*/ level_main_scripts_entry
     init_level
     fixed_load /*loadAddr*/ _goddardSegmentStart, /*romStart*/ _goddardSegmentRomStart, /*romEnd*/ _goddardSegmentRomEnd
     load_raw /*seg*/ 0x13, /*romStart*/ _behaviorSegmentRomStart, /*romEnd*/ _behaviorSegmentRomEnd
