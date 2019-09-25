@@ -1,0 +1,5 @@
+x = float(input("enter x: ").replace("m",""))
+y = float(input("enter y: ").replace("m",""))
+z = float(input("enter z: ").replace("m",""))
+print(str(int(x*3.5)) + ", " + str(int(z*3.5)) + ", " + str(int(-y*3.5)))
+input()

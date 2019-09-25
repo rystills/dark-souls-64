@@ -5560,4 +5560,15 @@ glabel bhvIntroScene # 5684
     end_loop
 
     .align 4
+
+glabel bhvPipeMimic
+    begin OBJ_LIST_SURFACE
+    collision_data pipeMimic_collision
+    obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
+    callnative bhv_pipeMimic_init
+    begin_loop
+        callnative bhv_pipeMimic_loop
+        callnative load_object_collision_model
+    end_loop
+
 glabel behavior_data_end
