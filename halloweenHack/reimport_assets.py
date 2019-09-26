@@ -1,27 +1,47 @@
-import fileinput
-import shutil
-import glob
-import os
+import fileinput, shutil, glob, os
 
+# !Please run this tool from inside your modconv build folder!
+
+region = "us"
 levelName = "bob"
 
+# directory in which your fbx model and texture files are stored (note that these will all be copied into your modconv build folder)
+#TODO: consider deleting these copied files after you're done with them 
+inputDir = "/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack"
+# directory in which to place the final rom. set to "" to not copy the rom anywhere
+outputRomDir = "/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack"
+# directory of the cloned sm64 decomp source in which your romhack resides
+sm64RepoDir = "/home/rystills/Desktop/sm64"
+
+# Actor shadow size. If not specified here, the default value of 60 is used
 # TODO: calculate shadow size from geo verts
 shadowSizes = {"pipeMimic":500, "bonfire":0}
+
+# all files in levelFiles will be treated as a level; all other files will be treated as an actor
+# TODO: currently only one level file at a time is supported, since the tool automatically places the level files in bob
+levelFiles = {"room1.fbx"}
 
 # TODO: textures for new actors may not be discovered until the tool is run a second time (determine cause and resolve)
 
 # copy in actors
-for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack/*.fbx"):
-	# skip room1 as that's the single hard-coded level (for now)
-	if "room1.fbx" in file:
-		continue
+for file in glob.glob(inputDir + "/*.fbx"):
 	fileName = file.split("/")[-1]
+	# skip level files at first, and skip collision meshes until their parent is found
+	if fileName in levelFiles or "_collision" in fileName:
+		continue
+	
 	fileNameNoExt = fileName.split(".")[0]
 	# copy actor fbx
 	shutil.copyfile(file, fileName)
 
-	# build actor
-	os.system("./modconv2 --type collision " + fileName + " & ./modconv2 " + fileName)
+	# build actor, optionally using a dedicated collision mesh if found
+	colFile = file[:-4] + "_collision" + file[-4:]
+	if (os.path.exists(colFile)):
+		colFileName = colFile.split("/")[-1]
+		shutil.copyfile(colFile, colFileName)
+		os.system("./modconv2 --type collision " + colFileName + " & ./modconv2 " + fileName)
+	else:
+		os.system("./modconv2 --type collision " + fileName + " & ./modconv2 " + fileName)
 
 	# delete older folder if it exists
 	if os.path.exists(fileNameNoExt) and os.path.isdir(fileNameNoExt):
@@ -31,8 +51,8 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 	os.rename("model",fileNameNoExt)
 
 	# create actor folder if it doesnt exist
-	if not (os.path.exists("../../sm64/actors/{0}".format(fileNameNoExt))):
-		os.mkdir("../../sm64/actors/{0}".format(fileNameNoExt))
+	if not (os.path.exists(sm64RepoDir + "/actors/{0}".format(fileNameNoExt))):
+		os.mkdir(sm64RepoDir + "/actors/{0}".format(fileNameNoExt))
 
 	# edit and copy actor collision
 	with open("{0}/collision.s".format(fileNameNoExt),"r") as f:
@@ -41,21 +61,21 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 	fdata = fdata.replace("glabel model_collision","glabel {0}_collision".format(fileNameNoExt))
 	fdataScaled = []
 
-	# scale collision down by 3.5x to match geo (TODO: temporary hack; determine cause and resolve)
+	# scale collision down by 4x to roughly match geo (TODO: temporary hack; determine cause and resolve)
 	for line in (fdata.split("\n")):
 		if (not "colVertex " in line):
 			fdataScaled.append(line)
 		else:
 			nums = line[10:].replace(" ","").split(",")
 			for n in range(len(nums)):
-				nums[n] = int(int(nums[n])//3.5)
+				nums[n] = int(int(nums[n])//4)
 			fdataScaled.append("colVertex " + str(nums).replace("[","").replace("]",""))
 	fdata = "\n".join(fdataScaled)
 
 	with open("{0}/collision.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)
 
-	shutil.copyfile("./" + fileNameNoExt + "/collision.s", "../../sm64/actors/{0}/collision.s".format(fileNameNoExt))
+	shutil.copyfile("./" + fileNameNoExt + "/collision.s", sm64RepoDir + "/actors/{0}/collision.s".format(fileNameNoExt))
 
 	# edit and copy actor model
 	with open("{0}/model.s".format(fileNameNoExt),"r") as f:
@@ -67,7 +87,7 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 	with open("{0}/model.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)
 
-	shutil.copyfile("./" + fileNameNoExt + "/model.s", "../../sm64/actors/{0}/model.s".format(fileNameNoExt))
+	shutil.copyfile("./" + fileNameNoExt + "/model.s", sm64RepoDir + "/actors/{0}/model.s".format(fileNameNoExt))
 
 	# edit and copy actor geo
 	with open("{0}/geo.s".format(fileNameNoExt),"r") as f:
@@ -80,70 +100,85 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 	with open("{0}/geo.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)
 
-	shutil.copyfile("./" + fileNameNoExt + "/geo.s", "../../sm64/actors/{0}/geo.s".format(fileNameNoExt))
+	shutil.copyfile("./" + fileNameNoExt + "/geo.s", sm64RepoDir + "/actors/{0}/geo.s".format(fileNameNoExt))
 
 	# copy actor textures
 	for file in glob.glob("{0}/*.png".format(fileNameNoExt)):
-		shutil.copyfile(file,"../../sm64/actors/{0}".format(fileNameNoExt) + "/" + file.split("/")[1])
+		shutil.copyfile(file, sm64RepoDir + "/actors/{0}".format(fileNameNoExt) + "/" + file.split("/")[1])
 
 
-# copy in new fbx from windows
-shutil.copyfile("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack/room1.fbx", "./room1.fbx")
+# copy in levels
+for file in glob.glob(inputDir + "/*.fbx"):
+	fileName = file.split("/")[-1]
+	# skip level files at first, and skip collision meshes until their parent is found
+	if fileName not in levelFiles:
+		continue
 
-# copy in textures from windows
-for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack/*.png"):
-	shutil.copyfile(file,file.split("/")[-1])
+	fileNameNoExt = fileName.split(".")[0]
+	shutil.copyfile(inputDir + "/{0}".format(fileName), "./{0}".format(fileName))
 
-# build level + collision via modconv
-os.system("./modconv2 --type collision --level room1.fbx & ./modconv2 --level room1.fbx")
+	# copy in textures from windows
+	for file in glob.glob(inputDir + "/*.png"):
+		shutil.copyfile(file,file.split("/")[-1])
 
-# delete older folder if it exists
-if os.path.exists("room1") and os.path.isdir("room1"):
-	shutil.rmtree("room1")
 
-# rename model folder
-os.rename("model","room1")
+	# build level, optionally using a dedicated collision mesh if found
+	colFile = file[:-4] + "_collision" + file[-4:]
+	if (os.path.exists(colFile)):
+		colFileName = colFile.split("/")[-1]
+		shutil.copyfile(colFile, colFileName)
+		os.system("./modconv2 --type collision --level " + colFileName + " & ./modconv2 --level " + fileName)
+	else:
+		os.system("./modconv2 --type collision --level {0} & ./modconv2 --level {0}".format(fileName))
 
-# edit and copy collision.s
-with open("room1/collision.s","r") as f:
-	fdata = f.read()
+	# delete older folder if it exists
+	if os.path.exists(fileNameNoExt) and os.path.isdir(fileNameNoExt):
+		shutil.rmtree(fileNameNoExt)
 
-fdata = fdata.replace("glabel model_collision","glabel {0}_collision".format(levelName))
+	# rename model folder
+	os.rename("model",fileNameNoExt)
 
-with open("room1/collision.s","w") as f:
-  f.write(fdata)
+	# edit and copy collision.s
+	with open("{0}/collision.s".format(fileNameNoExt),"r") as f:
+		fdata = f.read()
 
-shutil.copyfile("./room1/collision.s", "../../sm64/levels/{0}/areas/1/collision.s".format(levelName))
+	fdata = fdata.replace("glabel model_collision","glabel {0}_collision".format(levelName))
 
-# edit and copy model.s
-with open("room1/model.s","r") as f:
-	fdata = f.read()
+	with open("{0}/collision.s".format(fileNameNoExt),"w") as f:
+	  f.write(fdata)
 
-fdata = fdata.replace("glabel model_dl_opaque","glabel {0}_dl".format(levelName))
+	shutil.copyfile("./{0}/collision.s".format(fileNameNoExt), sm64RepoDir + "/levels/{0}/areas/1/collision.s".format(levelName))
 
-with open("room1/model.s","w") as f:
-  f.write(fdata)
+	# edit and copy model.s
+	with open("{0}/model.s".format(fileNameNoExt),"r") as f:
+		fdata = f.read()
 
-shutil.copyfile("./room1/model.s", "../../sm64/levels/{0}/areas/1/1/model.s".format(levelName))
+	fdata = fdata.replace("glabel model_dl_opaque","glabel {0}_dl".format(levelName))
 
-# edit and copy texture.s
-with open("room1/texture.s","r") as f:
-	fdata = f.read()
+	with open("{0}/model.s".format(fileNameNoExt),"w") as f:
+	  f.write(fdata)
 
-fdata = fdata.replace("levels/model/","levels/{0}/".format(levelName))
+	shutil.copyfile("./{0}/model.s".format(fileNameNoExt), sm64RepoDir + "/levels/{0}/areas/1/1/model.s".format(levelName))
 
-with open("room1/texture.s","w") as f:
-  f.write(fdata)
+	# edit and copy texture.s
+	with open("{0}/texture.s".format(fileNameNoExt),"r") as f:
+		fdata = f.read()
 
-shutil.copyfile("./room1/texture.s", "../../sm64/levels/{0}/texture.s".format(levelName))
+	fdata = fdata.replace("levels/model/","levels/{0}/".format(levelName))
 
-# copy texture files
-for file in glob.glob("room1/*.png"):
-	shutil.copyfile(file,"../../sm64/levels/{0}".format(levelName) + "/" + file.split("/")[1])
+	with open("{0}/texture.s".format(fileNameNoExt),"w") as f:
+	  f.write(fdata)
+
+	shutil.copyfile("./{0}/texture.s".format(fileNameNoExt), sm64RepoDir + "/levels/{0}/texture.s".format(levelName))
+
+	# copy texture files
+	for file in glob.glob("{0}/*.png".format(fileNameNoExt)):
+		shutil.copyfile(file,sm64RepoDir + "/levels/{0}".format(levelName) + "/" + file.split("/")[1])
 
 # rereun make
-os.chdir("/home/rystills/Desktop/sm64")
+os.chdir(sm64RepoDir)
 os.system("make")
 
 # copy new rom back into windows
-shutil.copyfile("/home/rystills/Desktop/sm64/build/us/sm64.us.z64","/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack/sm64.us.z64")
+if (outputRomDir != ""):
+	shutil.copyfile(sm64RepoDir + "/build/{0}/sm64.{0}.z64".format(region),outputRomDir + "/sm64.{0}.z64".format(region))
