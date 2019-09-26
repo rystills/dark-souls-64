@@ -24,3 +24,4 @@ actor exclamation_box_outline
 actor test_platform
 actor koopa_shell
 actor pipeMimic
+actor bonfire

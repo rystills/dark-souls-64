@@ -5,1165 +5,1356 @@ vertex -17500,  -6999,  17500,      0,      0,   0x00, 0x7f, 0x00, 0xff
 vertex  17500,  -6999,  17500,      0,      0,   0x00, 0x7f, 0x00, 0xff
 vertex  17500,  -7000, -17500,      0,      0,   0x00, 0x7f, 0x00, 0xff
 vertex -17500,  -7000, -17500,      0,      0,   0x00, 0x7f, 0x00, 0xff
-vertex    695,      0,   1939,  20447,    875,   0xff, 0xff, 0xff, 0xff
-vertex    695,      0,  -2564,  20447, -32068,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,  -2564,  14337, -32068,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,  14337,    875,   0xff, 0xff, 0xff, 0xff
-vertex    641,    318,  -2605,  19976, -20480,   0xff, 0xff, 0xff, 0xff
-vertex    641,    318,  -3643,  19976, -28075,   0xff, 0xff, 0xff, 0xff
-vertex   -679,    318,  -3643,  10312, -28075,   0xff, 0xff, 0xff, 0xff
+vertex    695,      0,   1939,  20447,    875,   0x00, 0x7f, 0x00, 0xff
+vertex    695,      0,  -2564,  20447, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,      0,  -2564,  14337, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,      0,   1939,  14337,    875,   0x00, 0x7f, 0x00, 0xff
+vertex    641,    318,  -2605,  19976, -20480,   0x00, 0x7f, 0x00, 0xff
+vertex    641,    318,  -3993,  19976, -30635,   0x00, 0x7f, 0x00, 0xff
+vertex   -679,    318,  -3993,  10312, -30635,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_1: /* 11 vertices out of 15 */
-vertex    641,    318,  -2605,  19976, -20480,   0xff, 0xff, 0xff, 0xff
-vertex   -679,    318,  -3643,  10312, -28075,   0xff, 0xff, 0xff, 0xff
-vertex   -679,    318,  -2605,  10312, -20480,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1939,  20447,  -1173,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1939,  21115,  -1173,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1636,  21115,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1636,  20447,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1636,  13668,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1939,  13668,  -1173,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1939,  14337,  -1173,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1636,  14337,  -3387,   0xff, 0xff, 0xff, 0xff
+vertex    641,    318,  -2605,  19976, -20480,   0x00, 0x7f, 0x00, 0xff
+vertex   -679,    318,  -3993,  10312, -30635,   0x00, 0x7f, 0x00, 0xff
+vertex   -679,    318,  -2605,  10312, -20480,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   1939,  20447,  -1173,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   1939,  21115,  -1173,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   1636,  21115,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   1636,  20447,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   1636,  13668,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   1939,  13668,  -1173,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   1939,  14337,  -1173,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   1636,  14337,  -3387,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_2: /* 11 vertices out of 15 */
-vertex    695,    144,   1286,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1286,  21115, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1286,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1286,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1286,  20447,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1636,  20447,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1636,  21115,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1286,  21115,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1636,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1636,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1636,  10272, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,   1286,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,   1286,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    280,   1286,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,   1286,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,   1286,  20447,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,   1636,  20447,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,   1636,  21115,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,   1286,  21115,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   1636,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,   1636,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,   1636,  10272, -15396,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_3: /* 11 vertices out of 15 */
-vertex    695,    144,   1636,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1636,  10272, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1636,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1286,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1286,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   1286,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1286,  14337, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1286,  13668,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1636,  13668,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   1636,  14337,  -3387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   1286,  14337,  -5947,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,   1636,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,   1636,  10272, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,   1636,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,   1286,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,   1286,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,   1286,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,   1286,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,   1286,  13668,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,   1636,  13668,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   1636,  14337,  -3387,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   1286,  14337,  -5947,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_4: /* 11 vertices out of 15 */
-vertex   -139,    144,   1636,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1636,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1636,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1636,  16382, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    937,  21115,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    937,  20447,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1286,  20447,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1286,  21115,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    937,  14337,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    937,  13668,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1286,  13668,  -5947,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,   1636,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,   1636,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,   1636,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,   1636,  16382, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,    937,  21115,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,    937,  20447,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   1286,  20447,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   1286,  21115,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,    937,  14337,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,    937,  13668,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   1286,  13668,  -5947,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_5: /* 11 vertices out of 15 */
-vertex   -231,    280,   1286,  13668,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1286,  14337,  -5947,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    937,  14337,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    587,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    587,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    587,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    587,  14337, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    587,  13668, -11065,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    937,  13668,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    937,  14337,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    587,  14337, -11065,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    280,   1286,  13668,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   1286,  14337,  -5947,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,    937,  14337,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,    587,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,    587,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,    587,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,    587,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,    587,  13668, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,    937,  13668,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,    937,  14337,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,    587,  14337, -11065,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_6: /* 11 vertices out of 15 */
-vertex   -139,    144,    937,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    937,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    937,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    937,  16382, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    587,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    587,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    587,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    587,  21115, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    587,  20447, -11065,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    937,  20447,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    937,  21115,  -8505,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,    937,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,    937,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,    937,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,    937,  16382, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,    587,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,    587,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,    587,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,    587,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,    587,  20447, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,    937,  20447,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,    937,  21115,  -8505,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_7: /* 11 vertices out of 15 */
-vertex    786,    144,    937,  21115,  -8505,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    587,  21115, -11065,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    587,  20447, -11065,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    937,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    937,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    937,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    937,  10272, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    237,  21115, -13624,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    237,  20447, -13624,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    587,  20447, -11065,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    587,  21115, -11065,   0xff, 0xff, 0xff, 0xff
+vertex    786,    144,    937,  21115,  -8505,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,    587,  21115, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,    587,  20447, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,    937,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,    937,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,    937,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,    937,  10272, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,    237,  21115, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,    237,  20447, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,    587,  20447, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,    587,  21115, -11065,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_8: /* 11 vertices out of 15 */
-vertex   -139,    280,    237,  14337, -13624,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    237,  13668, -13624,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    587,  13668, -11065,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    587,  14337, -11065,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -112,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -112,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -112,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -112,  14337, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -112,  13668, -16184,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    237,  13668, -13624,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    237,  14337, -13624,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    280,    237,  14337, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,    237,  13668, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,    587,  13668, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,    587,  14337, -11065,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   -112,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,   -112,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,   -112,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,   -112,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,   -112,  13668, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,    237,  13668, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,    237,  14337, -13624,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_9: /* 11 vertices out of 15 */
-vertex   -139,    144,    237,  14337, -13624,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -112,  14337, -16184,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -112,  13668, -16184,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    237,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    237,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    237,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    237,  16382, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -112,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -112,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -112,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -112,  21115, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,    237,  14337, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   -112,  14337, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,   -112,  13668, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,    237,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,    237,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,    237,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,    237,  16382, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,   -112,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,   -112,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,   -112,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,   -112,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_10: /* 11 vertices out of 15 */
-vertex    695,    144,   -112,  20447, -16184,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    237,  20447, -13624,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    237,  21115, -13624,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -112,  21115, -16184,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    237,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    237,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    237,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    237,  10272, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -462,  21115, -18743,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -462,  20447, -18743,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -112,  20447, -16184,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,   -112,  20447, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,    237,  20447, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,    237,  21115, -13624,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,   -112,  21115, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,    237,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,    237,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,    237,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,    237,  10272, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,   -462,  21115, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   -462,  20447, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   -112,  20447, -16184,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_11: /* 11 vertices out of 15 */
-vertex    695,    280,   -112,  20447, -16184,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -112,  21115, -16184,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -462,  21115, -18743,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -462,  14337, -18743,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -462,  13668, -18743,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -112,  13668, -16184,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -112,  14337, -16184,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -812,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -812,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -812,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -812,  14337, -16387,   0xff, 0xff, 0xff, 0xff
+vertex    695,    280,   -112,  20447, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   -112,  21115, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   -462,  21115, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   -462,  14337, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   -462,  13668, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   -112,  13668, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   -112,  14337, -16184,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   -812,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,   -812,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,   -812,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,   -812,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_12: /* 11 vertices out of 15 */
-vertex   -231,    144,   -812,  13668, -21303,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -462,  13668, -18743,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -462,  14337, -18743,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -812,  14337, -21303,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -462,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -462,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -462,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -462,  16382, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -812,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -812,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -812,  20447, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    144,   -812,  13668, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,   -462,  13668, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   -462,  14337, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   -812,  14337, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,   -462,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,   -462,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,   -462,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,   -462,  16382, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,   -812,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,   -812,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,   -812,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_13: /* 11 vertices out of 15 */
-vertex    695,    144,   -812,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -812,  21115, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -812,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -812,  20447, -21303,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -462,  20447, -18743,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -462,  21115, -18743,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -812,  21115, -21303,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -462,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -462,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -462,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -462,  10272, -16387,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,   -812,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,   -812,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    280,   -812,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,   -812,  20447, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,   -462,  20447, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,   -462,  21115, -18743,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,   -812,  21115, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   -462,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,   -462,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,   -462,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,   -462,  10272, -16387,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_14: /* 11 vertices out of 15 */
-vertex    786,    280,  -1162,  21115, -23861,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1162,  20447, -23861,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -812,  20447, -21303,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -812,  21115, -21303,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1162,  14337, -23861,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1162,  13668, -23861,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -812,  13668, -21303,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -812,  14337, -21303,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1512,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1512,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1512,  14337, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    280,  -1162,  21115, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,  -1162,  20447, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,   -812,  20447, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,   -812,  21115, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,  -1162,  14337, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -1162,  13668, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,   -812,  13668, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,   -812,  14337, -21303,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -1512,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,  -1512,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,  -1512,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_15: /* 11 vertices out of 15 */
-vertex   -139,    144,  -1512,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1512,  14337, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1512,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1512,  13668, -26421,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1162,  13668, -23861,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1162,  14337, -23861,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1512,  14337, -26421,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1162,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1162,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1162,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1162,  16382, -16387,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,  -1512,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,  -1512,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    280,  -1512,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,  -1512,  13668, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,  -1162,  13668, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,  -1162,  14337, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,  -1512,  14337, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,  -1162,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,  -1162,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,  -1162,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,  -1162,  16382, -16387,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_16: /* 11 vertices out of 15 */
-vertex    786,    280,  -1512,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1512,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1512,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1512,  21115, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1512,  20447, -26421,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1162,  20447, -23861,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1162,  21115, -23861,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1512,  21115, -26421,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1162,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1162,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1162,  10272, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    280,  -1512,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,  -1512,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,  -1512,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,  -1512,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,  -1512,  20447, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,  -1162,  20447, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,  -1162,  21115, -23861,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,  -1512,  21115, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,  -1162,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,  -1162,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,  -1162,  10272, -15396,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_17: /* 11 vertices out of 15 */
-vertex    695,    144,  -1162,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1162,  10272, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1162,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1862,  21115, -28980,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1862,  20447, -28980,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1512,  20447, -26421,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1512,  21115, -26421,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1862,  14337, -28980,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1862,  13668, -28980,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1512,  13668, -26421,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1512,  14337, -26421,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,  -1162,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,  -1162,  10272, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,  -1162,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,  -1862,  21115, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,  -1862,  20447, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,  -1512,  20447, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,  -1512,  21115, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,  -1862,  14337, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -1862,  13668, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -1512,  13668, -26421,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,  -1512,  14337, -26421,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_18: /* 11 vertices out of 15 */
-vertex   -231,    280,  -2212,  13668, -29492,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -2212,  14337, -29492,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -2564,  14337, -32068,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -2564,  13668, -32068,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2212,  20447, -29492,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -2212,  21115, -29492,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -2564,  21115, -32068,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2564,  20447, -32068,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -2212,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -2212,  13668, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -2212,  14337, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    280,  -2212,  13668, -29492,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,  -2212,  14337, -29492,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    280,  -2564,  14337, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -2564,  13668, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,  -2212,  20447, -29492,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,  -2212,  21115, -29492,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,  -2564,  21115, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    280,  -2564,  20447, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    280,  -2212,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    144,  -2212,  13668, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,  -2212,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_19: /* 11 vertices out of 15 */
-vertex   -139,    144,  -2212,  14337, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -2212,  14337, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -2212,  13668, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -2212,  14337, -31540,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -2212,  13668, -31540,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1862,  13668, -28980,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1862,  14337, -28980,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1862,  16382, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1862,  17051, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1862,  17051, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1862,  16382, -16387,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,  -2212,  14337, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    280,  -2212,  14337, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -231,    280,  -2212,  13668, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex   -139,    144,  -2212,  14337, -31540,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,  -2212,  13668, -31540,   0x00, 0x7f, 0x00, 0xff
+vertex   -231,    144,  -1862,  13668, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,  -1862,  14337, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex   -139,    144,  -1862,  16382, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,  -1862,  17051, -15396,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    280,  -1862,  17051, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -139,    280,  -1862,  16382, -16387,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_20: /* 11 vertices out of 15 */
-vertex    786,    280,  -2212,  21115, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2212,  20447, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -2212,  20447, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -2212,  21115, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -2212,  21115, -31540,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -2212,  20447, -31540,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1862,  20447, -28980,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1862,  21115, -28980,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1862,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1862,   9604, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1862,  10272, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    280,  -2212,  21115, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    280,  -2212,  20447, -16387,   0x00, 0x00, 0x7f, 0xff
+vertex    695,    144,  -2212,  20447, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,  -2212,  21115, -15396,   0x00, 0x00, 0x7f, 0xff
+vertex    786,    144,  -2212,  21115, -31540,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,  -2212,  20447, -31540,   0x00, 0x7f, 0x00, 0xff
+vertex    695,    144,  -1862,  20447, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    144,  -1862,  21115, -28980,   0x00, 0x7f, 0x00, 0xff
+vertex    786,    280,  -1862,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    144,  -1862,   9604, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    144,  -1862,  10272, -15396,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_21: /* 9 vertices out of 15 */
-vertex    695,    144,  -1862,  10272, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1862,  10272, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1862,   9604, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -2212,   -820, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -2212,   -820, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -2564,  -3396, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,  -4913,  -2564,  -3396,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,  -4913,   1939,  29546,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1862,   1739, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,  -1862,  10272, -15396,   0x00, 0x00, 0x81, 0xff
+vertex    695,    280,  -1862,  10272, -16387,   0x00, 0x00, 0x81, 0xff
+vertex    786,    280,  -1862,   9604, -16387,   0x00, 0x00, 0x81, 0xff
+vertex   -231,    144,  -2212,   -820, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,  -2212,   -820, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,  -2564,  -3396, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,  -4913,  -2564,  -3396,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,  -4913,   1939,  29546,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1862,   1739, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_22: /* 8 vertices out of 15 */
-vertex   -231,    280,   1939,  29546, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1636,  27332, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1636,  27332, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,  -4913,   1939,  29546,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1286,  24772, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   1286,  24772, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    937,  22214, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    937,  22214, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    280,   1939,  29546, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,   1636,  27332, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   1636,  27332, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,  -4913,   1939,  29546,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   1286,  24772, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,   1286,  24772, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,    937,  22214, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,    937,  22214, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_23: /* 7 vertices out of 15 */
-vertex   -231,  -4913,   1939,  29546,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   1286,  24772, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    937,  22214, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    587,  19654, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    587,  19654, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,    237,  17095, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    237,  17095, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,  -4913,   1939,  29546,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   1286,  24772, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,    937,  22214, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,    587,  19654, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,    587,  19654, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,    237,  17095, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,    237,  17095, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_24: /* 7 vertices out of 15 */
-vertex   -231,  -4913,   1939,  29546,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,    237,  17095, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -112,  14535, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -112,  14535, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -462,  11976, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -462,  11976, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,   -812,   9416, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,  -4913,   1939,  29546,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,    237,  17095, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   -112,  14535, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,   -112,  14535, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,   -462,  11976, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   -462,  11976, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,   -812,   9416, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_25: /* 7 vertices out of 15 */
-vertex   -231,    144,   -812,   9416, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,   -812,   9416, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1162,   6858, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1162,   6858, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,  -4913,   1939,  29546,  21602,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1512,   4298, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1862,   1739, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    144,   -812,   9416, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,   -812,   9416, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,  -1162,   6858, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1162,   6858, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,  -4913,   1939,  29546,  21602,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1512,   4298, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1862,   1739, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_26: /* 9 vertices out of 15 */
-vertex   -231,    280,  -1862,   1739, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1862,   1739, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    144,  -1512,   4298, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -231,    280,  -1512,   4298, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   1636,   3387, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1636,   3387, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1939,   1173, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   1286,   5947, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -231,    280,  -1862,   1739, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1862,   1739, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    144,  -1512,   4298, -15396,   0x81, 0x00, 0x00, 0xff
+vertex   -231,    280,  -1512,   4298, -16387,   0x81, 0x00, 0x00, 0xff
+vertex   -139,    144,   1636,   3387, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   1636,   3387, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   1939,   1173, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   1286,   5947, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_27: /* 10 vertices out of 15 */
-vertex   -139,    280,  -2564,  32068, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -2212,  29492, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -2212,  29492, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,  -2564,  32068, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,   -875, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -2212,  31540, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1862,  28980, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1862,  28980, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1512,  26421, -16387,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    280,  -2564,  32068, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,  -2212,  29492, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -2212,  29492, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,  -2564,  32068, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,   1939,   -875, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -2212,  31540, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -1862,  28980, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,  -1862,  28980, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,  -1512,  26421, -16387,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_28: /* 8 vertices out of 15 */
-vertex   -139,    144,  -1862,  28980, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1512,  26421, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1512,  26421, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1162,  23861, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,  -1162,  23861, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -812,  21303, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -812,  21303, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,  -1862,  28980, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,  -1512,  26421, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -1512,  26421, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -1162,  23861, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,  -1162,  23861, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   -812,  21303, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   -812,  21303, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_29: /* 7 vertices out of 15 */
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,  -1162,  23861, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -812,  21303, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -462,  18743, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -462,  18743, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   -112,  16184, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -112,  16184, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,  -1162,  23861, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   -812,  21303, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   -462,  18743, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   -462,  18743, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   -112,  16184, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   -112,  16184, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_30: /* 7 vertices out of 15 */
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,   -112,  16184, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    237,  13624, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    237,  13624, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    587,  11065, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    587,  11065, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    937,   8505, -15396,   0xff, 0xff, 0xff, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,   -112,  16184, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,    237,  13624, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,    237,  13624, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,    587,  11065, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,    587,  11065, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,    937,   8505, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_31: /* 9 vertices out of 15 */
-vertex   -139,    144,   1286,   5947, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,      0,   1939,   1173, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    144,    937,   8505, -15396,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,   1286,   5947, -16387,   0xff, 0xff, 0xff, 0xff
-vertex   -139,    280,    937,   8505, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1636,   3387, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1636,   3387, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1939,   1173, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
+vertex   -139,    144,   1286,   5947, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,      0,   1939,   1173, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    144,    937,   8505, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,   1286,   5947, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex   -139,    280,    937,   8505, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   1636,   3387, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   1636,   3387, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   1939,   1173, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_32: /* 10 vertices out of 15 */
-vertex    786,    144,   1286,   5947, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1636,   3387, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -2564,  32068, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -2212,  29492, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -2212,  29492, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,  -2564,  32068,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,   1939,   -875,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -2212,  31540, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1862,  28980, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    144,   1286,   5947, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   1636,   3387, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -2564,  32068, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -2212,  29492, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,  -2212,  29492, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,  -2564,  32068,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,   1939,   -875,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,  -2212,  31540, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,  -1862,  28980, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_33: /* 9 vertices out of 15 */
-vertex    786,    144,  -1862,  28980, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1862,  28980, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1512,  26421, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1512,  26421, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,  -1162,  23861, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1162,  23861, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -812,  21303, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -812,  21303, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    144,  -1862,  28980, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -1862,  28980, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -1512,  26421, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,  -1512,  26421, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,  -1162,  23861, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -1162,  23861, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   -812,  21303, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -812,  21303, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_34: /* 8 vertices out of 15 */
-vertex    786,    144,  -1162,  23861, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,  -1162,  23861, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -812,  21303, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -462,  18743, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -462,  18743, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   -112,  16184, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -112,  16184, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,    144,  -1162,  23861, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,  -1162,  23861, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -812,  21303, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -462,  18743, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   -462,  18743, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   -112,  16184, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -112,  16184, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_35: /* 7 vertices out of 15 */
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -462,  18743, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   -112,  16184, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    237,  13624, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    237,  13624, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    587,  11065, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    587,  11065, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -462,  18743, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   -112,  16184, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,    237,  13624, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,    237,  13624, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,    587,  11065, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,    587,  11065, -15396,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_36: /* 9 vertices out of 15 */
-vertex    786,  -4913,   1939,   1173,  21602,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    587,  11065, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,    937,   8505, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    144,   1286,   5947, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,   1286,   5947, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    786,    280,    937,   8505, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -2212,   -820, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2212,   -820, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2564,  -3396, -16387,   0xff, 0xff, 0xff, 0xff
+vertex    786,  -4913,   1939,   1173,  21602,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,    587,  11065, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,    937,   8505, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    144,   1286,   5947, -15396,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,   1286,   5947, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    786,    280,    937,   8505, -16387,   0x7f, 0x00, 0x00, 0xff
+vertex    695,    144,  -2212,   -820, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -2212,   -820, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -2564,  -3396, -16387,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_37: /* 8 vertices out of 15 */
-vertex    695,    144,  -2212,   -820, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -2564,  -3396, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,      0,  -2564,  -3396, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,      0,   1939,  29546, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1862,   1739, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1939,  29546, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1636,  27332, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1636,  27332, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,  -2212,   -820, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -2564,  -3396, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,      0,  -2564,  -3396, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,      0,   1939,  29546, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,  -1862,   1739, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   1939,  29546, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   1636,  27332, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   1636,  27332, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_38: /* 7 vertices out of 15 */
-vertex    695,      0,   1939,  29546, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1636,  27332, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   1286,  24772, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   1286,  24772, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    937,  22214, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    937,  22214, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    587,  19654, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,      0,   1939,  29546, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   1636,  27332, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   1286,  24772, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   1286,  24772, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,    937,  22214, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,    937,  22214, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,    587,  19654, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_39: /* 9 vertices out of 15 */
-vertex    695,    144,    587,  19654, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    587,  19654, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,    237,  17095, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,    237,  17095, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,      0,   1939,  29546, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -112,  14535, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -112,  14535, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -462,  11976, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -462,  11976, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,    587,  19654, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,    587,  19654, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,    237,  17095, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,    237,  17095, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,      0,   1939,  29546, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   -112,  14535, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   -112,  14535, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   -462,  11976, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   -462,  11976, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_40: /* 8 vertices out of 15 */
-vertex    695,    144,   -112,  14535, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -112,  14535, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -462,  11976, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,      0,   1939,  29546, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -812,   9416, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,   -812,   9416, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1162,   6858, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1162,   6858, -15396,   0xff, 0xff, 0xff, 0xff
+vertex    695,    144,   -112,  14535, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   -112,  14535, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   -462,  11976, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,      0,   1939,  29546, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   -812,   9416, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,   -812,   9416, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -1162,   6858, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,  -1162,   6858, -15396,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_41: /* 7 vertices out of 15 */
-vertex    695,      0,   1939,  29546, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,   -812,   9416, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1162,   6858, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1512,   4298, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    144,  -1862,   1739, -15396,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1862,   1739, -16387,   0xff, 0xff, 0xff, 0xff
-vertex    695,    280,  -1512,   4298, -16387,   0xff, 0xff, 0xff, 0xff
+vertex    695,      0,   1939,  29546, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,   -812,   9416, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,  -1162,   6858, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,  -1512,   4298, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    144,  -1862,   1739, -15396,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -1862,   1739, -16387,   0x81, 0x00, 0x00, 0xff
+vertex    695,    280,  -1512,   4298, -16387,   0x81, 0x00, 0x00, 0xff
 
-model_vertex_42: /* 8 vertices out of 15 */
-vertex    789,  -4917,   1939,   9583,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -234,  -4917,   1939,  17072,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -234,   1506,   1939,  17072, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    789,   1506,   1939,   9583, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,  -4917,   2493,  25404,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,  -4917,   3340,  31602,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   3340,  31602, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   2493,  25404, -28022,   0xff, 0xff, 0xff, 0xff
+model_vertex_42: /* 11 vertices out of 15 */
+vertex    789,  -4917,   1939,   9583,  18964,   0x30, 0x00, 0x8b, 0xff
+vertex   -234,  -4917,   1939,  17072,  18964,   0xd0, 0x00, 0x8b, 0xff
+vertex   -234,   1506,   1939,  17072, -28022,   0xd0, 0x00, 0x8b, 0xff
+vertex    789,   1506,   1939,   9583, -28022,   0x30, 0x00, 0x8b, 0xff
+vertex   -787,  -4917,   2493,  25404,  18964,   0x8b, 0x00, 0xd0, 0xff
+vertex   -787,  -4917,   3340,  31602,  18964,   0x8b, 0x00, 0x30, 0xff
+vertex   -787,   1506,   3340,  31602, -28022,   0x8b, 0x00, 0x30, 0xff
+vertex   -787,   1506,   2493,  25404, -28022,   0x8b, 0x00, 0xd0, 0xff
+vertex   1343,   1506,   3340,  -9074, -28022,   0x75, 0x00, 0x30, 0xff
+vertex   1343,  -4917,   3340,  -9074,  18964,   0x75, 0x00, 0x30, 0xff
+vertex   1343,  -4917,   2493,  -2876,  18964,   0x75, 0x00, 0xd0, 0xff
 
-model_vertex_43: /* 9 vertices out of 15 */
-vertex   -787,  -4917,   2493,  25404,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   3340,  31602, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   2493,  25404, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   3340,  -9074, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1343,  -4917,   3340,  -9074,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   1343,  -4917,   2493,  -2876,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   2493,  -2876, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    789,   1506,   3894,  21136, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,   1506,   3894,  13647, -28022,   0xff, 0xff, 0xff, 0xff
+model_vertex_43: /* 11 vertices out of 15 */
+vertex   1343,   1506,   3340,  -9074, -28022,   0x75, 0x00, 0x30, 0xff
+vertex   1343,  -4917,   2493,  -2876,  18964,   0x75, 0x00, 0xd0, 0xff
+vertex   1343,   1506,   2493,  -2876, -28022,   0x75, 0x00, 0xd0, 0xff
+vertex    789,   1506,   3894,  21136, -28022,   0x30, 0x00, 0x75, 0xff
+vertex   -234,   1506,   3894,  13647, -28022,   0xd0, 0x00, 0x75, 0xff
+vertex   -234,  -4917,   3894,  13647,  18964,   0xd0, 0x00, 0x75, 0xff
+vertex    789,  -4917,   3894,  21136,  18964,   0x30, 0x00, 0x75, 0xff
+vertex   -787,  -4917,   3340,  27506,  18964,   0x8b, 0x00, 0x30, 0xff
+vertex   -234,  -4917,   3894,  31556,  18964,   0xd0, 0x00, 0x75, 0xff
+vertex   -234,   1506,   3894,  31556, -28022,   0xd0, 0x00, 0x75, 0xff
+vertex   -787,   1506,   3340,  27506, -28022,   0x8b, 0x00, 0x30, 0xff
 
-model_vertex_44: /* 8 vertices out of 15 */
-vertex    789,   1506,   3894,  21136, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,   1506,   3894,  13647, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,  -4917,   3894,  13647,  18964,   0xff, 0xff, 0xff, 0xff
-vertex    789,  -4917,   3894,  21136,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,  -4917,   3340,  27506,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -234,  -4917,   3894,  31556,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -234,   1506,   3894,  31556, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   3340,  27506, -28022,   0xff, 0xff, 0xff, 0xff
+model_vertex_44: /* 11 vertices out of 15 */
+vertex   1343,  -4917,   3340,  -9074,  18964,   0x75, 0x00, 0x30, 0xff
+vertex   1343,   1506,   3340,  -9074, -28022,   0x75, 0x00, 0x30, 0xff
+vertex    789,   1506,   3894, -13124, -28022,   0x30, 0x00, 0x75, 0xff
+vertex    789,  -4917,   3894, -13124,  18964,   0x30, 0x00, 0x75, 0xff
+vertex   -234,  -4917,   1939,  17072,  18964,   0xd0, 0x00, 0x8b, 0xff
+vertex   -787,  -4917,   2493,  21122,  18964,   0x8b, 0x00, 0xd0, 0xff
+vertex   -787,   1506,   2493,  21122, -28022,   0x8b, 0x00, 0xd0, 0xff
+vertex   -234,   1506,   1939,  17072, -28022,   0xd0, 0x00, 0x8b, 0xff
+vertex   1343,  -4917,   2493,  -2876,  18964,   0x75, 0x00, 0xd0, 0xff
+vertex    789,  -4917,   1939,   1174,  18964,   0x30, 0x00, 0x8b, 0xff
+vertex    789,   1506,   1939,   1174, -28022,   0x30, 0x00, 0x8b, 0xff
 
-model_vertex_45: /* 7 vertices out of 15 */
-vertex    789,   1506,   3894, -13124, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    789,  -4917,   3894, -13124,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   1343,  -4917,   3340,  -9074,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   3340,  -9074, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,  -4917,   1939,  17072,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,  -4917,   2493,  21122,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   2493,  21122, -28022,   0xff, 0xff, 0xff, 0xff
+model_vertex_45: /* 11 vertices out of 15 */
+vertex   1343,  -4917,   2493,  -2876,  18964,   0x75, 0x00, 0xd0, 0xff
+vertex    789,   1506,   1939,   1174, -28022,   0x30, 0x00, 0x8b, 0xff
+vertex   1343,   1506,   2493,  -2876, -28022,   0x75, 0x00, 0xd0, 0xff
+vertex   1205,   1673,   2354,  -1863, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   1205,   1506,   2354,  -1863, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex    928,   1506,   2077,    161, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex    928,   1673,   2077,    161, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex    533,   1673,   1939,  11455, -29248,   0x00, 0x00, 0x81, 0xff
+vertex    533,   1506,   1939,  11455, -28022,   0x00, 0x00, 0x81, 0xff
+vertex     21,   1506,   1939,  15199, -28022,   0x00, 0x00, 0x81, 0xff
+vertex     21,   1673,   1939,  15199, -29248,   0x00, 0x00, 0x81, 0xff
 
-model_vertex_46: /* 10 vertices out of 15 */
-vertex   -787,   1506,   2493,  21122, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,   1506,   1939,  17072, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -234,  -4917,   1939,  17072,  18964,   0xff, 0xff, 0xff, 0xff
-vertex   1343,  -4917,   2493,  -2876,  18964,   0xff, 0xff, 0xff, 0xff
-vertex    789,  -4917,   1939,   1174,  18964,   0xff, 0xff, 0xff, 0xff
-vertex    789,   1506,   1939,   1174, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   2493,  -2876, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1205,   1673,   2354,  -1863, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1205,   1506,   2354,  -1863, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1506,   2077,    161, -28022,   0xff, 0xff, 0xff, 0xff
+model_vertex_46: /* 11 vertices out of 15 */
+vertex   -372,   1673,   2077,  18084, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex   -372,   1506,   2077,  18084, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex   -649,   1506,   2354,  20109, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex   -649,   1673,   2354,  20109, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex   1205,   1673,   2354,  24174, -29248,   0x59, 0x00, 0x59, 0xff
+vertex   1081,   1673,   2478,  23269, -29248,   0x59, 0x00, 0x59, 0xff
+vertex   1081,   1506,   2478,  23269, -28022,   0x59, 0x00, 0x59, 0xff
+vertex   1205,   1506,   2354,  24174, -28022,   0x59, 0x00, 0x59, 0xff
+vertex    928,   1506,   2077,   8570, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex    804,   1506,   2201,   9475, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex    804,   1673,   2201,   9475, -29248,   0xa7, 0x00, 0xa7, 0xff
 
 model_vertex_47: /* 11 vertices out of 15 */
-vertex   1205,   1673,   2354,  -1863, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1506,   2077,    161, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1673,   2077,    161, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   1939,  11455, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   1939,  11455, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   1939,  15199, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1673,   1939,  15199, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1673,   2077,  18084, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1506,   2077,  18084, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -649,   1506,   2354,  20109, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -649,   1673,   2354,  20109, -29248,   0xff, 0xff, 0xff, 0xff
+vertex    928,   1506,   2077,   8570, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex    804,   1673,   2201,   9475, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex    928,   1673,   2077,   8570, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex    533,   1673,   1939,   1174, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1673,   2114,   -105, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1506,   2114,   -105, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1506,   1939,   1174, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex     21,   1506,   1939,  29545, -28022,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1506,   2114,  30825, -28022,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1673,   2114,  30825, -29248,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1673,   1939,  29545, -29248,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_48: /* 11 vertices out of 15 */
-vertex   1205,   1673,   2354,  24174, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1673,   2478,  23269, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1506,   2478,  23269, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1205,   1506,   2354,  24174, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1506,   2077,   8570, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1506,   2201,   9475, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1673,   2201,   9475, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1673,   2077,   8570, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   1939,   1174, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   2114,   -105, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   2114,   -105, -28022,   0xff, 0xff, 0xff, 0xff
+vertex   -372,   1673,   2077,    161, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   -248,   1673,   2201,   -743, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   -248,   1506,   2201,   -743, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex   -372,   1506,   2077,    161, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex   -649,   1506,   2354,  30535, -28022,   0xa7, 0x00, 0x59, 0xff
+vertex   -525,   1506,   2478,  31440, -28022,   0xa7, 0x00, 0x59, 0xff
+vertex   -525,   1673,   2478,  31440, -29248,   0xa7, 0x00, 0x59, 0xff
+vertex   -649,   1673,   2354,  30535, -29248,   0xa7, 0x00, 0x59, 0xff
+vertex   -787,   1673,   2705,  21122, -29248,   0x00, 0x00, 0x81, 0xff
+vertex   -612,   1673,   2705,  19842, -29248,   0x00, 0x00, 0x81, 0xff
+vertex   -612,   1506,   2705,  19842, -28022,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_49: /* 11 vertices out of 15 */
-vertex    533,   1673,   1939,   1174, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   2114,   -105, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   1939,   1174, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   1939,  29545, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   2114,  30825, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1673,   2114,  30825, -29248,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1673,   1939,  29545, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1673,   2077,    161, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1673,   2201,   -743, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1506,   2201,   -743, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1506,   2077,    161, -28022,   0xff, 0xff, 0xff, 0xff
+vertex   -787,   1673,   2705,  21122, -29248,   0x00, 0x00, 0x81, 0xff
+vertex   -612,   1506,   2705,  19842, -28022,   0x00, 0x00, 0x81, 0xff
+vertex   -787,   1506,   2705,  21122, -28022,   0x00, 0x00, 0x81, 0xff
+vertex   -787,   1506,   3128,   9597, -28022,   0x00, 0x00, 0x7f, 0xff
+vertex   -612,   1506,   3128,  10877, -28022,   0x00, 0x00, 0x7f, 0xff
+vertex   -612,   1673,   3128,  10877, -29248,   0x00, 0x00, 0x7f, 0xff
+vertex   -787,   1673,   3128,   9597, -29248,   0x00, 0x00, 0x7f, 0xff
+vertex   -649,   1673,   3479,  20109, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex   -525,   1673,   3355,  19204, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex   -525,   1506,   3355,  19204, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex   -649,   1506,   3479,  20109, -28022,   0xa7, 0x00, 0xa7, 0xff
 
 model_vertex_50: /* 11 vertices out of 15 */
-vertex   -649,   1506,   2354,  30535, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1506,   2478,  31440, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1673,   2478,  31440, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -649,   1673,   2354,  30535, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1673,   2705,  21122, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1673,   2705,  19842, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1506,   2705,  19842, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   2705,  21122, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1506,   3128,   9597, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1506,   3128,  10877, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1673,   3128,  10877, -29248,   0xff, 0xff, 0xff, 0xff
+vertex   -372,   1506,   3755,  12635, -28022,   0x59, 0x00, 0x59, 0xff
+vertex   -248,   1506,   3632,  13540, -28022,   0x59, 0x00, 0x59, 0xff
+vertex   -248,   1673,   3632,  13540, -29248,   0x59, 0x00, 0x59, 0xff
+vertex   -372,   1673,   3755,  12635, -29248,   0x59, 0x00, 0x59, 0xff
+vertex     21,   1673,   3894,  31556, -29248,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1673,   3719,  30276, -29248,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1506,   3719,  30276, -28022,   0x81, 0x00, 0x00, 0xff
+vertex     21,   1506,   3894,  31556, -28022,   0x81, 0x00, 0x00, 0xff
+vertex    533,   1506,   3894, -13124, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1506,   3719, -11844, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1673,   3719, -11844, -29248,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_51: /* 11 vertices out of 15 */
-vertex   -787,   1506,   3128,   9597, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1673,   3128,  10877, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -787,   1673,   3128,   9597, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -649,   1673,   3479,  20109, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1673,   3355,  19204, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1506,   3355,  19204, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -649,   1506,   3479,  20109, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1506,   3755,  12635, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1506,   3632,  13540, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1673,   3632,  13540, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -372,   1673,   3755,  12635, -29248,   0xff, 0xff, 0xff, 0xff
+vertex    533,   1506,   3894, -13124, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1673,   3719, -11844, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex    533,   1673,   3894, -13124, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex   1343,   1673,   3128,  25187, -29248,   0x00, 0x00, 0x7f, 0xff
+vertex   1168,   1673,   3128,  23907, -29248,   0x00, 0x00, 0x7f, 0xff
+vertex   1168,   1506,   3128,  23907, -28022,   0x00, 0x00, 0x7f, 0xff
+vertex   1343,   1506,   3128,  25187, -28022,   0x00, 0x00, 0x7f, 0xff
+vertex   1343,   1506,   2705,   5532, -28022,   0x00, 0x00, 0x81, 0xff
+vertex   1168,   1506,   2705,   6812, -28022,   0x00, 0x00, 0x81, 0xff
+vertex   1168,   1673,   2705,   6812, -29248,   0x00, 0x00, 0x81, 0xff
+vertex   1343,   1673,   2705,   5532, -29248,   0x00, 0x00, 0x81, 0xff
 
 model_vertex_52: /* 11 vertices out of 15 */
-vertex     21,   1673,   3894,  31556, -29248,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1673,   3719,  30276, -29248,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   3719,  30276, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   3894,  31556, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   3894, -13124, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   3719, -11844, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   3719, -11844, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   3894, -13124, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1673,   3128,  25187, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1673,   3128,  23907, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1506,   3128,  23907, -28022,   0xff, 0xff, 0xff, 0xff
+vertex    928,   1673,   3755,  32591, -29248,   0xa7, 0x00, 0x59, 0xff
+vertex    804,   1673,   3632,  31686, -29248,   0xa7, 0x00, 0x59, 0xff
+vertex    804,   1506,   3632,  31686, -28022,   0xa7, 0x00, 0x59, 0xff
+vertex    928,   1506,   3755,  32591, -28022,   0xa7, 0x00, 0x59, 0xff
+vertex   1205,   1506,   3479, -10086, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex   1081,   1506,   3355,  -9181, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex   1081,   1673,   3355,  -9181, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   1205,   1673,   3479, -10086, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   -612,   1673,   2705,  -4425, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex   -612,   1673,   3128,  -7524, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex   -612,   1506,   3128,  -7524, -28022,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_53: /* 11 vertices out of 15 */
-vertex   1343,   1673,   3128,  25187, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1506,   3128,  23907, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   3128,  25187, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1506,   2705,   5532, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1506,   2705,   6812, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1673,   2705,   6812, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1343,   1673,   2705,   5532, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1673,   3755,  32591, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1673,   3632,  31686, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1506,   3632,  31686, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    928,   1506,   3755,  32591, -28022,   0xff, 0xff, 0xff, 0xff
+vertex   -612,   1673,   2705,  -4425, -29248,   0x7f, 0x00, 0x00, 0xff
+vertex   -612,   1506,   3128,  -7524, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex   -612,   1506,   2705,  -4425, -28022,   0x7f, 0x00, 0x00, 0xff
+vertex   1168,   1506,   2705,  29001, -28022,   0x81, 0x00, 0x00, 0xff
+vertex   1168,   1506,   3128,  32100, -28022,   0x81, 0x00, 0x00, 0xff
+vertex   1168,   1673,   3128,  32100, -29248,   0x81, 0x00, 0x00, 0xff
+vertex   1168,   1673,   2705,  29001, -29248,   0x81, 0x00, 0x00, 0xff
+vertex   -525,   1673,   3355,  -9181, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   -248,   1673,   3632, -11206, -29248,   0x59, 0x00, 0xa7, 0xff
+vertex   -248,   1506,   3632, -11206, -28022,   0x59, 0x00, 0xa7, 0xff
+vertex   -525,   1506,   3355,  -9181, -28022,   0x59, 0x00, 0xa7, 0xff
 
 model_vertex_54: /* 11 vertices out of 15 */
-vertex   1205,   1506,   3479, -10086, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1506,   3355,  -9181, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1673,   3355,  -9181, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1205,   1673,   3479, -10086, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1673,   2705,  -4425, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1673,   3128,  -7524, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1506,   3128,  -7524, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -612,   1506,   2705,  -4425, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1506,   2705,  29001, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1506,   3128,  32100, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1673,   3128,  32100, -29248,   0xff, 0xff, 0xff, 0xff
+vertex   1081,   1506,   3355,  29661, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex    804,   1506,   3632,  31686, -28022,   0xa7, 0x00, 0xa7, 0xff
+vertex    804,   1673,   3632,  31686, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex   1081,   1673,   3355,  29661, -29248,   0xa7, 0x00, 0xa7, 0xff
+vertex     21,   1673,   3719,  15199, -29248,   0x00, 0x00, 0x81, 0xff
+vertex    533,   1673,   3719,  11455, -29248,   0x00, 0x00, 0x81, 0xff
+vertex    533,   1506,   3719,  11455, -28022,   0x00, 0x00, 0x81, 0xff
+vertex     21,   1506,   3719,  15199, -28022,   0x00, 0x00, 0x81, 0xff
+vertex    434,    173,  -2255,  17920, -15610,   0x7b, 0xea, 0x13, 0xff
+vertex    429,    144,  -2255,  17920, -15398,   0x7b, 0xea, 0x13, 0xff
+vertex    443,    173,  -2313,  18346, -15610,   0x7b, 0xea, 0x13, 0xff
 
-model_vertex_55: /* 11 vertices out of 15 */
-vertex   1168,   1506,   2705,  29001, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1673,   3128,  32100, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1168,   1673,   2705,  29001, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1673,   3355,  -9181, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1673,   3632, -11206, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   -248,   1506,   3632, -11206, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   -525,   1506,   3355,  -9181, -28022,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1506,   3355,  29661, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1506,   3632,  31686, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    804,   1673,   3632,  31686, -29248,   0xff, 0xff, 0xff, 0xff
-vertex   1081,   1673,   3355,  29661, -29248,   0xff, 0xff, 0xff, 0xff
+model_vertex_55: /* 9 vertices out of 15 */
+vertex    469,    202,  -2313,  18714, -15823,   0x48, 0xc0, 0x52, 0xff
+vertex    443,    173,  -2313,  18526, -15610,   0x48, 0xc0, 0x52, 0xff
+vertex    535,    202,  -2371,  19200, -15823,   0x48, 0xc0, 0x52, 0xff
+vertex    535,    202,  -2371,  19200, -18773,   0x13, 0x60, 0x4f, 0xff
+vertex    443,    173,  -2313,  18526, -18346,   0x10, 0x6d, 0x3d, 0xff
+vertex    535,    154,  -2313,  19200, -18346,   0x16, 0x6d, 0x3b, 0xff
+vertex    535,    134,  -2255,  19200, -17920,   0x10, 0x7d, 0x0d, 0xff
+vertex    429,    144,  -2255,  18421, -17920,   0x04, 0x7d, 0x10, 0xff
+vertex    535,    144,  -2196,  19200, -17493,   0x08, 0x7d, 0xf2, 0xff
 
-model_vertex_56: /* 13 vertices out of 15 */
-vertex     21,   1673,   3719,  15199, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1673,   3719,  11455, -29248,   0xff, 0xff, 0xff, 0xff
-vertex    533,   1506,   3719,  11455, -28022,   0xff, 0xff, 0xff, 0xff
-vertex     21,   1506,   3719,  15199, -28022,   0xff, 0xff, 0xff, 0xff
-vertex    434,    173,  -2255,  17920, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    429,    144,  -2255,  17920, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    443,    173,  -2313,  18346, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    469,    202,  -2313,  18714, -15823,   0xff, 0xff, 0xff, 0xff
-vertex    443,    173,  -2313,  18526, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    535,    202,  -2371,  19200, -15823,   0xff, 0xff, 0xff, 0xff
-vertex    535,    202,  -2371,  19200, -18773,   0xff, 0xff, 0xff, 0xff
-vertex    443,    173,  -2313,  18526, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    535,    154,  -2313,  19200, -18346,   0xff, 0xff, 0xff, 0xff
+model_vertex_56: /* 11 vertices out of 15 */
+vertex    535,    768,  -2564,  -3396, -19957,   0x81, 0x00, 0x00, 0xff
+vertex    535,    768,  -2616,  -3776, -19957,   0x81, 0x00, 0x00, 0xff
+vertex    535,     86,  -2616,  -3776, -14967,   0x81, 0x00, 0x00, 0xff
+vertex    535,     86,  -2564,  -3396, -14967,   0x81, 0x00, 0x00, 0xff
+vertex    535,    768,  -2616,  11441, -32448,   0x00, 0x81, 0x00, 0xff
+vertex    535,    768,  -2564,  11441, -32068,   0x00, 0x81, 0x00, 0xff
+vertex    115,    768,  -2564,  14513, -32068,   0x00, 0x81, 0x00, 0xff
+vertex    115,    768,  -2616,  14513, -32448,   0x00, 0x81, 0x00, 0xff
+vertex    115,     86,  -2616,  32448, -14967,   0x7f, 0x00, 0x00, 0xff
+vertex    115,    768,  -2616,  32448, -19957,   0x7f, 0x00, 0x00, 0xff
+vertex    115,    768,  -2564,  32068, -19957,   0x7f, 0x00, 0x00, 0xff
 
-model_vertex_57: /* 9 vertices out of 15 */
-vertex    443,    173,  -2313,  18526, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    535,    134,  -2255,  19200, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    535,    154,  -2313,  19200, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    429,    144,  -2255,  18421, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    535,    144,  -2196,  19200, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    535,    611,  -2564,  -3396, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    535,    611,  -2616,  -3776, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2616,  -3776, -14967,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2564,  -3396, -14967,   0xff, 0xff, 0xff, 0xff
+model_vertex_57: /* 11 vertices out of 15 */
+vertex    115,    768,  -2564,  32068, -19957,   0x7f, 0x00, 0x00, 0xff
+vertex    115,     86,  -2564,  32068, -14967,   0x7f, 0x00, 0x00, 0xff
+vertex    115,     86,  -2616,  32448, -14967,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     86,  -2616,  19278, -32448,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     86,  -2616,  16206, -32448,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     86,  -2564,  16206, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     86,  -2564,  19278, -32068,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     86,  -2564,  16206, -14967,   0x00, 0x00, 0x7f, 0xff
+vertex   -802,  -4914,  -2564,   9490,  21609,   0x00, 0x00, 0x7f, 0xff
+vertex    722,  -4914,  -2564,  20646,  21609,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     86,  -2564,  19278, -14967,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_58: /* 11 vertices out of 15 */
-vertex    535,    611,  -2616,  11441, -32448,   0xff, 0xff, 0xff, 0xff
-vertex    535,    611,  -2564,  11441, -32068,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2564,  15281, -32068,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2616,  15281, -32448,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2616,  32448, -14967,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2616,  32448, -18807,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2564,  32068, -18807,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2564,  32068, -14967,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2616,  19278, -32448,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2616,  15438, -32448,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2564,  15438, -32068,   0xff, 0xff, 0xff, 0xff
+model_vertex_58: /* 8 vertices out of 15 */
+vertex    535,    768,  -2564,  19278, -19957,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     86,  -2564,  19278, -14967,   0x00, 0x00, 0x7f, 0xff
+vertex    722,  -4914,  -2564,  20646,  21609,   0x00, 0x00, 0x7f, 0xff
+vertex    722,   1747,  -2564,  20646, -27118,   0x00, 0x00, 0x7f, 0xff
+vertex   -802,   1747,  -2564,   9490, -27118,   0x00, 0x00, 0x7f, 0xff
+vertex   -802,  -4914,  -2564,   9490,  21609,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     86,  -2564,  16206, -14967,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    768,  -2564,  16206, -19957,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_59: /* 9 vertices out of 15 */
-vertex     10,     86,  -2564,  15438, -32068,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2564,  19278, -32068,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2616,  19278, -32448,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2564,  15438, -14967,   0xff, 0xff, 0xff, 0xff
-vertex   -802,  -4914,  -2564,   9490,  21609,   0xff, 0xff, 0xff, 0xff
-vertex    722,  -4914,  -2564,  20646,  21609,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2564,  19278, -14967,   0xff, 0xff, 0xff, 0xff
-vertex    535,    611,  -2564,  19278, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    722,   1747,  -2564,  20646, -27118,   0xff, 0xff, 0xff, 0xff
+model_vertex_59: /* 11 vertices out of 15 */
+vertex    535,    768,  -2564,  19278, -19957,   0x00, 0x00, 0x7f, 0xff
+vertex   -802,   1747,  -2564,   9490, -27118,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    768,  -2564,  16206, -19957,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    768,  -2616,  14513, -19957,   0x00, 0x00, 0x81, 0xff
+vertex    115,     86,  -2616,  14513, -14967,   0x00, 0x00, 0x81, 0xff
+vertex   -676,     86,  -2616,  20305, -14967,   0x00, 0x00, 0x81, 0xff
+vertex   -676,    768,  -2616,  20305, -19957,   0x00, 0x00, 0x81, 0xff
+vertex    535,     86,  -2616,  11441, -14967,   0x00, 0x00, 0x81, 0xff
+vertex    535,    768,  -2616,  11441, -19957,   0x00, 0x00, 0x81, 0xff
+vertex    631,    768,  -2616,  10744, -19957,   0x00, 0x00, 0x81, 0xff
+vertex    631,     86,  -2616,  10744, -14967,   0x00, 0x00, 0x81, 0xff
 
-model_vertex_60: /* 9 vertices out of 15 */
-vertex    535,    611,  -2564,  19278, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    722,   1747,  -2564,  20646, -27118,   0xff, 0xff, 0xff, 0xff
-vertex   -802,   1747,  -2564,   9490, -27118,   0xff, 0xff, 0xff, 0xff
-vertex   -802,  -4914,  -2564,   9490,  21609,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2564,  15438, -14967,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2564,  15438, -18807,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2616,  15281, -18807,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2616,  15281, -14967,   0xff, 0xff, 0xff, 0xff
-vertex   -676,     86,  -2616,  20305, -14967,   0xff, 0xff, 0xff, 0xff
+model_vertex_60: /* 11 vertices out of 15 */
+vertex   -676,    768,  -2616,  20305, -19957,   0x00, 0x00, 0x81, 0xff
+vertex   -676,   1690,  -2616,  20305, -26700,   0x00, 0x00, 0x81, 0xff
+vertex    631,   1690,  -2616,  10744, -26700,   0x00, 0x00, 0x81, 0xff
+vertex    631,    768,  -2616,  10744, -19957,   0x00, 0x00, 0x81, 0xff
+vertex    631,    318,  -2616,  -3776, -16667,   0x81, 0x00, 0x00, 0xff
+vertex    631,   1690,  -2616,  -3776, -26700,   0x81, 0x00, 0x00, 0xff
+vertex    631,   1690,  -3975, -13717, -26700,   0x81, 0x00, 0x00, 0xff
+vertex    631,    318,  -3975, -13717, -16667,   0x81, 0x00, 0x00, 0xff
+vertex    631,    318,  -3975,  19975, -16667,   0x00, 0x00, 0x7f, 0xff
+vertex    631,   1690,  -3975,  19975, -26700,   0x00, 0x00, 0x7f, 0xff
+vertex   -676,   1690,  -3975,  10414, -26700,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_61: /* 9 vertices out of 15 */
-vertex   -676,     86,  -2616,  20305, -14967,   0xff, 0xff, 0xff, 0xff
-vertex   -676,    611,  -2616,  20305, -18807,   0xff, 0xff, 0xff, 0xff
-vertex     10,    611,  -2616,  15281, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2616,  11441, -14967,   0xff, 0xff, 0xff, 0xff
-vertex    535,    611,  -2616,  11441, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    640,    611,  -2616,  10675, -18807,   0xff, 0xff, 0xff, 0xff
-vertex    640,     86,  -2616,  10675, -14967,   0xff, 0xff, 0xff, 0xff
-vertex   -676,   1690,  -2616,  20305, -26700,   0xff, 0xff, 0xff, 0xff
-vertex    640,   1690,  -2616,  10675, -26700,   0xff, 0xff, 0xff, 0xff
+model_vertex_61: /* 11 vertices out of 15 */
+vertex   -676,   1690,  -3975,  10414, -26700,   0x00, 0x00, 0x7f, 0xff
+vertex   -676,    318,  -3975,  10414, -16667,   0x00, 0x00, 0x7f, 0xff
+vertex    631,    318,  -3975,  19975, -16667,   0x00, 0x00, 0x7f, 0xff
+vertex   -676,    318,  -3975,  32149, -16667,   0x7f, 0x00, 0x00, 0xff
+vertex   -676,   1690,  -3975,  32149, -26700,   0x7f, 0x00, 0x00, 0xff
+vertex   -676,   1690,  -2616,  22208, -26700,   0x7f, 0x00, 0x00, 0xff
+vertex   -676,    318,  -2616,  22208, -16667,   0x7f, 0x00, 0x00, 0xff
+vertex   -676,   1690,  -3975,  20305, -32149,   0x00, 0x81, 0x00, 0xff
+vertex    631,   1690,  -3975,  10744, -32149,   0x00, 0x81, 0x00, 0xff
+vertex    631,   1690,  -2616,  10744, -22208,   0x00, 0x81, 0x00, 0xff
+vertex   -676,   1690,  -2616,  20305, -22208,   0x00, 0x81, 0x00, 0xff
 
-model_vertex_62: /* 6 vertices out of 15 */
-vertex    206,    459,  -3163,  15846, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3192,  16055, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3131,  15613, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3097,  15360, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    206,    419,  -3097,  15360, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    147,    437,  -3097,  15360, -17920,   0xff, 0xff, 0xff, 0xff
+model_vertex_62: /* 11 vertices out of 15 */
+vertex    722,   1747,  -2564,  21828, -27118,   0x7f, 0x00, 0x00, 0xff
+vertex    722,  -4914,  -2564,  21828,  21609,   0x7f, 0x00, 0x00, 0xff
+vertex    722,  -4914,  -3999,  32322,  21609,   0x7f, 0x00, 0x00, 0xff
+vertex    722,   1747,  -3999,  32322, -27118,   0x7f, 0x00, 0x00, 0xff
+vertex   -802,   1747,  -2564,   9490, -21828,   0x00, 0x7f, 0x00, 0xff
+vertex    722,   1747,  -2564,  20646, -21828,   0x00, 0x7f, 0x00, 0xff
+vertex    722,   1747,  -3999,  20646, -32322,   0x00, 0x7f, 0x00, 0xff
+vertex   -802,   1747,  -3999,   9490, -32322,   0x00, 0x7f, 0x00, 0xff
+vertex   -802,  -4914,  -2564,  -3396,  21609,   0x81, 0x00, 0x00, 0xff
+vertex   -802,   1747,  -2564,  -3396, -27118,   0x81, 0x00, 0x00, 0xff
+vertex   -802,   1747,  -3999, -13890, -27118,   0x81, 0x00, 0x00, 0xff
 
-model_vertex_63: /* 7 vertices out of 15 */
-vertex    147,    437,  -3097,  15360, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    206,    419,  -3097,  15360, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3131,  15613, -17493,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3200,  16111, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3192,  16055, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    147,    488,  -3198,  16099, -17920,   0xff, 0xff, 0xff, 0xff
-vertex     89,    455,  -3097,  15360, -18346,   0xff, 0xff, 0xff, 0xff
+model_vertex_63: /* 10 vertices out of 15 */
+vertex   -802,   1747,  -3999, -13890, -27118,   0x81, 0x00, 0x00, 0xff
+vertex   -802,  -4914,  -3999, -13890,  21609,   0x81, 0x00, 0x00, 0xff
+vertex   -802,  -4914,  -2564,  -3396,  21609,   0x81, 0x00, 0x00, 0xff
+vertex    722,  -4914,  -3999,  10073,  21609,   0x00, 0x00, 0x81, 0xff
+vertex   -802,  -4914,  -3999,  21229,  21609,   0x00, 0x00, 0x81, 0xff
+vertex   -802,   1747,  -3999,  21229, -27118,   0x00, 0x00, 0x81, 0xff
+vertex    722,   1747,  -3999,  10073, -27118,   0x00, 0x00, 0x81, 0xff
+vertex    -19,    778,  -3628,  16614, -17493,   0xd9, 0x59, 0x51, 0xff
+vertex    -77,    778,  -3657,  16823, -17920,   0x1a, 0x67, 0x45, 0xff
+vertex    -19,    749,  -3597,  16381, -17493,   0x04, 0x7b, 0x1d, 0xff
 
-model_vertex_64: /* 7 vertices out of 15 */
-vertex     89,    488,  -3200,  16111, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3190,  16043, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3097,  15360, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    455,  -3097,  15360, -15371,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2430,  11520, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2430,  11520, -16248,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2488,  11093, -16248,   0xff, 0xff, 0xff, 0xff
+model_vertex_64: /* 6 vertices out of 15 */
+vertex     39,    749,  -3562,  16128, -17066,   0xf9, 0x7e, 0x0d, 0xff
+vertex    -19,    749,  -3597,  16381, -17493,   0x04, 0x7b, 0x1d, 0xff
+vertex    -19,    738,  -3562,  16128, -17493,   0x06, 0x79, 0x25, 0xff
+vertex    -77,    778,  -3657,  16823, -17920,   0x1a, 0x67, 0x45, 0xff
+vertex    -77,    756,  -3562,  16128, -17920,   0x25, 0x75, 0x1f, 0xff
+vertex   -135,    807,  -3665,  16879, -18346,   0x22, 0x75, 0x20, 0xff
 
-model_vertex_65: /* 7 vertices out of 15 */
-vertex     10,    260,  -2488,  11093, -16248,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2488,  11093, -16460,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2546,  10666, -16460,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2546,  10666, -16673,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2605,  10239, -16673,   0xff, 0xff, 0xff, 0xff
-vertex     10,      0,  -2605,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2430,  11520, -16035,   0xff, 0xff, 0xff, 0xff
+model_vertex_65: /* 8 vertices out of 15 */
+vertex    -77,    778,  -3657,  16823, -17920,   0x1a, 0x67, 0x45, 0xff
+vertex    -77,    807,  -3663,  16867, -17920,   0xfe, 0x61, 0x51, 0xff
+vertex   -135,    807,  -3665,  16879, -18346,   0x22, 0x75, 0x20, 0xff
+vertex   -135,    774,  -3562,  16128, -18346,   0x3e, 0x69, 0x21, 0xff
+vertex    -77,    756,  -3562,  16128, -17920,   0x25, 0x75, 0x1f, 0xff
+vertex   -135,    807,  -3665,  16879, -15610,   0x7c, 0xf8, 0x18, 0xff
+vertex   -135,    836,  -3655,  16811, -15823,   0x77, 0xf3, 0x29, 0xff
+vertex   -194,    836,  -3562,  16128, -15823,   0x6a, 0xeb, 0x42, 0xff
 
 model_vertex_66: /* 8 vertices out of 15 */
-vertex     10,      0,  -1963,  14933, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -1963,  14933, -14548,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -2021,  14506, -14548,   0xff, 0xff, 0xff, 0xff
-vertex     10,      0,  -2605,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2021,  14506, -14760,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2080,  14079, -14760,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2080,  14079, -14973,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2138,  13653, -14973,   0xff, 0xff, 0xff, 0xff
+vertex   -135,    807,  -3665,  16879, -15610,   0x22, 0x75, 0x20, 0xff
+vertex   -194,    836,  -3562,  16128, -15823,   0x5a, 0x55, 0x1b, 0xff
+vertex   -135,    774,  -3562,  16128, -15371,   0x3e, 0x69, 0x21, 0xff
+vertex    280,    459,  -3212,  16614, -17493,   0xaf, 0x59, 0xd9, 0xff
+vertex    309,    459,  -3270,  16823, -17920,   0xbb, 0x67, 0x1a, 0xff
+vertex    248,    430,  -3212,  16381, -17493,   0xe3, 0x7b, 0x04, 0xff
+vertex    214,    430,  -3154,  16128, -17066,   0xf3, 0x7e, 0xf9, 0xff
+vertex    214,    419,  -3212,  16128, -17493,   0xdb, 0x79, 0x06, 0xff
 
 model_vertex_67: /* 7 vertices out of 15 */
-vertex     10,      0,  -2605,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2080,  14079, -14760,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2138,  13653, -14973,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2138,  13653, -15185,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2196,  13226, -15185,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2196,  13226, -15398,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2255,  12800, -15398,   0xff, 0xff, 0xff, 0xff
+vertex    214,    419,  -3212,  16128, -17493,   0xdb, 0x79, 0x06, 0xff
+vertex    214,    430,  -3154,  16128, -17066,   0xf3, 0x7e, 0xf9, 0xff
+vertex    248,    430,  -3212,  16381, -17493,   0xe3, 0x7b, 0x04, 0xff
+vertex    309,    459,  -3270,  16823, -17920,   0xbb, 0x67, 0x1a, 0xff
+vertex    214,    437,  -3270,  16128, -17920,   0xe1, 0x75, 0x25, 0xff
+vertex    316,    488,  -3329,  16879, -18346,   0xe0, 0x75, 0x22, 0xff
+vertex    315,    488,  -3270,  16867, -17920,   0xaf, 0x61, 0xfe, 0xff
 
-model_vertex_68: /* 7 vertices out of 15 */
-vertex     10,    144,  -2255,  12800, -15398,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2255,  12800, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2313,  12373, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     10,      0,  -2605,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2313,  12373, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2371,  11946, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2430,  11520, -16035,   0xff, 0xff, 0xff, 0xff
+model_vertex_68: /* 8 vertices out of 15 */
+vertex    316,    488,  -3329,  16879, -18346,   0xe0, 0x75, 0x22, 0xff
+vertex    214,    455,  -3329,  16128, -18346,   0xdf, 0x69, 0x3e, 0xff
+vertex    214,    437,  -3270,  16128, -17920,   0xe1, 0x75, 0x25, 0xff
+vertex    316,    488,  -3329,  16879, -15610,   0xe8, 0xf8, 0x7c, 0xff
+vertex    307,    517,  -3329,  16811, -15823,   0xd7, 0xf3, 0x77, 0xff
+vertex    214,    517,  -3387,  16128, -15823,   0xbe, 0xeb, 0x6a, 0xff
+vertex    316,    488,  -3329,  16879, -15610,   0xe0, 0x75, 0x22, 0xff
+vertex    214,    517,  -3387,  16128, -15823,   0xe5, 0x55, 0x5a, 0xff
 
-model_vertex_69: /* 12 vertices out of 15 */
-vertex     10,    231,  -2430,  11520, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2371,  11946, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2371,  11946, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2196,  17493, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2138,  17066, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2138,  17066, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2080,  16639, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2080,  16639, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2021,  16213, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -2021,  16213, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -1963,  15786, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -1963,  15786, -14336,   0xff, 0xff, 0xff, 0xff
+model_vertex_69: /* 11 vertices out of 15 */
+vertex    214,    517,  -3387,  16128, -15823,   0xe5, 0x55, 0x5a, 0xff
+vertex    214,    455,  -3329,  16128, -15371,   0xdf, 0x69, 0x3e, 0xff
+vertex    316,    488,  -3329,  16879, -15610,   0xe0, 0x75, 0x22, 0xff
+vertex    115,    231,  -2430,  11520, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    115,    260,  -2430,  11520, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    115,    260,  -2488,  11093, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    115,    289,  -2488,  11093, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    115,    289,  -2546,  10666, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    115,    318,  -2546,  10666, -16673,   0x81, 0x00, 0x00, 0xff
+vertex    115,    318,  -2605,  10239, -16673,   0x81, 0x00, 0x00, 0xff
+vertex    115,      0,  -2605,  10240, -14336,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_70: /* 9 vertices out of 15 */
-vertex    535,     28,  -2021,  16213, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -1963,  15786, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -2605,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2080,  16639, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2138,  17066, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2196,  17493, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2605,  20479, -16673,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2546,  20053, -16673,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2546,  20053, -16460,   0xff, 0xff, 0xff, 0xff
+vertex    115,    260,  -2488,  11093, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    115,    289,  -2546,  10666, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    115,      0,  -2605,  10240, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    115,    231,  -2430,  11520, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    115,      0,  -1963,  14933, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    115,     28,  -1963,  14933, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    115,     28,  -2021,  14506, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    115,     57,  -2021,  14506, -14760,   0x81, 0x00, 0x00, 0xff
+vertex    115,     57,  -2080,  14080, -14760,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_71: /* 7 vertices out of 15 */
-vertex    535,      0,  -2605,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2605,  20479, -16673,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2546,  20053, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2488,  19626, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2488,  19626, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2430,  19199, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2430,  19200, -16035,   0xff, 0xff, 0xff, 0xff
+vertex    115,      0,  -2605,  10240, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    115,     28,  -2021,  14506, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    115,     57,  -2080,  14080, -14760,   0x81, 0x00, 0x00, 0xff
+vertex    115,     86,  -2080,  14080, -14973,   0x81, 0x00, 0x00, 0xff
+vertex    115,     86,  -2138,  13653, -14973,   0x81, 0x00, 0x00, 0xff
+vertex    115,    115,  -2138,  13653, -15185,   0x81, 0x00, 0x00, 0xff
+vertex    115,    115,  -2196,  13226, -15185,   0x81, 0x00, 0x00, 0xff
 
-model_vertex_72: /* 7 vertices out of 15 */
-vertex    535,    231,  -2430,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2371,  18773, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    535,    202,  -2371,  18773, -15823,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -2605,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,    154,  -2313,  18346, -15472,   0xff, 0xff, 0xff, 0xff
-vertex    535,    134,  -2255,  17920, -15324,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2196,  17493, -15185,   0xff, 0xff, 0xff, 0xff
+model_vertex_72: /* 8 vertices out of 15 */
+vertex    115,    115,  -2196,  13226, -15185,   0x81, 0x00, 0x00, 0xff
+vertex    115,    144,  -2196,  13226, -15398,   0x81, 0x00, 0x00, 0xff
+vertex    115,    144,  -2255,  12800, -15398,   0x81, 0x00, 0x00, 0xff
+vertex    115,      0,  -2605,  10240, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    115,    173,  -2255,  12800, -15610,   0x81, 0x00, 0x00, 0xff
+vertex    115,    173,  -2313,  12373, -15610,   0x81, 0x00, 0x00, 0xff
+vertex    115,    202,  -2313,  12373, -15823,   0x81, 0x00, 0x00, 0xff
+vertex    115,    202,  -2371,  11946, -15823,   0x81, 0x00, 0x00, 0xff
 
-model_vertex_73: /* 11 vertices out of 15 */
-vertex    535,    115,  -2196,  17493, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,    134,  -2255,  17920, -15324,   0xff, 0xff, 0xff, 0xff
-vertex    535,    144,  -2196,  17493, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2546,  19200, -20053,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2605,  19200, -20479,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2605,  15360, -20480,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2546,  15360, -20053,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2546,  19200, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2546,  19200, -16673,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2546,  15360, -16673,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2546,  15360, -16460,   0xff, 0xff, 0xff, 0xff
+model_vertex_73: /* 10 vertices out of 15 */
+vertex    115,      0,  -2605,  10240, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    115,    173,  -2313,  12373, -15610,   0x81, 0x00, 0x00, 0xff
+vertex    115,    202,  -2371,  11946, -15823,   0x81, 0x00, 0x00, 0xff
+vertex    115,    231,  -2430,  11520, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    115,    231,  -2371,  11946, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    535,    115,  -2196,  17493, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    115,  -2138,  17066, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     86,  -2138,  17066, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     86,  -2080,  16639, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     57,  -2080,  16639, -14760,   0x7f, 0x00, 0x00, 0xff
 
-model_vertex_74: /* 11 vertices out of 15 */
-vertex    535,    289,  -2488,  19200, -19626,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2546,  19200, -20053,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2546,  15360, -20053,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2488,  15360, -19626,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2488,  19200, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    535,    289,  -2488,  19200, -16460,   0xff, 0xff, 0xff, 0xff
-vertex     10,    289,  -2488,  15360, -16460,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2488,  15360, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2430,  19200, -19199,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2488,  19200, -19626,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2488,  15360, -19626,   0xff, 0xff, 0xff, 0xff
+model_vertex_74: /* 7 vertices out of 15 */
+vertex    535,     57,  -2080,  16639, -14760,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     57,  -2021,  16213, -14760,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     28,  -2021,  16213, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     28,  -1963,  15786, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    535,      0,  -1963,  15786, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    535,      0,  -2605,  20479, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     86,  -2138,  17066, -14973,   0x7f, 0x00, 0x00, 0xff
 
-model_vertex_75: /* 11 vertices out of 15 */
-vertex     10,    260,  -2488,  15360, -19626,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2430,  15360, -19200,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2430,  19200, -19199,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2430,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    535,    260,  -2430,  19200, -16248,   0xff, 0xff, 0xff, 0xff
-vertex     10,    260,  -2430,  15360, -16248,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2430,  15360, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2371,  19200, -18773,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2430,  19200, -19200,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2430,  15360, -19200,   0xff, 0xff, 0xff, 0xff
-vertex     10,    231,  -2371,  15360, -18773,   0xff, 0xff, 0xff, 0xff
+model_vertex_75: /* 8 vertices out of 15 */
+vertex    535,    115,  -2196,  17493, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    535,     86,  -2138,  17066, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex    535,      0,  -2605,  20479, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    318,  -2605,  20479, -16673,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    318,  -2546,  20053, -16673,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    289,  -2546,  20053, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    289,  -2488,  19626, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    260,  -2488,  19626, -16248,   0x7f, 0x00, 0x00, 0xff
 
-model_vertex_76: /* 11 vertices out of 15 */
-vertex     10,    231,  -2371,  15360, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2371,  15360, -15823,   0xff, 0xff, 0xff, 0xff
-vertex    535,    202,  -2371,  19200, -15823,   0xff, 0xff, 0xff, 0xff
-vertex    535,    231,  -2371,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2371,  15360, -18773,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2313,  15360, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    469,    202,  -2313,  18714, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    535,    202,  -2371,  19200, -18773,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2313,  15360, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2313,  15360, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    443,    173,  -2313,  18526, -15610,   0xff, 0xff, 0xff, 0xff
+model_vertex_76: /* 7 vertices out of 15 */
+vertex    535,    260,  -2488,  19626, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    260,  -2430,  19199, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    231,  -2430,  19200, -16035,   0x7f, 0x00, 0x00, 0xff
+vertex    535,      0,  -2605,  20479, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    231,  -2371,  18773, -16035,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    202,  -2371,  18773, -15823,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    154,  -2313,  18346, -15472,   0x7f, 0x00, 0x00, 0xff
 
-model_vertex_77: /* 11 vertices out of 15 */
-vertex    443,    173,  -2313,  18526, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    469,    202,  -2313,  18714, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    202,  -2313,  15360, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2313,  15360, -18346,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2255,  15360, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    434,    173,  -2255,  18459, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    443,    173,  -2313,  18526, -18346,   0xff, 0xff, 0xff, 0xff
-vertex     10,    173,  -2255,  15360, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2255,  15360, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    429,    144,  -2255,  18421, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    434,    173,  -2255,  18459, -15610,   0xff, 0xff, 0xff, 0xff
+model_vertex_77: /* 9 vertices out of 15 */
+vertex    535,      0,  -2605,  20479, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    154,  -2313,  18346, -15472,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    134,  -2255,  17920, -15324,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    115,  -2196,  17493, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    144,  -2196,  17493, -15398,   0x7f, 0x00, 0x00, 0xff
+vertex    535,    318,  -2546,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    318,  -2605,  19200, -20479,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    318,  -2605,  16128, -20480,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    318,  -2546,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_78: /* 11 vertices out of 15 */
-vertex    535,    115,  -2196,  19200, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,    144,  -2196,  19200, -15398,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2196,  15360, -15398,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2196,  15360, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2138,  19200, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2196,  19200, -17493,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2196,  15360, -17493,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2138,  15360, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2138,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,    115,  -2138,  19200, -15185,   0xff, 0xff, 0xff, 0xff
-vertex     10,    115,  -2138,  15360, -15185,   0xff, 0xff, 0xff, 0xff
+vertex    535,    289,  -2546,  19200, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    318,  -2546,  19200, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    318,  -2546,  16128, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    289,  -2546,  16128, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    289,  -2488,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    289,  -2546,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    289,  -2546,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    289,  -2488,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    260,  -2488,  19200, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    289,  -2488,  19200, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    289,  -2488,  16128, -16460,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_79: /* 11 vertices out of 15 */
-vertex     10,    115,  -2138,  15360, -15185,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2138,  15360, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2138,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2080,  19200, -16639,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2138,  19200, -17066,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2138,  15360, -17066,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2080,  15360, -16640,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2080,  19200, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    535,     86,  -2080,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex     10,     86,  -2080,  15360, -14973,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2080,  15360, -14760,   0xff, 0xff, 0xff, 0xff
+vertex    115,    289,  -2488,  16128, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    260,  -2488,  16128, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    260,  -2488,  19200, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    260,  -2430,  19200, -19199,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    260,  -2488,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    260,  -2488,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    260,  -2430,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    231,  -2430,  19200, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    260,  -2430,  19200, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    260,  -2430,  16128, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    231,  -2430,  16128, -16035,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_80: /* 11 vertices out of 15 */
-vertex    535,     57,  -2021,  19200, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2080,  19200, -16639,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2080,  15360, -16640,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2021,  15360, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -2021,  19200, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    535,     57,  -2021,  19200, -14760,   0xff, 0xff, 0xff, 0xff
-vertex     10,     57,  -2021,  15360, -14760,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -2021,  15360, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -1963,  19200, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -2021,  19200, -16213,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -2021,  15360, -16213,   0xff, 0xff, 0xff, 0xff
+vertex    535,    231,  -2371,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    231,  -2430,  19200, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    231,  -2430,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    231,  -2371,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    231,  -2371,  16128, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    202,  -2371,  16128, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    202,  -2371,  19200, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    231,  -2371,  19200, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    202,  -2371,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    202,  -2313,  16128, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    469,    202,  -2313,  18714, -18346,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_81: /* 11 vertices out of 15 */
-vertex     10,     28,  -2021,  15360, -16213,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -1963,  15360, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -1963,  19200, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -1963,  19200, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,     28,  -1963,  19200, -14548,   0xff, 0xff, 0xff, 0xff
-vertex     10,     28,  -1963,  15360, -14548,   0xff, 0xff, 0xff, 0xff
-vertex     10,      0,  -1963,  15360, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    535,    318,  -2605,  11520, -16673,   0xff, 0xff, 0xff, 0xff
-vertex    535,      0,  -2605,  11520, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,      0,  -2605,  15359, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     10,    318,  -2605,  15359, -16673,   0xff, 0xff, 0xff, 0xff
+vertex    469,    202,  -2313,  18714, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    202,  -2371,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    202,  -2371,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    202,  -2313,  16128, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    173,  -2313,  16128, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    443,    173,  -2313,  18526, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    469,    202,  -2313,  18714, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    173,  -2313,  16128, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    173,  -2255,  16128, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    434,    173,  -2255,  18459, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    443,    173,  -2313,  18526, -18346,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_82: /* 11 vertices out of 15 */
-vertex    429,    144,  -2255,  18421, -17920,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2255,  15360, -17920,   0xff, 0xff, 0xff, 0xff
-vertex     10,    144,  -2196,  15360, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    535,    144,  -2196,  19200, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3097,  14506, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    381,    372,  -3097,  14506, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3097,  14079, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3097,  14079, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3097,  13653, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3097,  13653, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    206,    419,  -3097,  13226, -15108,   0xff, 0xff, 0xff, 0xff
+vertex    115,    173,  -2255,  16128, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    144,  -2255,  16128, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    429,    144,  -2255,  18421, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    434,    173,  -2255,  18459, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    115,  -2196,  19200, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    144,  -2196,  19200, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    144,  -2196,  16128, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    115,  -2196,  16128, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    115,  -2138,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    115,  -2196,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    115,  -2196,  16128, -17493,   0x00, 0x7f, 0x00, 0xff
 
-model_vertex_83: /* 10 vertices out of 15 */
-vertex     31,    517,  -3097,  11946, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     31,    546,  -3097,  11946, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3097,  11520, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3097,  11520, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3097,  11093, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3097,  11093, -16460,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3097,  10666, -16460,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3097,  10666, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    633,  -3097,  10239, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3097,  10240, -14336,   0xff, 0xff, 0xff, 0xff
+model_vertex_83: /* 11 vertices out of 15 */
+vertex    115,    115,  -2196,  16128, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    115,  -2138,  16128, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    115,  -2138,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     86,  -2138,  19200, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    535,    115,  -2138,  19200, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    115,    115,  -2138,  16128, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     86,  -2138,  16128, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     86,  -2080,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     86,  -2138,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     86,  -2138,  16128, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     86,  -2080,  16127, -16639,   0x00, 0x7f, 0x00, 0xff
 
-model_vertex_84: /* 7 vertices out of 15 */
-vertex    -85,    575,  -3097,  11093, -16248,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3097,  10666, -16460,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3097,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3097,  11520, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3097,  11946, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    455,  -3097,  12373, -15371,   0xff, 0xff, 0xff, 0xff
-vertex    147,    437,  -3097,  12800, -15239,   0xff, 0xff, 0xff, 0xff
+model_vertex_84: /* 11 vertices out of 15 */
+vertex    535,     57,  -2080,  19200, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     86,  -2080,  19200, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     86,  -2080,  16127, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     57,  -2080,  16127, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     57,  -2021,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     57,  -2080,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     57,  -2080,  16127, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     57,  -2021,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     28,  -2021,  19200, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     57,  -2021,  19200, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     57,  -2021,  16127, -14760,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_85: /* 7 vertices out of 15 */
-vertex    206,    419,  -3097,  13226, -15108,   0xff, 0xff, 0xff, 0xff
-vertex    147,    437,  -3097,  12800, -15239,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3097,  10240, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3097,  13653, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3097,  14079, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3097,  14506, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3097,  14933, -14336,   0xff, 0xff, 0xff, 0xff
+model_vertex_85: /* 11 vertices out of 15 */
+vertex    115,     57,  -2021,  16127, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     28,  -2021,  16127, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     28,  -2021,  19200, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     28,  -1963,  19200, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    535,     28,  -2021,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     28,  -2021,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    115,     28,  -1963,  16127, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    535,      0,  -1963,  19200, -14336,   0x00, 0x00, 0x7f, 0xff
+vertex    535,     28,  -1963,  19200, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    115,     28,  -1963,  16127, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    115,      0,  -1963,  16127, -14336,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_86: /* 9 vertices out of 15 */
-vertex    381,    343,  -3097,  14506, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3097,  14933, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3097,  14933, -14548,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    633,  -3622,  20479, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3622,  20053, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3622,  20053, -16460,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3622,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3622,  19626, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3622,  19626, -16248,   0xff, 0xff, 0xff, 0xff
+model_vertex_86: /* 11 vertices out of 15 */
+vertex    535,    318,  -2605,  11520, -16673,   0x00, 0x00, 0x81, 0xff
+vertex    535,      0,  -2605,  11520, -14336,   0x00, 0x00, 0x81, 0xff
+vertex    115,      0,  -2605,  14591, -14336,   0x00, 0x00, 0x81, 0xff
+vertex    115,    318,  -2605,  14591, -16673,   0x00, 0x00, 0x81, 0xff
+vertex    429,    144,  -2255,  18421, -17920,   0x04, 0x7d, 0x10, 0xff
+vertex    115,    144,  -2255,  16128, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    115,    144,  -2196,  16128, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    535,    144,  -2196,  19200, -17493,   0x08, 0x7d, 0xf2, 0xff
+vertex    155,    662,  -3562,  14506, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    155,    691,  -3562,  14506, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex     97,    691,  -3562,  14080, -14760,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_87: /* 8 vertices out of 15 */
-vertex    -85,    575,  -3622,  19626, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3622,  19199, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3622,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3622,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     31,    546,  -3622,  18773, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3622,  18773, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3622,  18346, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3622,  18346, -15610,   0xff, 0xff, 0xff, 0xff
+model_vertex_87: /* 12 vertices out of 15 */
+vertex     97,    691,  -3562,  14080, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex     97,    720,  -3562,  14080, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex     39,    720,  -3562,  13653, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex     39,    749,  -3562,  13653, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    -19,    738,  -3562,  13226, -15108,   0x00, 0x00, 0x7f, 0xff
+vertex   -194,    836,  -3562,  11946, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex   -194,    865,  -3562,  11946, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex   -252,    865,  -3562,  11520, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex   -252,    894,  -3562,  11520, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex   -310,    894,  -3562,  11093, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex   -310,    923,  -3562,  11093, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex   -369,    923,  -3562,  10666, -16460,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_88: /* 7 vertices out of 15 */
-vertex   -202,    314,  -3622,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3622,  18773, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3622,  18346, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    147,    488,  -3622,  17920, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3622,  17920, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    206,    459,  -3622,  17493, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3622,  17493, -15185,   0xff, 0xff, 0xff, 0xff
+vertex   -369,    923,  -3562,  10666, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex   -369,    952,  -3562,  10666, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex   -427,    952,  -3562,  10239, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex   -427,    316,  -3562,  10240, -12021,   0x00, 0x00, 0x7f, 0xff
+vertex   -310,    894,  -3562,  11093, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex   -252,    865,  -3562,  11520, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex   -194,    836,  -3562,  11946, -15823,   0x00, 0x00, 0x7f, 0xff
 
-model_vertex_89: /* 8 vertices out of 15 */
-vertex    206,    430,  -3622,  17493, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3622,  17066, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3622,  17066, -14973,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3622,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3622,  16639, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3622,  16639, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    372,  -3622,  16213, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3622,  16213, -14548,   0xff, 0xff, 0xff, 0xff
+model_vertex_89: /* 7 vertices out of 15 */
+vertex   -135,    774,  -3562,  12373, -15371,   0x00, 0x00, 0x7f, 0xff
+vertex   -194,    836,  -3562,  11946, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex   -427,    316,  -3562,  10240, -12021,   0x00, 0x00, 0x7f, 0xff
+vertex    -77,    756,  -3562,  12800, -15239,   0x00, 0x00, 0x7f, 0xff
+vertex    -19,    738,  -3562,  13226, -15108,   0x00, 0x00, 0x7f, 0xff
+vertex     39,    720,  -3562,  13653, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex     97,    691,  -3562,  14080, -14760,   0x00, 0x00, 0x7f, 0xff
 
 model_vertex_90: /* 9 vertices out of 15 */
-vertex   -202,    314,  -3622,  20479, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3622,  16639, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3622,  16213, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3622,  15786, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3622,  15786, -14548,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3622,  19200, -20053,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    633,  -3622,  19200, -20479,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    633,  -3097,  15360, -20480,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3097,  15360, -20053,   0xff, 0xff, 0xff, 0xff
+vertex    155,    662,  -3562,  14506, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex     97,    691,  -3562,  14080, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex   -427,    316,  -3562,  10240, -12021,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    316,  -3562,  14933, -12021,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    662,  -3562,  14933, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex   -369,    952,  -3982,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex   -427,    952,  -3982,  19200, -20479,   0x00, 0x7f, 0x00, 0xff
+vertex   -427,    952,  -3562,  16128, -20480,   0x00, 0x7f, 0x00, 0xff
+vertex   -369,    952,  -3562,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_91: /* 11 vertices out of 15 */
-vertex   -143,    604,  -3622,  19200, -16460,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3622,  19200, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    633,  -3097,  15360, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3097,  15360, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3622,  19200, -19626,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3622,  19200, -20053,   0xff, 0xff, 0xff, 0xff
-vertex   -143,    604,  -3097,  15360, -20053,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3097,  15360, -19626,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3622,  19200, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3622,  19200, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    604,  -3097,  15360, -16460,   0xff, 0xff, 0xff, 0xff
+vertex   -369,    923,  -3982,  19200, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex   -369,    952,  -3982,  19200, -16673,   0x7f, 0x00, 0x00, 0xff
+vertex   -369,    952,  -3562,  16128, -16673,   0x7f, 0x00, 0x00, 0xff
+vertex   -369,    923,  -3562,  16128, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex   -310,    923,  -3982,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex   -369,    923,  -3982,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex   -369,    923,  -3562,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex   -310,    923,  -3562,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex   -310,    894,  -3982,  19200, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex   -310,    923,  -3982,  19200, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex   -310,    923,  -3562,  16128, -16460,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_92: /* 11 vertices out of 15 */
-vertex    -85,    604,  -3097,  15360, -16460,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3097,  15360, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3622,  19200, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3622,  19200, -19199,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3622,  19200, -19626,   0xff, 0xff, 0xff, 0xff
-vertex    -85,    575,  -3097,  15360, -19626,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3097,  15360, -19200,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3622,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3622,  19200, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    575,  -3097,  15360, -16248,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3097,  15360, -16035,   0xff, 0xff, 0xff, 0xff
+vertex   -310,    923,  -3562,  16128, -16460,   0x7f, 0x00, 0x00, 0xff
+vertex   -310,    894,  -3562,  16128, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex   -310,    894,  -3982,  19200, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex   -252,    894,  -3982,  19200, -19199,   0x00, 0x7f, 0x00, 0xff
+vertex   -310,    894,  -3982,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex   -310,    894,  -3562,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex   -252,    894,  -3562,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex   -252,    865,  -3982,  19200, -16035,   0x7f, 0x00, 0x00, 0xff
+vertex   -252,    894,  -3982,  19200, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex   -252,    894,  -3562,  16128, -16248,   0x7f, 0x00, 0x00, 0xff
+vertex   -252,    865,  -3562,  16128, -16035,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_93: /* 11 vertices out of 15 */
-vertex     31,    546,  -3622,  19200, -18773,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3622,  19200, -19200,   0xff, 0xff, 0xff, 0xff
-vertex    -27,    546,  -3097,  15360, -19200,   0xff, 0xff, 0xff, 0xff
-vertex     31,    546,  -3097,  15360, -18773,   0xff, 0xff, 0xff, 0xff
-vertex     31,    546,  -3097,  15360, -16035,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3097,  15360, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3622,  19200, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     31,    546,  -3622,  19200, -16035,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3622,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3622,  19200, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3097,  15360, -15185,   0xff, 0xff, 0xff, 0xff
+vertex   -194,    865,  -3982,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex   -252,    865,  -3982,  19200, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex   -252,    865,  -3562,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex   -194,    865,  -3562,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex   -194,    865,  -3562,  16128, -16035,   0x7f, 0x00, 0x00, 0xff
+vertex   -194,    836,  -3562,  16128, -15823,   0x7f, 0x00, 0x00, 0xff
+vertex   -194,    836,  -3982,  19200, -15823,   0x7f, 0x00, 0x00, 0xff
+vertex   -194,    865,  -3982,  19200, -16035,   0x7f, 0x00, 0x00, 0xff
+vertex     39,    720,  -3982,  19200, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex     39,    749,  -3982,  19200, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex     39,    749,  -3562,  16128, -15185,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_94: /* 11 vertices out of 15 */
-vertex    264,    430,  -3097,  15360, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3097,  15360, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3622,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3622,  19200, -16639,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3622,  19200, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    264,    401,  -3097,  15360, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3097,  15360, -16640,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3622,  19200, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3622,  19200, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    322,    401,  -3097,  15360, -14973,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3097,  15360, -14760,   0xff, 0xff, 0xff, 0xff
+vertex     39,    749,  -3562,  16128, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex     39,    720,  -3562,  16128, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex     39,    720,  -3982,  19200, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex     97,    720,  -3982,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex     39,    720,  -3982,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex     39,    720,  -3562,  16128, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex     97,    720,  -3562,  16128, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex     97,    691,  -3982,  19200, -14760,   0x7f, 0x00, 0x00, 0xff
+vertex     97,    720,  -3982,  19200, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex     97,    720,  -3562,  16128, -14973,   0x7f, 0x00, 0x00, 0xff
+vertex     97,    691,  -3562,  16128, -14760,   0x7f, 0x00, 0x00, 0xff
 
 model_vertex_95: /* 11 vertices out of 15 */
-vertex    381,    372,  -3622,  19200, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3622,  19200, -16639,   0xff, 0xff, 0xff, 0xff
-vertex    322,    372,  -3097,  15360, -16640,   0xff, 0xff, 0xff, 0xff
-vertex    381,    372,  -3097,  15360, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3622,  19200, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    381,    372,  -3622,  19200, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    372,  -3097,  15360, -14760,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3097,  15360, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3622,  19200, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3622,  19200, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    381,    343,  -3097,  15360, -16213,   0xff, 0xff, 0xff, 0xff
+vertex    155,    691,  -3982,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex     97,    691,  -3982,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex     97,    691,  -3562,  16128, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    155,    691,  -3562,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    155,    662,  -3982,  19200, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    155,    691,  -3982,  19200, -14760,   0x7f, 0x00, 0x00, 0xff
+vertex    155,    691,  -3562,  16127, -14760,   0x7f, 0x00, 0x00, 0xff
+vertex    155,    662,  -3562,  16127, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    214,    662,  -3982,  19200, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    155,    662,  -3982,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    155,    662,  -3562,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_96: /* 11 vertices out of 15 */
-vertex    381,    343,  -3097,  15360, -16213,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3097,  15360, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3622,  19200, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3622,  19200, -14336,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3622,  19200, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    343,  -3097,  15360, -14548,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3097,  15360, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3622,  11520, -20479,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3622,  11520, -15786,   0xff, 0xff, 0xff, 0xff
-vertex    439,    314,  -3097,  15360, -15786,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3097,  15359, -20479,   0xff, 0xff, 0xff, 0xff
+vertex    155,    662,  -3562,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    662,  -3562,  16127, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    662,  -3982,  19200, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    633,  -3982,  19200, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    214,    662,  -3982,  19200, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    214,    662,  -3562,  16127, -14548,   0x7f, 0x00, 0x00, 0xff
+vertex    214,    316,  -3562,  16127, -12021,   0x7f, 0x00, 0x00, 0xff
+vertex   -427,    952,  -3982,  11520, -16673,   0x81, 0x00, 0x00, 0xff
+vertex   -427,    316,  -3982,  11520, -12021,   0x81, 0x00, 0x00, 0xff
+vertex   -427,    316,  -3562,  14591, -12021,   0x81, 0x00, 0x00, 0xff
+vertex   -427,    952,  -3562,  14591, -16673,   0x81, 0x00, 0x00, 0xff
 
 model_vertex_97: /* 11 vertices out of 15 */
-vertex   -202,    633,  -3622,  11520, -16673,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3622,  11520, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    314,  -3097,  15359, -14336,   0xff, 0xff, 0xff, 0xff
-vertex   -202,    633,  -3097,  15359, -16673,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3622,  19200, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3622,  19200, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3131,  15613, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    264,    430,  -3097,  15360, -17066,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3622,  19200, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    206,    459,  -3622,  19200, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    206,    459,  -3163,  15846, -15398,   0xff, 0xff, 0xff, 0xff
+vertex     39,    749,  -3982,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    -19,    749,  -3982,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    -19,    749,  -3597,  16381, -17493,   0x04, 0x7b, 0x1d, 0xff
+vertex     39,    749,  -3562,  16128, -17066,   0xf9, 0x7e, 0x0d, 0xff
+vertex    -19,    749,  -3982,  19200, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    -19,    778,  -3982,  19200, -15398,   0x7f, 0x00, 0x00, 0xff
+vertex    -19,    778,  -3628,  16614, -15398,   0x7f, 0x00, 0x00, 0xff
+vertex    -19,    749,  -3597,  16381, -15185,   0x7f, 0x00, 0x00, 0xff
+vertex    -19,    778,  -3982,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    -77,    778,  -3982,  19200, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    -77,    778,  -3657,  16823, -17920,   0x00, 0x7f, 0x00, 0xff
 
 model_vertex_98: /* 11 vertices out of 15 */
-vertex    206,    459,  -3163,  15846, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3131,  15613, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    206,    430,  -3622,  19200, -15185,   0xff, 0xff, 0xff, 0xff
-vertex    206,    459,  -3622,  19200, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3622,  19200, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3192,  16055, -17920,   0xff, 0xff, 0xff, 0xff
-vertex    206,    459,  -3163,  15846, -17493,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3622,  19200, -15398,   0xff, 0xff, 0xff, 0xff
-vertex    147,    488,  -3622,  19200, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    147,    488,  -3198,  16099, -15610,   0xff, 0xff, 0xff, 0xff
-vertex    147,    459,  -3192,  16055, -15398,   0xff, 0xff, 0xff, 0xff
+vertex    -77,    778,  -3657,  16823, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    -19,    778,  -3628,  16614, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    -19,    778,  -3982,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    -77,    778,  -3982,  19200, -15398,   0x7f, 0x00, 0x00, 0xff
+vertex    -77,    807,  -3982,  19200, -15610,   0x7f, 0x00, 0x00, 0xff
+vertex    -77,    807,  -3663,  16867, -15610,   0x7f, 0x00, 0x00, 0xff
+vertex    -77,    778,  -3657,  16823, -15398,   0x7f, 0x00, 0x00, 0xff
+vertex    -77,    807,  -3982,  19200, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex   -135,    807,  -3982,  19200, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex   -135,    807,  -3665,  16879, -18346,   0x22, 0x75, 0x20, 0xff
+vertex    -77,    807,  -3663,  16867, -17920,   0xfe, 0x61, 0x51, 0xff
 
 model_vertex_99: /* 11 vertices out of 15 */
-vertex    147,    488,  -3622,  19200, -17920,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3622,  19200, -18346,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3200,  16111, -18346,   0xff, 0xff, 0xff, 0xff
-vertex    147,    488,  -3198,  16099, -17920,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3200,  16111, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     89,    488,  -3622,  19200, -15610,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3622,  19200, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3190,  16043, -15823,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3190,  16043, -18346,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3622,  19200, -18346,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3622,  19200, -18773,   0xff, 0xff, 0xff, 0xff
+vertex   -135,    807,  -3665,  16879, -15610,   0x7c, 0xf8, 0x18, 0xff
+vertex   -135,    807,  -3982,  19200, -15610,   0x7f, 0x00, 0x00, 0xff
+vertex   -135,    836,  -3982,  19200, -15823,   0x7f, 0x00, 0x00, 0xff
+vertex   -135,    836,  -3655,  16811, -15823,   0x77, 0xf3, 0x29, 0xff
+vertex   -135,    836,  -3655,  16811, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex   -135,    836,  -3982,  19200, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex   -194,    836,  -3982,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex   -194,    836,  -3562,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    -91,    374,  -3550,  15181, -15272,   0x00, 0x71, 0xc8, 0xff
+vertex    -42,    374,  -3550,  15538, -15272,   0x00, 0x71, 0xc8, 0xff
+vertex    -42,    363,  -3571,  15538, -15447,   0x00, 0x71, 0xc8, 0xff
 
-model_vertex_100: /* 3 vertices out of 3 */
-vertex     31,    517,  -3622,  19200, -18773,   0xff, 0xff, 0xff, 0xff
-vertex     31,    517,  -3097,  15360, -18773,   0xff, 0xff, 0xff, 0xff
-vertex     89,    517,  -3190,  16043, -18346,   0xff, 0xff, 0xff, 0xff
+model_vertex_100: /* 11 vertices out of 15 */
+vertex    -91,    374,  -3550,  15181, -15272,   0x00, 0x71, 0xc8, 0xff
+vertex    -42,    363,  -3571,  15538, -15447,   0x00, 0x71, 0xc8, 0xff
+vertex    -91,    363,  -3571,  15181, -15447,   0x00, 0x71, 0xc8, 0xff
+vertex    -91,    308,  -3517,  15181, -14336,   0x00, 0x38, 0x71, 0xff
+vertex    -42,    308,  -3517,  15538, -14336,   0x00, 0x38, 0x71, 0xff
+vertex    -42,    374,  -3550,  15538, -14872,   0x00, 0x38, 0x71, 0xff
+vertex    -91,    374,  -3550,  15181, -14872,   0x00, 0x38, 0x71, 0xff
+vertex    -42,    308,  -3517,  15272, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    -42,    298,  -3538,  15447, -14336,   0x7f, 0x00, 0x00, 0xff
+vertex    -42,    363,  -3571,  15447, -14872,   0x7f, 0x00, 0x00, 0xff
+vertex    -42,    374,  -3550,  15272, -14872,   0x7f, 0x00, 0x00, 0xff
+
+model_vertex_101: /* 11 vertices out of 15 */
+vertex    -91,    298,  -3538,  15272, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    -91,    308,  -3517,  15447, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    -91,    374,  -3550,  15447, -14872,   0x81, 0x00, 0x00, 0xff
+vertex    -91,    363,  -3571,  15272, -14872,   0x81, 0x00, 0x00, 0xff
+vertex    214,    343,  -3037,  14506, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    214,    372,  -3037,  14506, -14760,   0x81, 0x00, 0x00, 0xff
+vertex    214,    372,  -3095,  14080, -14760,   0x81, 0x00, 0x00, 0xff
+vertex    214,    401,  -3095,  14080, -14973,   0x81, 0x00, 0x00, 0xff
+vertex    214,    401,  -3154,  13653, -14973,   0x81, 0x00, 0x00, 0xff
+vertex    214,    430,  -3154,  13653, -15185,   0x81, 0x00, 0x00, 0xff
+vertex    214,    419,  -3212,  13226, -15108,   0x81, 0x00, 0x00, 0xff
+
+model_vertex_102: /* 10 vertices out of 15 */
+vertex    214,    517,  -3387,  11946, -15823,   0x81, 0x00, 0x00, 0xff
+vertex    214,    546,  -3387,  11946, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    214,    546,  -3445,  11520, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    214,    575,  -3445,  11520, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    214,    575,  -3504,  11093, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    214,    604,  -3504,  11093, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    214,    604,  -3562,  10666, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    214,    633,  -3562,  10666, -16673,   0x81, 0x00, 0x00, 0xff
+vertex    214,    633,  -3977,   7627, -16673,   0x81, 0x00, 0x00, 0xff
+vertex    214,    314,  -3977,   7627, -14336,   0x81, 0x00, 0x00, 0xff
+
+model_vertex_103: /* 7 vertices out of 15 */
+vertex    214,    575,  -3504,  11093, -16248,   0x81, 0x00, 0x00, 0xff
+vertex    214,    604,  -3562,  10666, -16460,   0x81, 0x00, 0x00, 0xff
+vertex    214,    314,  -3977,   7627, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    214,    546,  -3445,  11520, -16035,   0x81, 0x00, 0x00, 0xff
+vertex    214,    517,  -3387,  11946, -15823,   0x81, 0x00, 0x00, 0xff
+vertex    214,    455,  -3329,  12373, -15371,   0x81, 0x00, 0x00, 0xff
+vertex    214,    437,  -3270,  12800, -15239,   0x81, 0x00, 0x00, 0xff
+
+model_vertex_104: /* 7 vertices out of 15 */
+vertex    214,    419,  -3212,  13226, -15108,   0x81, 0x00, 0x00, 0xff
+vertex    214,    437,  -3270,  12800, -15239,   0x81, 0x00, 0x00, 0xff
+vertex    214,    314,  -3977,   7627, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    214,    401,  -3154,  13653, -14973,   0x81, 0x00, 0x00, 0xff
+vertex    214,    372,  -3095,  14080, -14760,   0x81, 0x00, 0x00, 0xff
+vertex    214,    343,  -3037,  14506, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    214,    314,  -2979,  14933, -14336,   0x81, 0x00, 0x00, 0xff
+
+model_vertex_105: /* 11 vertices out of 15 */
+vertex    214,    343,  -3037,  14506, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    214,    314,  -2979,  14933, -14336,   0x81, 0x00, 0x00, 0xff
+vertex    214,    343,  -2979,  14933, -14548,   0x81, 0x00, 0x00, 0xff
+vertex    634,    633,  -3562,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    633,  -3977,  19200, -23092,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    633,  -3977,  16128, -23092,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    633,  -3562,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    604,  -3562,  19200, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    633,  -3562,  19200, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    633,  -3562,  16128, -16673,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    604,  -3562,  16128, -16460,   0x00, 0x00, 0x7f, 0xff
+
+model_vertex_106: /* 11 vertices out of 15 */
+vertex    634,    604,  -3504,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    604,  -3562,  19200, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    604,  -3562,  16128, -20053,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    604,  -3504,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    575,  -3504,  19200, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    604,  -3504,  19200, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    604,  -3504,  16128, -16460,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    575,  -3504,  16128, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    575,  -3445,  19200, -19199,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    575,  -3504,  19200, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    575,  -3504,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+
+model_vertex_107: /* 11 vertices out of 15 */
+vertex    214,    575,  -3504,  16128, -19626,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    575,  -3445,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    575,  -3445,  19200, -19199,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    546,  -3445,  19200, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    575,  -3445,  19200, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    575,  -3445,  16128, -16248,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    546,  -3445,  16128, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    546,  -3387,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    546,  -3445,  19200, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    546,  -3445,  16128, -19200,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    546,  -3387,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
+
+model_vertex_108: /* 11 vertices out of 15 */
+vertex    214,    546,  -3387,  16128, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    517,  -3387,  16128, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    517,  -3387,  19200, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    546,  -3387,  19200, -16035,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    401,  -3154,  19200, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    430,  -3154,  19200, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    430,  -3154,  16128, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    401,  -3154,  16128, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    401,  -3095,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    401,  -3154,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    401,  -3154,  16128, -17066,   0x00, 0x7f, 0x00, 0xff
+
+model_vertex_109: /* 11 vertices out of 15 */
+vertex    214,    401,  -3154,  16128, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    401,  -3095,  16128, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    401,  -3095,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    372,  -3095,  19200, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    401,  -3095,  19200, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    401,  -3095,  16128, -14973,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    372,  -3095,  16128, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    372,  -3037,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    372,  -3095,  19200, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    372,  -3095,  16128, -16639,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    372,  -3037,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+
+model_vertex_110: /* 11 vertices out of 15 */
+vertex    634,    343,  -3037,  19200, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    372,  -3037,  19200, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    372,  -3037,  16127, -14760,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    343,  -3037,  16127, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    343,  -2979,  19200, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    343,  -3037,  19200, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    343,  -3037,  16127, -16213,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    343,  -2979,  16127, -15786,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    314,  -2979,  19200, -14336,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    343,  -2979,  19200, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    343,  -2979,  16127, -14548,   0x00, 0x00, 0x7f, 0xff
+
+model_vertex_111: /* 11 vertices out of 15 */
+vertex    214,    343,  -2979,  16127, -14548,   0x00, 0x00, 0x7f, 0xff
+vertex    214,    314,  -2979,  16127, -14336,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    314,  -2979,  19200, -14336,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    430,  -3154,  19200, -17066,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    430,  -3212,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    248,    430,  -3212,  16381, -17493,   0xe3, 0x7b, 0x04, 0xff
+vertex    214,    430,  -3154,  16128, -17066,   0xf3, 0x7e, 0xf9, 0xff
+vertex    634,    430,  -3212,  19200, -15185,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    459,  -3212,  19200, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    280,    459,  -3212,  16614, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    248,    430,  -3212,  16381, -15185,   0x00, 0x00, 0x7f, 0xff
+
+model_vertex_112: /* 11 vertices out of 15 */
+vertex    634,    459,  -3212,  19200, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    459,  -3270,  19200, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    309,    459,  -3270,  16823, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    280,    459,  -3212,  16614, -17493,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    459,  -3270,  19200, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    488,  -3270,  19200, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    315,    488,  -3270,  16867, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    309,    459,  -3270,  16823, -15398,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    488,  -3270,  19200, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    488,  -3329,  19200, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    316,    488,  -3329,  16879, -18346,   0xe0, 0x75, 0x22, 0xff
+
+model_vertex_113: /* 11 vertices out of 15 */
+vertex    316,    488,  -3329,  16879, -18346,   0xe0, 0x75, 0x22, 0xff
+vertex    315,    488,  -3270,  16867, -17920,   0xaf, 0x61, 0xfe, 0xff
+vertex    634,    488,  -3270,  19200, -17920,   0x00, 0x7f, 0x00, 0xff
+vertex    316,    488,  -3329,  16879, -15610,   0xe8, 0xf8, 0x7c, 0xff
+vertex    634,    488,  -3329,  19200, -15610,   0x00, 0x00, 0x7f, 0xff
+vertex    634,    517,  -3329,  19200, -15823,   0x00, 0x00, 0x7f, 0xff
+vertex    307,    517,  -3329,  16811, -15823,   0xd7, 0xf3, 0x77, 0xff
+vertex    307,    517,  -3329,  16811, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    517,  -3329,  19200, -18346,   0x00, 0x7f, 0x00, 0xff
+vertex    634,    517,  -3387,  19200, -18773,   0x00, 0x7f, 0x00, 0xff
+vertex    214,    517,  -3387,  16128, -18773,   0x00, 0x7f, 0x00, 0xff
 
 /* Render order: 1 */
 
@@ -1182,9 +1373,8 @@ gsDPTileSync
 gsSPVertex model_vertex_0, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 0, 2, 3, 0x00
-/* 01 - Default */
+/* #LIGHTING 01 - Default */
 gsDPPipeSync
-gsSPClearGeometryMode G_LIGHTING
 gsDPSetCombineModeLERP G_CCMUX_TEXEL0, G_CCMUX_0, G_CCMUX_SHADE, G_CCMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE, G_CCMUX_TEXEL0, G_CCMUX_0, G_CCMUX_SHADE, G_CCMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE
 gsDPSetTextureLUT G_TT_NONE
 gsDPLoadTextureBlock model_texture_1, G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 32, 0, G_TX_WRAP | G_TX_NOMIRROR,  G_TX_WRAP | G_TX_NOMIRROR, 5, 5, G_TX_NOLOD, G_TX_NOLOD
@@ -1194,7 +1384,7 @@ gsSP1Triangle 6, 7, 4, 0x00
 gsSP1Triangle 8, 9, 10, 0x00
 gsSPVertex model_vertex_1, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
-/* Material #11 */
+/* #LIGHTING Material #11 */
 gsDPPipeSync
 gsDPSetTextureLUT G_TT_NONE
 gsDPLoadTextureBlock model_texture_2, G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 32, 0, G_TX_WRAP | G_TX_NOMIRROR,  G_TX_WRAP | G_TX_NOMIRROR, 5, 5, G_TX_NOLOD, G_TX_NOLOD
@@ -1443,36 +1633,36 @@ gsSP1Triangle 0, 2, 3, 0x00
 gsSP1Triangle 4, 0, 3, 0x00
 gsSP1Triangle 5, 4, 3, 0x00
 gsSP1Triangle 5, 3, 6, 0x00
-gsSPVertex model_vertex_42, 8, 0
+gsSPVertex model_vertex_42, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 3, 0x00
 gsSP1Triangle 0, 2, 3, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 7, 0x00
-gsSPVertex model_vertex_43, 9, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 5, 6, 6, 0x00
-gsSP1Triangle 3, 5, 6, 0x00
-gsSP1Triangle 7, 8, 8, 0x00
-gsSPVertex model_vertex_44, 8, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 7, 0x00
 gsSP1Triangle 4, 6, 7, 0x00
-gsSPVertex model_vertex_45, 7, 0
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_43, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 3, 0x00
-gsSP1Triangle 0, 2, 3, 0x00
-gsSP1Triangle 0, 3, 0, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSPVertex model_vertex_46, 10, 0
-gsSP1Triangle 0, 1, 1, 0x00
-gsSP1Triangle 2, 0, 1, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 3, 5, 6, 0x00
 gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 7, 9, 10, 0x00
+gsSPVertex model_vertex_44, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 4, 6, 7, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_45, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 3, 5, 6, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 7, 9, 10, 0x00
+gsSPVertex model_vertex_46, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 4, 6, 7, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
 gsSPVertex model_vertex_47, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
@@ -1521,106 +1711,106 @@ gsSP1Triangle 0, 2, 3, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
 gsSP1Triangle 4, 6, 7, 0x00
 gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_55, 11, 0
+gsSPVertex model_vertex_55, 9, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 3, 5, 6, 0x00
-gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 7, 9, 10, 0x00
-gsSPVertex model_vertex_56, 13, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 0, 2, 3, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 10, 11, 12, 0x00
-gsSPVertex model_vertex_57, 9, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 0, 3, 1, 0x00
-gsSP1Triangle 4, 1, 3, 0x00
-gsSP1Triangle 5, 6, 7, 0x00
-gsSP1Triangle 7, 8, 5, 0x00
-gsSPVertex model_vertex_58, 11, 0
+gsSP1Triangle 4, 6, 5, 0x00
+gsSP1Triangle 4, 7, 6, 0x00
+gsSP1Triangle 8, 6, 7, 0x00
+gsSPVertex model_vertex_56, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 2, 3, 0, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
 gsSP1Triangle 6, 7, 4, 0x00
 gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_59, 9, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 6, 3, 5, 0x00
-gsSP1Triangle 7, 6, 5, 0x00
-gsSP1Triangle 7, 5, 8, 0x00
-gsSPVertex model_vertex_60, 9, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 2, 3, 5, 0x00
-gsSP1Triangle 0, 2, 5, 0x00
-gsSP1Triangle 6, 7, 8, 0x00
-gsSPVertex model_vertex_61, 9, 0
+gsSPVertex model_vertex_57, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
 gsSP1Triangle 5, 6, 3, 0x00
-gsSP1Triangle 1, 7, 8, 0x00
-gsSP1Triangle 8, 5, 1, 0x00
-gsSPVertex model_vertex_62, 6, 0
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 10, 7, 9, 0x00
+gsSPVertex model_vertex_58, 8, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 0, 3, 4, 0x00
+gsSP1Triangle 5, 6, 7, 0x00
+gsSP1Triangle 4, 5, 7, 0x00
+gsSPVertex model_vertex_59, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_60, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_61, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_62, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_63, 10, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 7, 7, 0x00
+gsSPVertex model_vertex_64, 6, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 2, 0, 0, 0x00
-gsSP1Triangle 3, 2, 4, 0x00
-gsSP1Triangle 4, 3, 3, 0x00
-gsSP1Triangle 2, 1, 5, 0x00
-gsSPVertex model_vertex_63, 7, 0
+gsSP1Triangle 1, 3, 4, 0x00
+gsSP1Triangle 4, 2, 1, 0x00
+gsSP1Triangle 5, 4, 3, 0x00
+gsSPVertex model_vertex_65, 8, 0
 gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 4, 0x00
-gsSP1Triangle 4, 5, 3, 0x00
-gsSP1Triangle 3, 6, 0, 0x00
-gsSP1Triangle 0, 3, 3, 0x00
-gsSPVertex model_vertex_64, 7, 0
+gsSP1Triangle 2, 3, 4, 0x00
+gsSP1Triangle 4, 2, 2, 0x00
+gsSP1Triangle 5, 6, 6, 0x00
+gsSP1Triangle 6, 7, 5, 0x00
+gsSPVertex model_vertex_66, 8, 0
 gsSP1Triangle 0, 1, 1, 0x00
 gsSP1Triangle 1, 2, 0, 0x00
-gsSP1Triangle 0, 2, 2, 0x00
-gsSP1Triangle 2, 3, 0, 0x00
-/* Material #12 */
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 3, 3, 0x00
+gsSP1Triangle 6, 5, 7, 0x00
+gsSPVertex model_vertex_67, 7, 0
+gsSP1Triangle 0, 1, 1, 0x00
+gsSP1Triangle 2, 3, 4, 0x00
+gsSP1Triangle 4, 0, 2, 0x00
+gsSP1Triangle 5, 4, 3, 0x00
+gsSP1Triangle 3, 6, 5, 0x00
+gsSPVertex model_vertex_68, 8, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 0, 0, 0x00
+gsSP1Triangle 3, 4, 4, 0x00
+gsSP1Triangle 4, 5, 3, 0x00
+gsSP1Triangle 6, 7, 7, 0x00
+gsSPVertex model_vertex_69, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+/* #LIGHTING Material #12 */
 gsDPPipeSync
 gsDPSetTextureLUT G_TT_NONE
 gsDPLoadTextureBlock model_texture_3, G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 32, 0, G_TX_WRAP | G_TX_NOMIRROR,  G_TX_WRAP | G_TX_NOMIRROR, 5, 5, G_TX_NOLOD, G_TX_NOLOD
 gsDPTileSync
-gsSP1Triangle 4, 5, 6, 0x00
-gsSPVertex model_vertex_65, 7, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 4, 0x00
-gsSP1Triangle 2, 4, 5, 0x00
-gsSP1Triangle 0, 2, 5, 0x00
-gsSP1Triangle 6, 0, 5, 0x00
-gsSPVertex model_vertex_66, 8, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 2, 4, 5, 0x00
-gsSP1Triangle 3, 2, 5, 0x00
-gsSP1Triangle 5, 6, 7, 0x00
-gsSPVertex model_vertex_67, 7, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 4, 0x00
-gsSP1Triangle 0, 2, 4, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 0, 4, 6, 0x00
-gsSPVertex model_vertex_68, 7, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 2, 4, 5, 0x00
-gsSP1Triangle 3, 2, 5, 0x00
-gsSP1Triangle 6, 3, 5, 0x00
-gsSPVertex model_vertex_69, 12, 0
-gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
 gsSP1Triangle 5, 6, 7, 0x00
 gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 9, 10, 11, 0x00
+gsSP1Triangle 7, 9, 10, 0x00
 gsSPVertex model_vertex_70, 9, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 4, 3, 2, 0x00
-gsSP1Triangle 5, 4, 2, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 2, 4, 6, 0x00
 gsSP1Triangle 6, 7, 8, 0x00
 gsSPVertex model_vertex_71, 7, 0
 gsSP1Triangle 0, 1, 2, 0x00
@@ -1628,42 +1818,42 @@ gsSP1Triangle 2, 3, 4, 0x00
 gsSP1Triangle 0, 2, 4, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
 gsSP1Triangle 0, 4, 6, 0x00
-gsSPVertex model_vertex_72, 7, 0
+gsSPVertex model_vertex_72, 8, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 0, 2, 0x00
+gsSP1Triangle 2, 4, 5, 0x00
+gsSP1Triangle 3, 2, 5, 0x00
+gsSP1Triangle 5, 6, 7, 0x00
+gsSPVertex model_vertex_73, 10, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 0, 2, 0x00
 gsSP1Triangle 3, 2, 4, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 6, 3, 5, 0x00
-gsSPVertex model_vertex_73, 11, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 5, 6, 7, 0x00
 gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 9, 10, 7, 0x00
-gsSPVertex model_vertex_74, 11, 0
+gsSPVertex model_vertex_74, 7, 0
 gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 0, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 4, 0x00
-gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_75, 11, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 5, 6, 3, 0x00
-gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 9, 10, 7, 0x00
-gsSPVertex model_vertex_76, 11, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 0, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 4, 0x00
-gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_77, 11, 0
+gsSP1Triangle 2, 3, 4, 0x00
+gsSP1Triangle 2, 4, 5, 0x00
+gsSP1Triangle 0, 2, 5, 0x00
+gsSP1Triangle 6, 0, 5, 0x00
+gsSPVertex model_vertex_75, 8, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 5, 6, 3, 0x00
-gsSP1Triangle 7, 8, 9, 0x00
-gsSP1Triangle 9, 10, 7, 0x00
+gsSP1Triangle 2, 3, 5, 0x00
+gsSP1Triangle 5, 6, 7, 0x00
+gsSP1Triangle 2, 5, 7, 0x00
+gsSPVertex model_vertex_76, 7, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 0, 2, 0x00
+gsSP1Triangle 2, 4, 5, 0x00
+gsSP1Triangle 3, 2, 5, 0x00
+gsSP1Triangle 3, 5, 6, 0x00
+gsSPVertex model_vertex_77, 9, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 0, 2, 0x00
+gsSP1Triangle 3, 2, 4, 0x00
+gsSP1Triangle 5, 6, 7, 0x00
+gsSP1Triangle 7, 8, 5, 0x00
 gsSPVertex model_vertex_78, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 2, 3, 0, 0x00
@@ -1692,54 +1882,54 @@ gsSPVertex model_vertex_82, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 2, 3, 0, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 8, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
 gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_83, 10, 0
+gsSPVertex model_vertex_83, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_84, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_85, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_86, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_87, 12, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 2, 3, 4, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 6, 7, 8, 0x00
-gsSP1Triangle 6, 8, 9, 0x00
-gsSPVertex model_vertex_84, 7, 0
+gsSP1Triangle 5, 6, 7, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 11, 0x00
+gsSPVertex model_vertex_88, 7, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 4, 0, 3, 0x00
+gsSP1Triangle 5, 4, 3, 0x00
+gsSP1Triangle 6, 5, 3, 0x00
+gsSPVertex model_vertex_89, 7, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 3, 0, 2, 0x00
 gsSP1Triangle 4, 3, 2, 0x00
 gsSP1Triangle 5, 4, 2, 0x00
 gsSP1Triangle 6, 5, 2, 0x00
-gsSPVertex model_vertex_85, 7, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 4, 3, 2, 0x00
-gsSP1Triangle 5, 4, 2, 0x00
-gsSP1Triangle 5, 2, 6, 0x00
-gsSPVertex model_vertex_86, 9, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 4, 5, 0x00
-gsSP1Triangle 6, 3, 5, 0x00
-gsSP1Triangle 5, 7, 8, 0x00
-gsSP1Triangle 6, 5, 8, 0x00
-gsSPVertex model_vertex_87, 8, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 2, 4, 5, 0x00
-gsSP1Triangle 3, 2, 5, 0x00
-gsSP1Triangle 5, 6, 7, 0x00
-gsSPVertex model_vertex_88, 7, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 2, 3, 4, 0x00
-gsSP1Triangle 0, 2, 4, 0x00
-gsSP1Triangle 4, 5, 6, 0x00
-gsSP1Triangle 0, 4, 6, 0x00
-gsSPVertex model_vertex_89, 8, 0
-gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 2, 4, 5, 0x00
-gsSP1Triangle 3, 2, 5, 0x00
-gsSP1Triangle 5, 6, 7, 0x00
 gsSPVertex model_vertex_90, 9, 0
 gsSP1Triangle 0, 1, 2, 0x00
-gsSP1Triangle 3, 0, 2, 0x00
-gsSP1Triangle 3, 2, 4, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 0, 3, 4, 0x00
 gsSP1Triangle 5, 6, 7, 0x00
 gsSP1Triangle 7, 8, 5, 0x00
 gsSPVertex model_vertex_91, 11, 0
@@ -1796,8 +1986,90 @@ gsSP1Triangle 2, 3, 0, 0x00
 gsSP1Triangle 4, 5, 6, 0x00
 gsSP1Triangle 6, 7, 4, 0x00
 gsSP1Triangle 8, 9, 10, 0x00
-gsSPVertex model_vertex_100, 3, 0
+gsSPVertex model_vertex_100, 11, 0
 gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 3, 5, 6, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 7, 9, 10, 0x00
+gsSPVertex model_vertex_101, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 3, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 8, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_102, 10, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 4, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 8, 0x00
+gsSP1Triangle 6, 8, 9, 0x00
+gsSPVertex model_vertex_103, 7, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 0, 2, 0x00
+gsSP1Triangle 4, 3, 2, 0x00
+gsSP1Triangle 5, 4, 2, 0x00
+gsSP1Triangle 6, 5, 2, 0x00
+gsSPVertex model_vertex_104, 7, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 0, 2, 0x00
+gsSP1Triangle 4, 3, 2, 0x00
+gsSP1Triangle 5, 4, 2, 0x00
+gsSP1Triangle 5, 2, 6, 0x00
+gsSPVertex model_vertex_105, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_106, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_107, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_108, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_109, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_110, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_111, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
+gsSPVertex model_vertex_112, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 2, 3, 0, 0x00
+gsSP1Triangle 4, 5, 6, 0x00
+gsSP1Triangle 6, 7, 4, 0x00
+gsSP1Triangle 8, 9, 10, 0x00
+gsSPVertex model_vertex_113, 11, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 5, 6, 3, 0x00
+gsSP1Triangle 7, 8, 9, 0x00
+gsSP1Triangle 9, 10, 7, 0x00
 gsSPTexture -1, -1, 0, 0, 0
 gsDPPipeSync
 gsDPSetCombineModeLERP G_CCMUX_0, G_CCMUX_0, G_CCMUX_0, G_CCMUX_SHADE, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE, G_CCMUX_0, G_CCMUX_0, G_CCMUX_0, G_CCMUX_SHADE, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE

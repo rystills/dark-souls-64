@@ -1,5 +1,5 @@
 void bhv_pipeMimic_init(void) {
-    // use gravity to record state the mimic is stationary
+    // use gravity to record state since the mimic is stationary
 	o->oGravity = 0;
 }
 

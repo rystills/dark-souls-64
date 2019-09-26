@@ -23,3 +23,4 @@ actorgeo metal_box
 actorgeo exclamation_box_outline
 actorgeo koopa_shell
 actorgeo pipeMimic
+actorgeo bonfire

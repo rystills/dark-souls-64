@@ -539,5 +539,8 @@ extern u32 bhvEndBirds1[];
 extern u32 bhvEndBirds2[];
 extern u32 bhvIntroScene[];
 extern u32 bhvUnusedFakeStar[];
+extern u32 bhvPipeMimic[];
+extern u32 bhvBonfire[];
+extern u32 bhvBonfireFlame[];
 
 #endif /* _BEHAVIOR_DATA_H */

@@ -5,7 +5,7 @@ glabel bob_geo_000488 # 0x0E000488
       geo_open_node
          geo_node_ortho 100
          geo_open_node
-            geo_background BACKGROUND_OCEAN_SKY, geo_skybox_main
+            geo_background BACKGROUND_UNDERWATER_CITY, geo_skybox_main
          geo_close_node
       geo_close_node
       geo_zbuffer 1

@@ -1,12 +1,13 @@
 script_func_local_1:
     object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
+    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  -1263, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvBonfire
     return
 
 glabel level_bob_entry
     init_level
     load_mio0         /*seg*/ 0x07, /*romStart*/ _bob_segment_7SegmentRomStart, /*romEnd*/ _bob_segment_7SegmentRomEnd
     load_mio0_texture /*seg*/ 0x09, /*romStart*/ _generic_mio0SegmentRomStart, /*romEnd*/ _generic_mio0SegmentRomEnd
-    load_mio0         /*seg*/ 0x0A, /*romStart*/ _water_skybox_mio0SegmentRomStart, /*romEnd*/ _water_skybox_mio0SegmentRomEnd
+    load_mio0         /*seg*/ 0x0A, /*romStart*/ _wdw_skybox_mio0SegmentRomStart, /*romEnd*/ _wdw_skybox_mio0SegmentRomEnd
     load_mio0         /*seg*/ 0x05, /*romStart*/ _group3_mio0SegmentRomStart, /*romEnd*/ _group3_mio0SegmentRomEnd
     load_raw          /*seg*/ 0x0C, /*romStart*/ _group3_geoSegmentRomStart,  /*romEnd*/ _group3_geoSegmentRomEnd
     load_mio0         /*seg*/ 0x06, /*romStart*/ _group14_mio0SegmentRomStart, /*romEnd*/ _group14_mio0SegmentRomEnd
@@ -23,6 +24,7 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_BOB_SEESAW_PLATFORM,  /*geo*/ bob_geo_000458
     load_model_from_geo /*model*/ MODEL_BOB_BARS_GRILLS,      /*geo*/ bob_geo_000470
     load_model_from_geo /*model*/ MODEL_PIPEMIMIC,            /*geo*/ pipeMimic_geo
+    load_model_from_geo /*model*/ MODEL_BONFIRE,            /*geo*/ bonfire_geo
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74
@@ -41,7 +43,7 @@ glabel level_bob_entry
         terrain /*terrainData*/ bob_collision
         macro_objects /*objList*/ bob_seg7_macro_objs	
         show_dialog /*unk2*/ 0x00, /*dialogid*/ 0x00
-        set_background_music /*unk2*/ 0x0000, /*seq*/ SEQ_LEVEL_GRASS
+        set_background_music /*unk2*/ 0x0000, /*seq*/ SEQ_LEVEL_UNDERGROUND
         terrain_type /*terrainType*/ TERRAIN_GRASS
     end_area
 

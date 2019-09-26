@@ -6,7 +6,9 @@ import os
 levelName = "bob"
 
 # TODO: calculate shadow size from geo verts
-shadowSizes = {"pipeMimic":500}
+shadowSizes = {"pipeMimic":500, "bonfire":0}
+
+# TODO: textures for new actors may not be discovered until the tool is run a second time (determine cause and resolve)
 
 # copy in actors
 for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack/*.fbx"):
@@ -39,7 +41,7 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 	fdata = fdata.replace("glabel model_collision","glabel {0}_collision".format(fileNameNoExt))
 	fdataScaled = []
 
-	# scale collision down by 3.5x to match geo (temporary hack, until the cause is determined)
+	# scale collision down by 3.5x to match geo (TODO: temporary hack; determine cause and resolve)
 	for line in (fdata.split("\n")):
 		if (not "colVertex " in line):
 			fdataScaled.append(line)
@@ -60,6 +62,7 @@ for file in glob.glob("/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHac
 		fdata = f.read()
 
 	fdata = fdata.replace("glabel model_dl_opaque","glabel {0}_dl_opaque".format(fileNameNoExt)).replace('.incbin "actors/model/','.incbin "actors/{0}/'.format(fileNameNoExt))
+	fdata = fdata.replace("model_","{0}_".format(fileNameNoExt))
 
 	with open("{0}/model.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)

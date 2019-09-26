@@ -282,3 +282,4 @@ void func_802B2328(
 #include "behaviors/snowman_wind.inc.c"
 #include "behaviors/walking_penguin.inc.c"
 #include "behaviors/pipeMimic.inc.c"
+#include "behaviors/bonfire.inc.c"
