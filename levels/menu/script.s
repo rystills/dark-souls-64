@@ -37,6 +37,8 @@ glabel level_main_menu_entry_1
     exit_and_execute /*seg*/ 0x15, /*script*/ _scriptsSegmentRomStart, /*scriptEnd*/ _scriptsSegmentRomEnd, /*entry*/ level_main_scripts_entry
 
 glabel level_main_menu_entry_2
+    # skip star select and jump back into bob
+    execute /*seg*/ 0x0E, /*script*/ _bobSegmentRomStart, /*scriptEnd*/ _bobSegmentRomEnd, /*entry*/ level_bob_entry
     call /*arg*/ 0, /*func*/ lvl_set_current_level
     jump_if /*op*/ OP_EQ, /*arg*/ 0, /*target*/ L1
     init_level

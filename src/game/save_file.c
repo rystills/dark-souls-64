@@ -345,6 +345,11 @@ void save_file_load_all(void) {
         }
     }
 
+
+    // clear the first save file, grant the player the first star, and set the current mission
+    save_file_erase(0);
+    save_file_collect_star_or_key(0,0);
+
     no_op();
 }
 

@@ -28,10 +28,6 @@ glabel level_bob_entry
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74
-        object /*model*/ MODEL_NONE, /*pos*/   583,  2683, -5387, /*angle*/ 0, -154, 0, /*behParam*/ 0x000B0000, /*beh*/ bhvFadingWarp
-        object /*model*/ MODEL_NONE, /*pos*/  1680,  3835, -5523, /*angle*/ 0, -153, 0, /*behParam*/ 0x000C0000, /*beh*/ bhvFadingWarp
-        object /*model*/ MODEL_NONE, /*pos*/ -6612,  1024, -3351, /*angle*/ 0, 107, 0,  /*behParam*/ 0x000D0000, /*beh*/ bhvFadingWarp
-        object /*model*/ MODEL_NONE, /*pos*/  1980,   768,  6618, /*angle*/ 0, -151, 0, /*behParam*/ 0x000E0000, /*beh*/ bhvFadingWarp
         jump_link /*target*/ script_func_local_1
         warp_node /*id*/ 0x0A, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0A, /*unk6*/ 0x0000
         warp_node /*id*/ 0x0B, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0C, /*unk6*/ 0x0000
@@ -39,10 +35,12 @@ glabel level_bob_entry
         warp_node /*id*/ 0x0D, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0E, /*unk6*/ 0x0000
         warp_node /*id*/ 0x0E, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0D, /*unk6*/ 0x0000
         warp_node /*id*/ 0xF0, /*destLevel*/ 0x06, /*destArea*/ 0x01, /*destNode*/ 0x32, /*unk6*/ 0x0000
-        warp_node /*id*/ 0xF1, /*destLevel*/ 0x06, /*destArea*/ 0x01, /*destNode*/ 0x64, /*unk6*/ 0x0000
+        
+        warp_node /*id*/ 0xF1, /*destLevel*/ 0x09, /*destArea*/ 0x01, /*destNode*/ 0x0A, /*unk6*/ 0x0000
+        #warp_node /*id*/ 0xF1, /*destLevel*/ 0x06, /*destArea*/ 0x01, /*destNode*/ 0x64, /*unk6*/ 0x0000
         terrain /*terrainData*/ bob_collision
         macro_objects /*objList*/ bob_seg7_macro_objs	
-        show_dialog /*unk2*/ 0x00, /*dialogid*/ 0x00
+        #show_dialog /*unk2*/ 0x00, /*dialogid*/ 0x00
         set_background_music /*unk2*/ 0x0000, /*seq*/ SEQ_LEVEL_UNDERGROUND
         terrain_type /*terrainType*/ TERRAIN_GRASS
     end_area

@@ -1134,6 +1134,9 @@ s32 update_level(void) {
 s32 init_level(void) {
     s32 val4 = 0;
 
+    // restore mario's health on level start
+    gMarioStates[0].health = 0x800;
+
     set_play_mode(PLAY_MODE_NORMAL);
 
     sDelayedWarpOp = WARP_OP_NONE;

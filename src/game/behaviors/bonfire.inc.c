@@ -26,3 +26,8 @@ void bhv_bonfire_loop(void) {
         }
     }
 }
+
+
+//u8 starFlags;
+//starFlags = save_file_get_star_flags(gCurrSaveFileNum - 1, -1);
+//EXTRA ARG
