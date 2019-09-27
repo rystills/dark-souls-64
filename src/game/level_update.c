@@ -1192,6 +1192,20 @@ s32 init_level(void) {
         sound_banks_disable(2, 0x0330);
     }
 
+    // transport mario to the last used bonfire, or the 1st one if no bonfire has been used yet
+    gCurrCourseNum = 1;
+    if (save_file_get_course_coin_score(0,0) <= 1) {
+        gMarioState->pos[0] = 277;
+        gMarioState->pos[1] = 40;
+        gMarioState->pos[2] = 463;
+    }
+    else if (save_file_get_course_coin_score(0,0) & 0x0002) {
+        gMarioState->pos[0] = 277;
+        gMarioState->pos[1] = 40;
+        gMarioState->pos[2] = -1263;
+    }
+    gCurrCourseNum = 0;
+
     return 1;
 }
 

@@ -346,7 +346,7 @@ void save_file_load_all(void) {
     }
 
 
-    // clear the first save file, grant the player the first star, and set the current mission
+    // clear the first save file, grant the player the first secret star, and set the current mission
     save_file_erase(0);
     save_file_collect_star_or_key(0,0);
 
@@ -394,13 +394,14 @@ void save_file_collect_star_or_key(s16 coinScore, s16 starIndex) {
             sUnusedGotGlobalCoinHiScore = 1;
         }
 
-        if (coinScore > save_file_get_course_coin_score(fileIndex, courseIndex)) {
+        // always save coin score so we can use it to store the index of the last bonfire
+        //if (coinScore > save_file_get_course_coin_score(fileIndex, courseIndex)) {
             gSaveBuffer.files[fileIndex][0].courseCoinScores[courseIndex] = coinScore;
             touch_coin_score_age(fileIndex, courseIndex);
 
             gGotFileCoinHiScore = 1;
             gSaveFileModified = TRUE;
-        }
+        //}
     }
 
     switch (gCurrLevelNum) {

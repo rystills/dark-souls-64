@@ -1,7 +1,7 @@
 script_func_local_1:
     object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
     object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  -1263, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00020000, /*beh*/ bhvBonfire
-    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  -963, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvBonfire
+    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  463, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvBonfire
     return
 
 glabel level_bob_entry
