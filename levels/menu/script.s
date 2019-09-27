@@ -37,8 +37,6 @@ glabel level_main_menu_entry_1
     exit_and_execute /*seg*/ 0x15, /*script*/ _scriptsSegmentRomStart, /*scriptEnd*/ _scriptsSegmentRomEnd, /*entry*/ level_main_scripts_entry
 
 glabel level_main_menu_entry_2
-    # skip star select and jump back into bob
-    execute /*seg*/ 0x0E, /*script*/ _bobSegmentRomStart, /*scriptEnd*/ _bobSegmentRomEnd, /*entry*/ level_bob_entry
     call /*arg*/ 0, /*func*/ lvl_set_current_level
     jump_if /*op*/ OP_EQ, /*arg*/ 0, /*target*/ L1
     init_level
@@ -54,14 +52,15 @@ glabel level_main_menu_entry_2
     free_level_pool
     load_area /*area*/ 2
     transition /*unk2*/ 0, /*unk3*/ 16, /*color*/ -1, -1, -1
-    sleep /*frames*/ 16
-    set_menu_music /*seq*/ 0x000D
+    # skip star select and jump back into bob
+    #sleep /*frames*/ 16
+    #set_menu_music /*seq*/ 0x000D
     call /*arg*/ 0, /*func*/ LevelProc_80177560
-    call_loop /*arg*/ 0, /*func*/ LevelProc_80177610
+    #call_loop /*arg*/ 0, /*func*/ LevelProc_80177610
     get_or_set /*op*/ OP_SET, /*var*/ VAR_CURR_ACT_NUM
     cmd38 /*unk2*/ 0x00BE
     transition /*unk2*/ 1, /*unk3*/ 16, /*color*/ -1, -1, -1
-    sleep /*frames*/ 16
+    #sleep /*frames*/ 16
     clear_level
     sleep_before_exit /*frames*/ 1
 L1:

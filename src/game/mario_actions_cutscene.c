@@ -1171,6 +1171,14 @@ s32 act_exit_land_save_dialog(struct MarioState *m) {
 }
 
 s32 act_death_exit(struct MarioState *m) {
+    // reset mario's health and throw him right back into bob
+    extern void func_8024975C(s32 arg);
+    m->health = 0x800;
+    func_8024975C(9);
+    return FALSE;
+
+
+
     if (15 < m->actionTimer++
         && launch_mario_until_land(m, ACT_DEATH_EXIT_LAND, MARIO_ANIM_GENERAL_FALL, -32.0f)) {
 #ifdef VERSION_JP
