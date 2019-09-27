@@ -2,6 +2,11 @@ void bhv_bonfire_init(void) {
     // use gravity to record state since the bonfire is stationary
 	o->oGravity = 0;
 	o->oInteractionSubtype = INT_SUBTYPE_NPC;
+    if (save_file_get_star_flags(gCurrSaveFileNum - 1, -1) & o->oBehParams2ndByte) {
+        o->oGravity = 1;
+        spawn_object_relative(0, 0, 0, 0, o, MODEL_RED_FLAME, bhvBonfireFlame);
+    }
+    
 }
 
 void bhv_bonfire_loop(void) {
@@ -17,6 +22,8 @@ void bhv_bonfire_loop(void) {
         	o->oGravity = 1;
         	play_sound(SOUND_CH6_HOWLINGWIND, gDefaultSoundArgs);
         	set_mario_action(&gMarioStates[0],ACT_PLACING_DOWN,0);
+            save_file_collect_star_or_key(0,o->oBehParams2ndByte >> 1);
+            gMarioStates[0].numStars+=1;
         }
         else {
         	// bonfire already lit: rest at it
@@ -26,8 +33,3 @@ void bhv_bonfire_loop(void) {
         }
     }
 }
-
-
-//u8 starFlags;
-//starFlags = save_file_get_star_flags(gCurrSaveFileNum - 1, -1);
-//EXTRA ARG

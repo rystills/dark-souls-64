@@ -1177,8 +1177,6 @@ s32 act_death_exit(struct MarioState *m) {
     func_8024975C(9);
     return FALSE;
 
-
-
     if (15 < m->actionTimer++
         && launch_mario_until_land(m, ACT_DEATH_EXIT_LAND, MARIO_ANIM_GENERAL_FALL, -32.0f)) {
 #ifdef VERSION_JP

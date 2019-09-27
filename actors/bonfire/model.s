@@ -273,77 +273,85 @@ vertex     46,    314,     43,   1298, -16861,   0x3f, 0x07, 0x6d, 0xff
 vertex     35,    314,     49,    820, -16861,   0x3f, 0x07, 0x6d, 0xff
 
 bonfire_vertex_19: /* 11 vertices out of 15 */
-vertex     41,    314,     43,   1024,   -717,   0x59, 0x36, 0xb8, 0xff
-vertex     38,    314,     39,   1178,   -717,   0x59, 0x36, 0xb8, 0xff
-vertex     38,    321,     45,    948,  -1024,   0x59, 0x36, 0xb8, 0xff
-vertex     41,    321,     48,    794,  -1024,   0x59, 0x36, 0xb8, 0xff
-vertex     38,    314,     39,    869,   -717,   0x81, 0x00, 0x00, 0xff
-vertex     38,    314,     46,   1178,   -717,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     51,   1407,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     45,   1099,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    314,     46,    869,   -717,   0x59, 0xca, 0x48, 0xff
-vertex     41,    314,     43,   1024,   -717,   0x59, 0xca, 0x48, 0xff
-vertex     41,    321,     48,    794,  -1024,   0x59, 0xca, 0x48, 0xff
+vertex     41,    314,     43,  -1515,  -7539,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    314,     39,  -1314,  -7539,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    321,     45,  -1613,  -7938,   0x59, 0x36, 0xb8, 0xff
+vertex     41,    321,     48,  -1814,  -7938,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    314,     39,   3362,  -7539,   0x81, 0x00, 0x00, 0xff
+vertex     38,    314,     46,   3763,  -7539,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     51,   4062,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     45,   3661,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    314,     46,  -1715,  -7539,   0x59, 0xca, 0x48, 0xff
+vertex     41,    314,     43,  -1515,  -7539,   0x59, 0xca, 0x48, 0xff
+vertex     41,    321,     48,  -1814,  -7938,   0x59, 0xca, 0x48, 0xff
 
 bonfire_vertex_20: /* 11 vertices out of 15 */
-vertex     38,    314,     46,    869,   -717,   0x59, 0xca, 0x48, 0xff
-vertex     41,    321,     48,    794,  -1024,   0x59, 0xca, 0x48, 0xff
-vertex     38,    321,     51,    640,  -1024,   0x59, 0xca, 0x48, 0xff
-vertex     41,    321,     48,    794,  -1024,   0x59, 0xca, 0xb9, 0xff
-vertex     38,    321,     45,    948,  -1024,   0x59, 0xca, 0xb9, 0xff
-vertex     38,    323,     43,   1023,  -1124,   0x59, 0xca, 0xb9, 0xff
-vertex     41,    327,     43,   1024,  -1330,   0x59, 0xca, 0xb9, 0xff
-vertex     38,    321,     45,   1099,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     51,   1407,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    327,     46,   1178,  -1330,   0x81, 0x00, 0x00, 0xff
-vertex     38,    323,     43,   1024,  -1124,   0x81, 0x00, 0x00, 0xff
+vertex     38,    314,     46,  -1715,  -7539,   0x59, 0xca, 0x48, 0xff
+vertex     41,    321,     48,  -1814,  -7938,   0x59, 0xca, 0x48, 0xff
+vertex     38,    321,     51,  -2014,  -7938,   0x59, 0xca, 0x48, 0xff
+vertex     41,    321,     48,  -1814,  -7938,   0x59, 0xca, 0xb9, 0xff
+vertex     38,    321,     45,  -1613,  -7938,   0x59, 0xca, 0xb9, 0xff
+vertex     38,    323,     43,  -1515,  -8068,   0x59, 0xca, 0xb9, 0xff
+vertex     41,    327,     43,  -1515,  -8336,   0x59, 0xca, 0xb9, 0xff
+vertex     38,    321,     45,   3661,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     51,   4062,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    327,     46,   3763,  -8336,   0x81, 0x00, 0x00, 0xff
+vertex     38,    323,     43,   3563,  -8068,   0x81, 0x00, 0x00, 0xff
 
 bonfire_vertex_21: /* 11 vertices out of 15 */
-vertex     38,    321,     51,    640,  -1024,   0x59, 0x36, 0x48, 0xff
-vertex     41,    321,     48,    794,  -1024,   0x59, 0x36, 0x48, 0xff
-vertex     41,    327,     43,   1024,  -1330,   0x59, 0x36, 0x48, 0xff
-vertex     38,    327,     46,    869,  -1330,   0x59, 0x36, 0x48, 0xff
-vertex     38,    327,     46,   1178,  -1330,   0xa7, 0x35, 0xb8, 0xff
-vertex     41,    327,     43,   1024,  -1330,   0xa7, 0x35, 0xb8, 0xff
-vertex     38,    323,     43,   1024,  -1124,   0xa7, 0x35, 0xb8, 0xff
-vertex     38,    321,     41,   1099,  -1024,   0x59, 0x36, 0x47, 0xff
-vertex     38,    318,     43,   1023,   -924,   0x59, 0x36, 0x47, 0xff
-vertex     41,    314,     43,   1024,   -717,   0x59, 0x36, 0x47, 0xff
-vertex     41,    321,     38,   1253,  -1024,   0x59, 0x36, 0x47, 0xff
+vertex     38,    321,     51,  -2014,  -7938,   0x59, 0x36, 0x48, 0xff
+vertex     41,    321,     48,  -1814,  -7938,   0x59, 0x36, 0x48, 0xff
+vertex     41,    327,     43,  -1515,  -8336,   0x59, 0x36, 0x48, 0xff
+vertex     38,    327,     46,  -1715,  -8336,   0x59, 0x36, 0x48, 0xff
+vertex     38,    327,     46,   3763,  -8336,   0xa7, 0x35, 0xb8, 0xff
+vertex     41,    327,     43,   3563,  -8336,   0xa7, 0x35, 0xb8, 0xff
+vertex     38,    323,     43,   3563,  -8068,   0xa7, 0x35, 0xb8, 0xff
+vertex     38,    321,     41,  -1416,  -7938,   0x59, 0x36, 0x47, 0xff
+vertex     38,    318,     43,  -1516,  -7808,   0x59, 0x36, 0x47, 0xff
+vertex     41,    314,     43,  -1515,  -7539,   0x59, 0x36, 0x47, 0xff
+vertex     41,    321,     38,  -1216,  -7938,   0x59, 0x36, 0x47, 0xff
 
 bonfire_vertex_22: /* 11 vertices out of 15 */
-vertex     38,    321,     34,    640,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    314,     39,    869,   -717,   0x81, 0x00, 0x00, 0xff
-vertex     38,    318,     43,   1024,   -924,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     41,    948,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     41,    321,     38,   1253,  -1024,   0x59, 0xca, 0xb8, 0xff
-vertex     41,    314,     43,   1024,   -717,   0x59, 0xca, 0xb8, 0xff
-vertex     38,    314,     39,   1178,   -717,   0x59, 0xca, 0xb8, 0xff
-vertex     38,    321,     34,   1407,  -1024,   0x59, 0xca, 0xb8, 0xff
-vertex     38,    327,     46,    869,  -1330,   0x59, 0xca, 0x48, 0xff
-vertex     38,    321,     41,   1099,  -1024,   0x59, 0xca, 0x48, 0xff
-vertex     41,    321,     38,   1253,  -1024,   0x59, 0xca, 0x48, 0xff
+vertex     38,    321,     34,   3064,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    314,     39,   3362,  -7539,   0x81, 0x00, 0x00, 0xff
+vertex     38,    318,     43,   3564,  -7808,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     41,   3464,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     41,    321,     38,  -1216,  -7938,   0x59, 0xca, 0xb8, 0xff
+vertex     41,    314,     43,  -1515,  -7539,   0x59, 0xca, 0xb8, 0xff
+vertex     38,    314,     39,  -1314,  -7539,   0x59, 0xca, 0xb8, 0xff
+vertex     38,    321,     34,  -1016,  -7938,   0x59, 0xca, 0xb8, 0xff
+vertex     38,    327,     46,  -1715,  -8336,   0x59, 0xca, 0x48, 0xff
+vertex     38,    321,     41,  -1416,  -7938,   0x59, 0xca, 0x48, 0xff
+vertex     41,    321,     38,  -1216,  -7938,   0x59, 0xca, 0x48, 0xff
 
 bonfire_vertex_23: /* 11 vertices out of 15 */
-vertex     38,    327,     46,    869,  -1330,   0x59, 0xca, 0x48, 0xff
-vertex     41,    321,     38,   1253,  -1024,   0x59, 0xca, 0x48, 0xff
-vertex     41,    327,     43,   1024,  -1330,   0x59, 0xca, 0x48, 0xff
-vertex     38,    327,     39,    869,  -1330,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     34,    640,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    321,     41,    948,  -1024,   0x81, 0x00, 0x00, 0xff
-vertex     38,    327,     46,   1178,  -1330,   0x81, 0x00, 0x00, 0xff
-vertex     41,    327,     43,   1024,  -1330,   0x59, 0x36, 0xb8, 0xff
-vertex     41,    321,     38,   1253,  -1024,   0x59, 0x36, 0xb8, 0xff
-vertex     38,    321,     34,   1407,  -1024,   0x59, 0x36, 0xb8, 0xff
-vertex     38,    327,     39,   1178,  -1330,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    327,     46,  -1715,  -8336,   0x59, 0xca, 0x48, 0xff
+vertex     41,    321,     38,  -1216,  -7938,   0x59, 0xca, 0x48, 0xff
+vertex     41,    327,     43,  -1515,  -8336,   0x59, 0xca, 0x48, 0xff
+vertex     38,    327,     39,   3362,  -8336,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     34,   3064,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    321,     41,   3464,  -7938,   0x81, 0x00, 0x00, 0xff
+vertex     38,    327,     46,   3763,  -8336,   0x81, 0x00, 0x00, 0xff
+vertex     41,    327,     43,  -1515,  -8336,   0x59, 0x36, 0xb8, 0xff
+vertex     41,    321,     38,  -1216,  -7938,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    321,     34,  -1016,  -7938,   0x59, 0x36, 0xb8, 0xff
+vertex     38,    327,     39,  -1314,  -8336,   0x59, 0x36, 0xb8, 0xff
 
-bonfire_vertex_24: /* 6 vertices out of 15 */
+bonfire_vertex_24: /* 8 vertices out of 15 */
+vertex     38,    327,     46,   4365,   1715,   0x00, 0x7f, 0x00, 0xff
+vertex     41,    327,     43,   4526,   1515,   0x00, 0x7f, 0x00, 0xff
+vertex     38,    327,     39,   4365,   1314,   0x00, 0x7f, 0x00, 0xff
 vertex     39,    -34,     43,   1536,  -1536,   0x00, 0x7f, 0x00, 0xff
 vertex    364,   -171,     43,   3734,  -1535,   0x31, 0x75, 0x00, 0xff
 vertex    139,   -171,   -266,   2215,  -3626,   0x0f, 0x75, 0xd2, 0xff
 vertex   -224,   -171,   -147,   -242,  -2828,   0xd9, 0x75, 0xe4, 0xff
 vertex   -224,   -171,    234,   -242,   -243,   0xd9, 0x75, 0x1c, 0xff
+
+bonfire_vertex_25: /* 4 vertices out of 6 */
+vertex     39,    -34,     43,   1536,  -1536,   0x00, 0x7f, 0x00, 0xff
+vertex   -224,   -171,    234,   -242,   -243,   0xd9, 0x75, 0x1c, 0xff
 vertex    139,   -171,    353,   2215,    554,   0x0f, 0x75, 0x2e, 0xff
+vertex    364,   -171,     43,   3734,  -1535,   0x31, 0x75, 0x00, 0xff
 
 /* Render order: 1 */
 
@@ -510,17 +518,20 @@ gsSP1Triangle 3, 4, 5, 0x00
 gsSP1Triangle 3, 5, 6, 0x00
 gsSP1Triangle 7, 8, 9, 0x00
 gsSP1Triangle 7, 9, 10, 0x00
+gsSPVertex bonfire_vertex_24, 8, 0
+gsSP1Triangle 0, 1, 2, 0x00
+gsSP1Triangle 0, 2, 0, 0x00
 /* #LIGHTING 03 - Default */
 gsDPPipeSync
 gsDPSetTextureLUT G_TT_NONE
 gsDPLoadTextureBlock bonfire_texture_2, G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 32, 0, G_TX_WRAP | G_TX_NOMIRROR,  G_TX_WRAP | G_TX_NOMIRROR, 5, 5, G_TX_NOLOD, G_TX_NOLOD
 gsDPTileSync
-gsSPVertex bonfire_vertex_24, 6, 0
+gsSP1Triangle 3, 4, 5, 0x00
+gsSP1Triangle 3, 5, 6, 0x00
+gsSP1Triangle 3, 6, 7, 0x00
+gsSPVertex bonfire_vertex_25, 4, 0
 gsSP1Triangle 0, 1, 2, 0x00
 gsSP1Triangle 0, 2, 3, 0x00
-gsSP1Triangle 0, 3, 4, 0x00
-gsSP1Triangle 0, 4, 5, 0x00
-gsSP1Triangle 0, 5, 1, 0x00
 gsSPTexture -1, -1, 0, 0, 0
 gsDPPipeSync
 gsDPSetCombineModeLERP G_CCMUX_0, G_CCMUX_0, G_CCMUX_0, G_CCMUX_SHADE, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE, G_CCMUX_0, G_CCMUX_0, G_CCMUX_0, G_CCMUX_SHADE, G_ACMUX_0, G_ACMUX_0, G_ACMUX_0, G_ACMUX_SHADE

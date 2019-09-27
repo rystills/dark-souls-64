@@ -146,7 +146,7 @@ colTri     36,     38,     40
 colTri     36,     40,     41
 colTri     41,     40,     39
 
-colTriInit SURFACE_DEFAULT, 69
+colTriInit SURFACE_DEFAULT, 71
 colTri     42,     43,     44
 colTri     44,     43,     45
 colTri     44,     45,     46
@@ -216,6 +216,8 @@ colTri     82,     81,     78
 colTri     82,     78,     77
 colTri     76,     80,     81
 colTri     76,     81,     82
+colTri     77,     76,     82
+colTri     77,     82,     77
 
 colTriInit SURFACE_DEFAULT, 5
 colTri     83,     84,     85
