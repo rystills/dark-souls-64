@@ -24,3 +24,4 @@ actorgeo exclamation_box_outline
 actorgeo koopa_shell
 actorgeo pipeMimic
 actorgeo bonfire
+actorgeo unstablePlatform

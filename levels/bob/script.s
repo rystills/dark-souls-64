@@ -1,7 +1,8 @@
 script_func_local_1:
     object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
-    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  -1263, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00020000, /*beh*/ bhvBonfire
-    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  40,  463, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvBonfire
+    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  55,  -1263, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00020000, /*beh*/ bhvBonfire
+    object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  55,  463, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvBonfire
+    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -2946, 700, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
     return
 
 glabel level_bob_entry
@@ -25,7 +26,8 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_BOB_SEESAW_PLATFORM,  /*geo*/ bob_geo_000458
     load_model_from_geo /*model*/ MODEL_BOB_BARS_GRILLS,      /*geo*/ bob_geo_000470
     load_model_from_geo /*model*/ MODEL_PIPEMIMIC,            /*geo*/ pipeMimic_geo
-    load_model_from_geo /*model*/ MODEL_BONFIRE,            /*geo*/ bonfire_geo
+    load_model_from_geo /*model*/ MODEL_BONFIRE,              /*geo*/ bonfire_geo
+    load_model_from_geo /*model*/ MODEL_UNSTABLEPLATFORM,     /*geo*/ unstablePlatform_geo
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74

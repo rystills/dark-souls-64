@@ -1,4 +1,8 @@
-import fileinput, shutil, glob, os
+import fileinput, shutil, glob, os, fnmatch, re
+
+def globInsensitive(which, where='.'):
+    rule = re.compile(fnmatch.translate(which), re.IGNORECASE)
+    return [where + "/" + name for name in os.listdir(where) if rule.match(name)]
 
 # !Please run this tool from inside your modconv build folder!
 
@@ -15,7 +19,9 @@ sm64RepoDir = "/home/rystills/Desktop/sm64"
 
 # Actor shadow size. If not specified here, the default value of 60 is used
 # TODO: calculate shadow size from geo verts
-shadowSizes = {"pipeMimic":500, "bonfire":0}
+shadowSizes = {"pipeMimic":125, "bonfire":0}
+# view frustrum culling radius. If not specified here, the node is left out, resulting in a default value of 300
+cullingRadii = {"unstablePlatform":"3000"}
 
 # all files in levelFiles will be treated as a level; all other files will be treated as an actor
 # TODO: currently only one level file at a time is supported, since the tool automatically places the level files in bob
@@ -24,7 +30,7 @@ levelFiles = {"room1.fbx"}
 # TODO: textures for new actors may not be discovered until the tool is run a second time (determine cause and resolve)
 
 # copy in actors
-for file in glob.glob(inputDir + "/*.fbx"):
+for file in globInsensitive("*.fbx",inputDir):
 	fileName = file.split("/")[-1]
 	# skip level files at first, and skip collision meshes until their parent is found
 	if fileName in levelFiles or "_collision" in fileName:
@@ -61,14 +67,14 @@ for file in glob.glob(inputDir + "/*.fbx"):
 	fdata = fdata.replace("glabel model_collision","glabel {0}_collision".format(fileNameNoExt))
 	fdataScaled = []
 
-	# scale collision down by 4x to roughly match geo (TODO: temporary hack; determine cause and resolve)
+	# scale collision down by 4.05x to roughly match geo (TODO: temporary hack; determine cause and resolve)
 	for line in (fdata.split("\n")):
 		if (not "colVertex " in line):
 			fdataScaled.append(line)
 		else:
 			nums = line[10:].replace(" ","").split(",")
 			for n in range(len(nums)):
-				nums[n] = int(int(nums[n])//4)
+				nums[n] = int(int(nums[n])//4.05)
 			fdataScaled.append("colVertex " + str(nums).replace("[","").replace("]",""))
 	fdata = "\n".join(fdataScaled)
 
@@ -94,8 +100,18 @@ for file in glob.glob(inputDir + "/*.fbx"):
 		fdata = f.read()
 
 	fdata = fdata.replace("glabel model_geo","glabel {0}_geo".format(fileNameNoExt)).replace("model_dl_opaque","{0}_dl_opaque".format(fileNameNoExt))
+	if (fileNameNoExt in cullingRadii):
+		fdata = fdata.replace("geo_shadow","geo_culling_radius {0}\ngeo_open_node\ngeo_shadow".format(cullingRadii[fileNameNoExt]),1)
+		fdata = fdata.replace("geo_end","geo_close_node\ngeo_end")
 	if (fileNameNoExt in shadowSizes):
-		fdata = fdata.replace("geo_shadow SHADOW_CIRCLE_4_VERTS, 0xC8, 60","geo_shadow SHADOW_CIRCLE_4_VERTS, 0xC8, {0}".format(shadowSizes[fileNameNoExt]))
+		if (shadowSizes[fileNameNoExt] == 0):
+			# if the shadow size is 0, remove the line and the corresponding geo_open_node and geo_close_node entirely
+			fdata = fdata.replace("geo_shadow SHADOW_CIRCLE_4_VERTS, 0xC8, 60\n","").replace("geo_open_node\n","",1)
+			# TODO: for more complex geo scripts, the final close node may not correspond to the deleted open node
+			fdata = fdata[::-1].replace("geo_close_node\n"[::-1],"",1)[::-1]
+		else:
+			fdata = fdata.replace("geo_shadow SHADOW_CIRCLE_4_VERTS, 0xC8, 60","geo_shadow SHADOW_CIRCLE_4_VERTS, 0xC8, {0}".format(shadowSizes[fileNameNoExt]))
+	
 
 	with open("{0}/geo.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)
@@ -103,12 +119,12 @@ for file in glob.glob(inputDir + "/*.fbx"):
 	shutil.copyfile("./" + fileNameNoExt + "/geo.s", sm64RepoDir + "/actors/{0}/geo.s".format(fileNameNoExt))
 
 	# copy actor textures
-	for file in glob.glob("{0}/*.png".format(fileNameNoExt)):
+	for file in globInsensitive("*.png",fileNameNoExt):
 		shutil.copyfile(file, sm64RepoDir + "/actors/{0}".format(fileNameNoExt) + "/" + file.split("/")[1])
 
 
 # copy in levels
-for file in glob.glob(inputDir + "/*.fbx"):
+for file in globInsensitive("*.fbx",inputDir):
 	fileName = file.split("/")[-1]
 	# skip level files at first, and skip collision meshes until their parent is found
 	if fileName not in levelFiles:
@@ -118,7 +134,7 @@ for file in glob.glob(inputDir + "/*.fbx"):
 	shutil.copyfile(inputDir + "/{0}".format(fileName), "./{0}".format(fileName))
 
 	# copy in textures from windows
-	for file in glob.glob(inputDir + "/*.png"):
+	for file in globInsensitive("*.png",inputDir):
 		shutil.copyfile(file,file.split("/")[-1])
 
 
@@ -172,7 +188,7 @@ for file in glob.glob(inputDir + "/*.fbx"):
 	shutil.copyfile("./{0}/texture.s".format(fileNameNoExt), sm64RepoDir + "/levels/{0}/texture.s".format(levelName))
 
 	# copy texture files
-	for file in glob.glob("{0}/*.png".format(fileNameNoExt)):
+	for file in globInsensitive("*.png",fileNameNoExt):
 		shutil.copyfile(file,sm64RepoDir + "/levels/{0}".format(levelName) + "/" + file.split("/")[1])
 
 # rereun make

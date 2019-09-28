@@ -14,3 +14,6 @@ model_texture_2:
 
 model_texture_3:
 .incbin "levels/bob/stone.rgba16"
+
+model_texture_4:
+.incbin "levels/bob/shingle.rgba16"

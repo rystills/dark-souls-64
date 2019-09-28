@@ -542,5 +542,6 @@ extern u32 bhvUnusedFakeStar[];
 extern u32 bhvPipeMimic[];
 extern u32 bhvBonfire[];
 extern u32 bhvBonfireFlame[];
+extern u32 bhvUnstablePlatform[];
 
 #endif /* _BEHAVIOR_DATA_H */

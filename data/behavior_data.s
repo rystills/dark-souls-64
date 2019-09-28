@@ -5565,6 +5565,7 @@ glabel bhvPipeMimic
     begin OBJ_LIST_SURFACE
     collision_data pipeMimic_collision
     obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
+    scale 400
     callnative bhv_pipeMimic_init
     begin_loop
         callnative bhv_pipeMimic_loop
@@ -5575,6 +5576,7 @@ glabel bhvBonfire
     begin OBJ_LIST_SURFACE
     collision_data bonfire_collision
     obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
+    scale 400
     interact_type INTERACT_TEXT
     # no need for collision model; simple sphere hitbox (same size as bobomb buddy) will do
     set_hitbox 0x0064, 0x003C
@@ -5590,8 +5592,6 @@ glabel bhvBonfireFlame
     billboard
     obj_set_pos
     scale 700
-    #interact_type INTERACT_FLAME
-    collision_sphere 0x0032, 0x0019, 0x0019
     obj_set_int objIntangibleTimer, 0
     callnative bhv_init_room
     begin_loop
@@ -5599,5 +5599,14 @@ glabel bhvBonfireFlame
         text_anim_rate objAnimState, 0x0002
     end_loop
 
+glabel bhvUnstablePlatform
+begin OBJ_LIST_SURFACE
+collision_data unstablePlatform_collision
+    obj_or_int objFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
+    scale 405
+    begin_loop
+        callnative bhv_tumbling_bridge_platform_loop
+        callnative load_object_collision_model
+    end_loop
 
 glabel behavior_data_end
