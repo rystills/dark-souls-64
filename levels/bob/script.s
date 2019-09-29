@@ -1,8 +1,11 @@
 script_func_local_1:
-    object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  140,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
+    object /*model*/ MODEL_PIPEMIMIC, /*pos*/ 277,  150,  -1663, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvPipeMimic
     object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  55,  -1263, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00020000, /*beh*/ bhvBonfire
     object /*model*/ MODEL_BONFIRE, /*pos*/ 277,  55,  463, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvBonfire
-    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -2946, 700, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
+    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -2946, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
+    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -4046, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
+    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -5146, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
+    object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -6246, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
     return
 
 glabel level_bob_entry

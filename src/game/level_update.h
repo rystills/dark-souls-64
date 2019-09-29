@@ -127,4 +127,48 @@ s32 lvl_set_current_level(s16, s32 levelNum);
 s32 lvl_play_the_end_screen_sound(s16, s32);
 
 
+// scrolling texture gist by red: https://gist.github.com/mountainflaw/3df60d93fe253036389c6aa242bf9b39
+#define PACK_TILESIZE(w, d) ((w << 2) + d)
+
+typedef struct {
+    int cmd:8;
+    int s:12;
+    int t:12;
+    int pad:4;
+    int i:4;
+    int u:12;
+    int v:12;
+} SetTileSize;
+
+extern Gfx bob_dl;
+
+/*
+ * Scrolling texture system by red.
+ * This file comes with Bob-Omb Battlefield as an example.
+ */
+
+/*
+ * Parameters:
+ * dl - Which display list to modify (make sure it's passed by reference).
+ *
+ * cmd - Location of the gsDPSetTileSize command in the display list.
+ * In Bob-Omb Battlefield, it is 12.
+ *
+ * s/t - How much to scroll.
+ */
+
+void shift_s(Gfx *dl, u32 cmd, s16 s);
+   
+
+void shift_t(Gfx *dl, u32 cmd, s16 t);
+   
+
+/**
+ * Main scrolling texture function. Call this every frame.
+ * Add an entry to the switch (and make sure it's appropiate for the area you want it
+ * to be active in, using another switch).
+ */
+
+void rgfx_update_scroll();
+   
 #endif

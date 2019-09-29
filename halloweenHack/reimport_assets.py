@@ -19,7 +19,7 @@ sm64RepoDir = "/home/rystills/Desktop/sm64"
 
 # Actor shadow size. If not specified here, the default value of 60 is used
 # TODO: calculate shadow size from geo verts
-shadowSizes = {"pipeMimic":125, "bonfire":0}
+shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0}
 # view frustrum culling radius. If not specified here, the node is left out, resulting in a default value of 300
 cullingRadii = {"unstablePlatform":"3000"}
 

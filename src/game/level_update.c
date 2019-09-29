@@ -20,8 +20,8 @@
 #include "display.h"
 #include "save_file.h"
 #include "debug_course.h"
-#ifdef VERSION_EU
 #include "memory.h"
+#ifdef VERSION_EU
 #include "eu_translation.h"
 #endif
 
@@ -1102,6 +1102,39 @@ static s32 play_mode_unused(void) {
     return 0;
 }
 
+
+void shift_s(Gfx *dl, u32 cmd, s16 s) {
+    SetTileSize *tile = segmented_to_virtual(dl);
+    tile += cmd;
+    tile->s += s;
+    tile->u += s;
+}
+
+void shift_t(Gfx *dl, u32 cmd, s16 t) {
+    SetTileSize *tile = segmented_to_virtual(dl);
+    tile += cmd;
+    tile->t += t;
+    tile->v += t;
+}
+
+/**
+ * Main scrolling texture function. Call this every frame.
+ * Add an entry to the switch (and make sure it's appropiate for the area you want it
+ * to be active in, using another switch).
+ */
+
+void rgfx_update_scroll() {
+    //switch(gCurrLevelNum) {
+        //case LEVEL_BOB:
+        //if (gCurrAreaIndex == 1) {
+            // scroll clouds at 2/1 x speed
+            shift_s(&bob_dl, 15, PACK_TILESIZE(0, 2));
+            shift_t(&bob_dl, 15, PACK_TILESIZE(0, 1));
+        //}
+      //  break;
+   // }
+}
+
 s32 update_level(void) {
     s32 changeLevel;
 
@@ -1127,6 +1160,9 @@ s32 update_level(void) {
         func_80248C10();
         func_80248D90();
     }
+
+    // update custom scrolling textures
+    rgfx_update_scroll();
 
     return changeLevel;
 }

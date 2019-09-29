@@ -5575,6 +5575,7 @@ glabel bhvPipeMimic
 glabel bhvBonfire
     begin OBJ_LIST_SURFACE
     collision_data bonfire_collision
+    obj_set_float objDrawingDistance, 0xFFFF
     obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
     scale 400
     interact_type INTERACT_TEXT
@@ -5588,6 +5589,7 @@ glabel bhvBonfire
 
 glabel bhvBonfireFlame
     begin OBJ_LIST_LEVEL
+    obj_set_float objDrawingDistance, 0xFFFF
     obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
     billboard
     obj_set_pos
@@ -5600,8 +5602,10 @@ glabel bhvBonfireFlame
     end_loop
 
 glabel bhvUnstablePlatform
-begin OBJ_LIST_SURFACE
-collision_data unstablePlatform_collision
+    begin OBJ_LIST_SURFACE
+    collision_data unstablePlatform_collision
+    obj_set_float objCollisionDistance, 0x1000
+    obj_set_float objDrawingDistance, 0x4E20
     obj_or_int objFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
     scale 405
     begin_loop
