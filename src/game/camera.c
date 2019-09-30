@@ -523,6 +523,10 @@ void func_8027FF44(struct LevelCamera *c) {
 }
 
 s16 find_in_bounds_yaw_wdw_bob_thi(Vec3f pos, Vec3f origin, s16 yaw) {
+    // disable bounds restriction when extending level bounds
+#ifdef BOUNDS_EXTENSION
+    return yaw;
+#endif
     switch (gCurrLevelArea) {
         case AREA_WDW_MAIN:
             yaw = clamp_positions_and_find_yaw_angle(pos, origin, 4508.f, -3739.f, 4508.f, -3739.f);

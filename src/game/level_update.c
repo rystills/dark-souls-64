@@ -1236,9 +1236,9 @@ s32 init_level(void) {
         gMarioState->pos[2] = 463;
     }
     else if (save_file_get_course_coin_score(0,0) & 0x0002) {
-        gMarioState->pos[0] = 277;
-        gMarioState->pos[1] = 55;
-        gMarioState->pos[2] = -1263;
+        gMarioState->pos[0] = -14871;
+        gMarioState->pos[1] = 100;
+        gMarioState->pos[2] = -2158;
     }
     gCurrCourseNum = 0;
 
