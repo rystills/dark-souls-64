@@ -5604,12 +5604,13 @@ glabel bhvBonfireFlame
 glabel bhvUnstablePlatform
     begin OBJ_LIST_SURFACE
     collision_data unstablePlatform_collision
-    obj_set_float objCollisionDistance, 0x1000
-    obj_set_float objDrawingDistance, 0x4E20
+    # objDrawingDistance appears to be bounded by objCollisionDistance, so set both to the largest possible value
+    obj_set_float objCollisionDistance, 0x7999
+    obj_set_float objDrawingDistance, 0xFFFF
     obj_or_int objFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
     scale 405
     begin_loop
-        callnative bhv_tumbling_bridge_platform_loop
+        callnative bhv_unstablePlatform_loop
         callnative load_object_collision_model
     end_loop
 

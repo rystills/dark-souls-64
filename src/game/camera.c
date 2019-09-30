@@ -31,6 +31,8 @@
 
 #define CBUTTON_MASK (U_CBUTTONS | D_CBUTTONS | L_CBUTTONS | R_CBUTTONS)
 
+#define BOUNDS_EXTENSION 4.0f
+
 // BSS
 struct CameraPlayerStatus gPlayerStatusForCamera[2];
 Vec3f sCameraPosition;
@@ -3495,7 +3497,7 @@ s32 is_pos_less_than_bounds(struct Surface *surf, f32 xMax, f32 yMax, f32 zMax) 
     return isWithinBounds;
 }
 
-s32 is_behind_surface(Vec3f pos, struct Surface *surf) {
+s32 is_behind_surface(Vec3f pos, struct Surface *surf) {    
     s32 behindSurface = 0;
     f32 normX = (surf->vertex2[1] - surf->vertex1[1]) * (surf->vertex3[2] - surf->vertex2[2])
                 - (surf->vertex3[1] - surf->vertex2[1]) * (surf->vertex2[2] - surf->vertex1[2]);
@@ -3503,9 +3505,10 @@ s32 is_behind_surface(Vec3f pos, struct Surface *surf) {
                 - (surf->vertex3[2] - surf->vertex2[2]) * (surf->vertex2[0] - surf->vertex1[0]);
     f32 normZ = (surf->vertex2[0] - surf->vertex1[0]) * (surf->vertex3[1] - surf->vertex2[1])
                 - (surf->vertex3[0] - surf->vertex2[0]) * (surf->vertex2[1] - surf->vertex1[1]);
-    f32 posX = surf->vertex1[0] - pos[0];
-    f32 posY = surf->vertex1[1] - pos[1];
-    f32 posZ = surf->vertex1[2] - pos[2];
+
+    f32 posX = surf->vertex1[0] - pos[0] / BOUNDS_EXTENSION;
+    f32 posY = surf->vertex1[1] - pos[1] / BOUNDS_EXTENSION;
+    f32 posZ = surf->vertex1[2] - pos[2] / BOUNDS_EXTENSION;
 
     if (posX * normX + posY * normY + posZ * normZ < 0) {
         behindSurface = 1;

@@ -16,6 +16,8 @@
 #include "game/room.h"
 #include "surface_load.h"
 
+#define BOUNDS_EXTENSION 4.0f
+
 s32 unused8038BE90;
 
 /**
@@ -305,17 +307,17 @@ static struct Surface *read_surface_data(s16 *vertexData, s16 **vertexIndices) {
     offset2 = 3 * (*vertexIndices)[1];
     offset3 = 3 * (*vertexIndices)[2];
 
-    x1 = *(vertexData + offset1 + 0);
-    y1 = *(vertexData + offset1 + 1);
-    z1 = *(vertexData + offset1 + 2);
+    x1 = *(vertexData + offset1 + 0) / BOUNDS_EXTENSION;
+    y1 = *(vertexData + offset1 + 1) / BOUNDS_EXTENSION;
+    z1 = *(vertexData + offset1 + 2) / BOUNDS_EXTENSION;
 
-    x2 = *(vertexData + offset2 + 0);
-    y2 = *(vertexData + offset2 + 1);
-    z2 = *(vertexData + offset2 + 2);
+    x2 = *(vertexData + offset2 + 0) / BOUNDS_EXTENSION;
+    y2 = *(vertexData + offset2 + 1) / BOUNDS_EXTENSION;
+    z2 = *(vertexData + offset2 + 2) / BOUNDS_EXTENSION;
 
-    x3 = *(vertexData + offset3 + 0);
-    y3 = *(vertexData + offset3 + 1);
-    z3 = *(vertexData + offset3 + 2);
+    x3 = *(vertexData + offset3 + 0) / BOUNDS_EXTENSION;
+    y3 = *(vertexData + offset3 + 1) / BOUNDS_EXTENSION;
+    z3 = *(vertexData + offset3 + 2) / BOUNDS_EXTENSION;
 
     // (v2 - v1) x (v3 - v2)
     nx = (y2 - y1) * (z3 - z2) - (z2 - z1) * (y3 - y2);

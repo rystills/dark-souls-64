@@ -1855,12 +1855,12 @@ static s32 obj_within_12k_bounds(void) {
 }
 
 void obj_move_using_vel_and_gravity(void) {
-    if (obj_within_12k_bounds()) {
+    //if (obj_within_12k_bounds()) {
         o->oPosX += o->oVelX;
         o->oPosZ += o->oVelZ;
         o->oVelY += o->oGravity; //! No terminal velocity
         o->oPosY += o->oVelY;
-    }
+    //}
 }
 
 void obj_move_using_fvel_and_gravity(void) {
