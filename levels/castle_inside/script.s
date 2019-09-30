@@ -243,7 +243,8 @@ glabel level_castle_entry
         terrain /*terrainData*/ inside_castle_seg7_area_1_collision
         rooms /*surfaceRooms*/ inside_castle_seg7_area_1_rooms
         macro_objects /*objList*/ inside_castle_seg7_area_1_macro_objs
-        set_background_music /*unk2*/ 0x0001, /*seq*/ SEQ_LEVEL_INSIDE_CASTLE
+        # remove background music to avoid the first note triggering on respawn
+        #set_background_music /*unk2*/ 0x0001, /*seq*/ SEQ_LEVEL_INSIDE_CASTLE
         terrain_type /*terrainType*/ TERRAIN_STONE
     end_area
 

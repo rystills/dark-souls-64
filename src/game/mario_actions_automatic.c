@@ -340,9 +340,10 @@ s32 perform_hanging_step(struct MarioState *m, Vec3f nextPos) {
 s32 update_hang_moving(struct MarioState *m) {
     s32 stepResult;
     Vec3f nextPos;
-    f32 maxSpeed = 4.0f;
+    // increase climbing speed and acceleration
+    f32 maxSpeed = 50.0f; //4.0f
 
-    m->forwardVel += 1.0f;
+    m->forwardVel += 10.0f; //1.0f
     if (m->forwardVel > maxSpeed) {
         m->forwardVel = maxSpeed;
     }
@@ -456,6 +457,8 @@ s32 act_hang_moving(struct MarioState *m) {
     } else {
         set_mario_animation(m, MARIO_ANIM_MOVE_ON_WIRE_NET_LEFT);
     }
+    // speed up climbing animation
+    m->marioObj->header.gfx.unk38.animFrame += 1;
 
     if (m->marioObj->header.gfx.unk38.animFrame == 12) {
         play_sound(SOUND_ACTION_UNKNOWN42D, m->marioObj->header.gfx.cameraToObject);

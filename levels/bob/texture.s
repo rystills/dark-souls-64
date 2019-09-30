@@ -23,3 +23,6 @@ model_texture_4:
 
 model_texture_6:
 .incbin "levels/bob/stone.rgba16"
+
+model_texture_7:
+.incbin "levels/bob/vines.rgba16"
