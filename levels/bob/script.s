@@ -6,6 +6,7 @@ script_func_local_1:
     object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -5146, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
     object /*model*/ MODEL_UNSTABLEPLATFORM, /*pos*/ -6246, 600, -5571, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00010000, /*beh*/ bhvUnstablePlatform
     object /*model*/ MODEL_BONFIRE, /*pos*/ -14871, 100, -2158, /*angle*/ 0, 135, 0,  /*behParam*/ 0x00020000, /*beh*/ bhvBonfire
+    object /*model*/ MODEL_SHORTCUTELEVATOR, /*pos*/ 277,  1500,  1672, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvShortcutElevator
     return
 
 glabel level_bob_entry
@@ -31,6 +32,7 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_PIPEMIMIC,            /*geo*/ pipeMimic_geo
     load_model_from_geo /*model*/ MODEL_BONFIRE,              /*geo*/ bonfire_geo
     load_model_from_geo /*model*/ MODEL_UNSTABLEPLATFORM,     /*geo*/ unstablePlatform_geo
+    load_model_from_geo /*model*/ MODEL_SHORTCUTELEVATOR,     /*geo*/ shortcutElevator_geo
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74

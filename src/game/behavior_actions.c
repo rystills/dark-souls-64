@@ -284,3 +284,4 @@ void func_802B2328(
 #include "behaviors/pipeMimic.inc.c"
 #include "behaviors/bonfire.inc.c"
 #include "behaviors/unstablePlatform.inc.c"
+#include "behaviors/shortcutElevator.inc.c"

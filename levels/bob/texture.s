@@ -24,11 +24,11 @@ model_texture_4:
 model_texture_5:
 .incbin "levels/bob/mossyBrick.rgba16"
 
-model_texture_7:
+model_texture_6:
 .incbin "levels/bob/stone.rgba16"
 
-model_texture_8:
+model_texture_7:
 .incbin "levels/bob/vines.rgba16"
 
-model_texture_9:
+model_texture_8:
 .incbin "levels/bob/purpleGoop.rgba16"

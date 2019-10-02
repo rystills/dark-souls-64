@@ -5614,4 +5614,15 @@ glabel bhvUnstablePlatform
         callnative load_object_collision_model
     end_loop
 
+glabel bhvShortcutElevator
+    begin OBJ_LIST_SURFACE
+    collision_data shortcutElevator_collision
+    obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
+    scale 405
+    callnative bhv_shortcutElevator_init
+    begin_loop
+        callnative bhv_shortcutElevator_loop
+        callnative load_object_collision_model
+    end_loop
+
 glabel behavior_data_end

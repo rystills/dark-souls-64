@@ -26,3 +26,4 @@ actor koopa_shell
 actor pipeMimic
 actor bonfire
 actor unstablePlatform
+actor shortcutElevator

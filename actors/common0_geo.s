@@ -25,3 +25,4 @@ actorgeo koopa_shell
 actorgeo pipeMimic
 actorgeo bonfire
 actorgeo unstablePlatform
+actorgeo shortcutElevator
