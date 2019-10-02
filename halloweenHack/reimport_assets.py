@@ -22,6 +22,8 @@ sm64RepoDir = "/home/rystills/Desktop/sm64"
 shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0}
 # view frustrum culling radius. If not specified here, the node is left out, resulting in a default value of 300
 cullingRadii = {"unstablePlatform":"3000"}
+# scrolling textures to label for easy access
+scrollingTextures = {"model_texture_0":"clouds_texLoad", "model_texture_9":"purpleGoop_texLoad"}
 
 # all files in levelFiles will be treated as a level; all other files will be treated as an actor
 # TODO: currently only one level file at a time is supported, since the tool automatically places the level files in bob
@@ -89,6 +91,10 @@ for file in globInsensitive("*.fbx",inputDir):
 
 	fdata = fdata.replace("glabel model_dl_opaque","glabel {0}_dl_opaque".format(fileNameNoExt)).replace('.incbin "actors/model/','.incbin "actors/{0}/'.format(fileNameNoExt))
 	fdata = fdata.replace("model_","{0}_".format(fileNameNoExt))
+	# label scrolling textures
+	for i in scrollingTextures.keys():
+		if i in fdata:
+			fdata = fdata.replace("gsDPLoadTextureBlock {0}".format(i),"glabel " + scrollingTextures[i]+"\ngsDPLoadTextureBlock {0}".format(i))
 
 	with open("{0}/model.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)
@@ -170,6 +176,10 @@ for file in globInsensitive("*.fbx",inputDir):
 		fdata = f.read()
 
 	fdata = fdata.replace("glabel model_dl_opaque","glabel {0}_dl".format(levelName))
+	# label scrolling textures
+	for i in scrollingTextures.keys():
+		if i in fdata:
+			fdata = fdata.replace("gsDPLoadTextureBlock {0}".format(i),"glabel " + scrollingTextures[i]+"\ngsDPLoadTextureBlock {0}".format(i))
 
 	with open("{0}/model.s".format(fileNameNoExt),"w") as f:
 	  f.write(fdata)

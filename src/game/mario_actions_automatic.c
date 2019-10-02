@@ -315,6 +315,20 @@ s32 perform_hanging_step(struct MarioState *m, Vec3f nextPos) {
         return HANG_HIT_CEIL_OR_OOB;
     }
     if (ceil->type != SURFACE_HANGABLE) {
+        // burn mario if he attempts to climb to a burning ceiling
+        if (ceil->type == SURFACE_BURNING) {
+             if (m->forwardVel < 24.0f) {
+                m->forwardVel = 24.0f;
+            }
+
+            if (!(m->flags & MARIO_METAL_CAP)) {
+                m->hurtCounter += (m->flags & MARIO_CAP_ON_HEAD) ? 12 : 18;
+            }
+
+            play_sound(SOUND_MARIO_ONFIRE, m->marioObj->header.gfx.cameraToObject);
+            update_mario_sound_and_camera(m);
+            return drop_and_set_mario_action(m, ACT_LAVA_BOOST, 1);
+        }
         return HANG_LEFT_CEIL;
     }
 
@@ -340,7 +354,7 @@ s32 perform_hanging_step(struct MarioState *m, Vec3f nextPos) {
 s32 update_hang_moving(struct MarioState *m) {
     s32 stepResult;
     Vec3f nextPos;
-    // increase climbing speed and acceleration
+    // increase hanging speed and acceleration
     f32 maxSpeed = 50.0f; //4.0f
 
     m->forwardVel += 10.0f; //1.0f
@@ -457,7 +471,7 @@ s32 act_hang_moving(struct MarioState *m) {
     } else {
         set_mario_animation(m, MARIO_ANIM_MOVE_ON_WIRE_NET_LEFT);
     }
-    // speed up climbing animation
+    // speed up hanging animation
     m->marioObj->header.gfx.unk38.animFrame += 1;
 
     if (m->marioObj->header.gfx.unk38.animFrame == 12) {
