@@ -32,6 +32,7 @@ void bhv_shortcutElevator_loop(void) {
 			// use the moat drain flag to store the elevator state, so once mario unlocks it, it becomes a permanent shortcut
 			o->oAction = 1;
 			save_file_set_flags(SAVE_FLAG_MOAT_DRAINED);
+			PlaySound(SOUND_CH8_RIGHTANSWER);
 		}
 	}
 }

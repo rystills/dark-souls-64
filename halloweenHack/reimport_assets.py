@@ -19,7 +19,7 @@ sm64RepoDir = "/home/rystills/Desktop/sm64"
 
 # Actor shadow size. If not specified here, the default value of 60 is used
 # TODO: calculate shadow size from geo verts
-shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0, "shortcutElevator":0}
+shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0, "shortcutElevator":0,"floorArrowTrap":0}
 # view frustrum culling radius. If not specified here, the node is left out, resulting in a default value of 300
 cullingRadii = {"unstablePlatform":"3000"}
 # scrolling textures to label for easy access
@@ -30,6 +30,7 @@ scrollingTextures = {"model_texture_0":"clouds_texLoad", "model_texture_8":"purp
 levelFiles = {"room1.fbx"}
 
 # TODO: textures for new actors may not be discovered until the tool is run a second time (determine cause and resolve)
+# TODO: reference a single location for texture storage so that objects and levels which share textures don't end up duplicating them 
 
 # copy in actors
 for file in globInsensitive("*.fbx",inputDir):
@@ -105,7 +106,7 @@ for file in globInsensitive("*.fbx",inputDir):
 	with open("{0}/geo.s".format(fileNameNoExt),"r") as f:
 		fdata = f.read()
 
-	fdata = fdata.replace("glabel model_geo","glabel {0}_geo".format(fileNameNoExt)).replace("model_dl_opaque","{0}_dl_opaque".format(fileNameNoExt))
+	fdata = fdata.replace("glabel model_geo","glabel {0}_geo".format(fileNameNoExt)).replace("model_dl_","{0}_dl_".format(fileNameNoExt))
 	if (fileNameNoExt in cullingRadii):
 		fdata = fdata.replace("geo_shadow","geo_culling_radius {0}\ngeo_open_node\ngeo_shadow".format(cullingRadii[fileNameNoExt]),1)
 		fdata = fdata.replace("geo_end","geo_close_node\ngeo_end")

@@ -27,3 +27,5 @@ actor pipeMimic
 actor bonfire
 actor unstablePlatform
 actor shortcutElevator
+actor floorArrowTrap
+actor arrowTrapArrow

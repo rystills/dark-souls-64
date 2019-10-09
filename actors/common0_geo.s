@@ -26,3 +26,5 @@ actorgeo pipeMimic
 actorgeo bonfire
 actorgeo unstablePlatform
 actorgeo shortcutElevator
+actorgeo floorArrowTrap
+actorgeo arrowTrapArrow

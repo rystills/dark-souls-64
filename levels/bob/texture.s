@@ -32,3 +32,9 @@ model_texture_7:
 
 model_texture_8:
 .incbin "levels/bob/purpleGoop.rgba16"
+
+model_texture_9:
+.incbin "levels/bob/stoneWall.rgba16"
+
+model_texture_10:
+.incbin "levels/bob/mountain.rgba16"

@@ -5564,6 +5564,7 @@ glabel bhvIntroScene # 5684
 glabel bhvPipeMimic
     begin OBJ_LIST_SURFACE
     collision_data pipeMimic_collision
+    obj_set_float objDrawingDistance, 0x3E80
     obj_or_int objFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE
     scale 400
     callnative bhv_pipeMimic_init
@@ -5623,6 +5624,28 @@ glabel bhvShortcutElevator
     begin_loop
         callnative bhv_shortcutElevator_loop
         callnative load_object_collision_model
+    end_loop
+
+glabel bhvFloorArrowTrap
+    begin OBJ_LIST_SURFACE
+    collision_data floorArrowTrap_collision
+    obj_or_int objFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
+    scale 405
+    begin_loop
+        callnative bhv_floorArrowTrap_loop
+        callnative load_object_collision_model
+    end_loop
+
+glabel bhvArrowTrapArrow
+    begin OBJ_LIST_GENACTOR
+    obj_or_int objFlags, (OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_MOVE_XZ_USING_FVEL | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
+    collision_sphere 0x0096, 0x0096, 0x0096
+    interact_type INTERACT_DAMAGE
+    obj_set_int objDamageOrCoinValue, 8
+    obj_set_int objIntangibleTimer, 0
+    scale 405
+    begin_loop
+        callnative bhv_arrowTrapArrow_loop
     end_loop
 
 glabel behavior_data_end

@@ -285,3 +285,5 @@ void func_802B2328(
 #include "behaviors/bonfire.inc.c"
 #include "behaviors/unstablePlatform.inc.c"
 #include "behaviors/shortcutElevator.inc.c"
+#include "behaviors/floorArrowTrap.inc.c"
+#include "behaviors/arrowTrapArrow.inc.c"

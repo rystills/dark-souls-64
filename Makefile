@@ -148,7 +148,9 @@ MIPSISET := -mips2 -32
 ifeq ($(VERSION),eu)
   OPT_FLAGS := -O2
 else
-  OPT_FLAGS := -g
+  # enable optimizations in US build
+  OPT_FLAGS := -O2
+  #OPT_FLAGS := -g
 endif
 
 # File dependencies and variables for specific files
