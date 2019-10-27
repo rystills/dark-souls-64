@@ -546,5 +546,5 @@ extern u32 bhvUnstablePlatform[];
 extern u32 bhvShortcutElevator[];
 extern u32 bhvFloorArrowTrap[];
 extern u32 bhvArrowTrapArrow[];
-
+extern u32 bhvFogDoor[];
 #endif /* _BEHAVIOR_DATA_H */

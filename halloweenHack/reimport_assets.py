@@ -17,13 +17,13 @@ outputRomDir = "/mnt/c/Users/Ryan/Documents/git-projects/sm64HalloweenHack"
 # directory of the cloned sm64 decomp source in which your romhack resides
 sm64RepoDir = "/home/rystills/Desktop/sm64"
 
-# Actor shadow size. If not specified here, the default value of 60 is used
+# Actor shadow size. If not specified here, the default value of 60 is used. A value of 0 will cause the shadow to be omitted.
 # TODO: calculate shadow size from geo verts
-shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0, "shortcutElevator":0,"floorArrowTrap":0}
+shadowSizes = {"pipeMimic":125, "bonfire":0, "unstablePlatform":0, "shortcutElevator":0,"floorArrowTrap":0,"fogDoor":0}
 # view frustrum culling radius. If not specified here, the node is left out, resulting in a default value of 300
-cullingRadii = {"unstablePlatform":"3000"}
+cullingRadii = {"unstablePlatform":"3000","pipeMimic":"1000","fogDoor":"1500"}
 # scrolling textures to label for easy access
-scrollingTextures = {"model_texture_0":"clouds_texLoad", "model_texture_8":"purpleGoop_texLoad"}
+scrollingTextures = {"model_texture_0":"clouds_texLoad", "model_texture_8":"purpleGoop_texLoad", "fogDoor_texture_0":"fogDoor_texLoad"}
 
 # all files in levelFiles will be treated as a level; all other files will be treated as an actor
 # TODO: currently only one level file at a time is supported, since the tool automatically places the level files in bob

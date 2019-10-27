@@ -287,3 +287,4 @@ void func_802B2328(
 #include "behaviors/shortcutElevator.inc.c"
 #include "behaviors/floorArrowTrap.inc.c"
 #include "behaviors/arrowTrapArrow.inc.c"
+#include "behaviors/fogDoor.inc.c"

@@ -5646,6 +5646,23 @@ glabel bhvArrowTrapArrow
     scale 405
     begin_loop
         callnative bhv_arrowTrapArrow_loop
+    end_loop    
+
+glabel bhvFogDoor
+    begin OBJ_LIST_SURFACE
+    obj_set_int objInteractType, 0x04
+    obj_or_int objFlags, (OBJ_FLAG_ACTIVE_FROM_AFAR | OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)
+    obj_set_int32 objAnimations, door_seg3_anim_030156C0
+    animate 0x00
+    collision_data fogDoor_collision
+    set_hitbox 0x160, 0x064
+    obj_set_int objIntangibleTimer, 0
+    obj_set_float objCollisionDistance, 0x03E8
+    obj_set_pos
+    callnative bhv_fogDoor_init
+    scale 400
+    begin_loop
+        callnative bhv_fogDoor_loop
     end_loop
 
 glabel behavior_data_end

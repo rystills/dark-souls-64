@@ -558,6 +558,7 @@
 #define MODEL_SHORTCUTELEVATOR			  0XE5
 #define MODEL_FLOORARROWTRAP			  0XE6
 #define MODEL_ARROWTRAPARROW			  0XE7
+#define MODEL_FOGDOOR			  		  0XE8
 
 // Menu Models (overwrites Level Geometry IDs)
 #define MODEL_MAIN_MENU_MARIO_SAVE_BUTTON         MODEL_LEVEL_GEOMETRY_03   // main_menu_geo_0001D0

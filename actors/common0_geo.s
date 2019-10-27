@@ -28,3 +28,4 @@ actorgeo unstablePlatform
 actorgeo shortcutElevator
 actorgeo floorArrowTrap
 actorgeo arrowTrapArrow
+actorgeo fogDoor

@@ -29,3 +29,4 @@ actor unstablePlatform
 actor shortcutElevator
 actor floorArrowTrap
 actor arrowTrapArrow
+actor fogDoor

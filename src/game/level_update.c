@@ -1134,6 +1134,10 @@ void rgfx_update_scroll() {
             // shift goo out slowly
             shift_s(&purpleGoop_texLoad, 6, PACK_TILESIZE(0, 1));
             //shift_t(&purpleGoop_texLoad, 6, PACK_TILESIZE(0, 1+2*abs(sinf(gGlobalTimer/13))));
+
+            // shift fog door quickly
+            shift_s(&fogDoor_texLoad, 6, PACK_TILESIZE(0, 7));
+            shift_t(&fogDoor_texLoad, 6, PACK_TILESIZE(0, 2));
         //}
       //  break;
    // }

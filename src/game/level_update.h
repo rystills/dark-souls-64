@@ -140,7 +140,7 @@ typedef struct {
     int v:12;
 } SetTileSize;
 
-extern Gfx clouds_texLoad, purpleGoop_texLoad;
+extern Gfx clouds_texLoad, purpleGoop_texLoad, fogDoor_texLoad;
 
 /*
  * Scrolling texture system by red.
