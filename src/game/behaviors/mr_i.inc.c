@@ -13,7 +13,8 @@ void bhv_piranha_particle_loop(void) {
 
 void ActionMrIParticle0(void) {
     obj_scale(3.0f);
-    o->oForwardVel = 20.0f;
+    // increase particle speed as we're reusing this for smoughMass
+    o->oForwardVel = 60.0f;
     obj_update_floor_and_walls();
     if (0x8000 & o->oInteractStatus)
         o->oAction = 1;

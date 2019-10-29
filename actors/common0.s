@@ -30,3 +30,4 @@ actor shortcutElevator
 actor floorArrowTrap
 actor arrowTrapArrow
 actor fogDoor
+actor smoughMass

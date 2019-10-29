@@ -547,4 +547,5 @@ extern u32 bhvShortcutElevator[];
 extern u32 bhvFloorArrowTrap[];
 extern u32 bhvArrowTrapArrow[];
 extern u32 bhvFogDoor[];
+extern u32 bhvSmoughMass[];
 #endif /* _BEHAVIOR_DATA_H */

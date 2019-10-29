@@ -7,7 +7,6 @@ void bhv_fogDoor_transitionCompleteCheck(s32 sp18) {
     if (func_8029F788()) {
         o->oAction = 0;
         // switch to boss music upon finishing fog door transition
-        func_802491FC(0);
         set_background_music(0x0002, SEQ_LEVEL_BOSS_KOOPA_FINAL);
     }
 }

@@ -29,3 +29,4 @@ actorgeo shortcutElevator
 actorgeo floorArrowTrap
 actorgeo arrowTrapArrow
 actorgeo fogDoor
+actorgeo smoughMass

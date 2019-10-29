@@ -288,3 +288,4 @@ void func_802B2328(
 #include "behaviors/floorArrowTrap.inc.c"
 #include "behaviors/arrowTrapArrow.inc.c"
 #include "behaviors/fogDoor.inc.c"
+#include "behaviors/smoughMass.inc.c"

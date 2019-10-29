@@ -9,6 +9,7 @@ script_func_local_1:
     object /*model*/ MODEL_SHORTCUTELEVATOR, /*pos*/ 277,  1500,  1672, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvShortcutElevator
     object /*model*/ MODEL_FLOORARROWTRAP, /*pos*/ 5836, 2294, 2918, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvFloorArrowTrap
     object /*model*/ MODEL_FOGDOOR, /*pos*/ 8834, 5215, 2917, /*angle*/ 0, -90, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvFogDoor
+    object /*model*/ MODEL_SMOUGHMASS, /*pos*/ 11569, 5215, 2917, /*angle*/ 0, 0, 0,  /*behParam*/ 0x00000000, /*beh*/ bhvSmoughMass
     return
 
 glabel level_bob_entry
@@ -38,6 +39,7 @@ glabel level_bob_entry
     load_model_from_geo /*model*/ MODEL_FLOORARROWTRAP,     /*geo*/ floorArrowTrap_geo
     load_model_from_geo /*model*/ MODEL_ARROWTRAPARROW,     /*geo*/ arrowTrapArrow_geo
     load_model_from_geo /*model*/ MODEL_FOGDOOR,     /*geo*/ fogDoor_geo
+    load_model_from_geo /*model*/ MODEL_SMOUGHMASS,     /*geo*/ smoughMass_geo
 
     area /*index*/ 1, /*geo*/ bob_geo_000488
         object /*model*/ MODEL_NONE, /*pos*/ 0,  500,  0, /*angle*/ 0, 135, 0,  /*behParam*/ 0x000A0000, /*beh*/ bhvWarps74

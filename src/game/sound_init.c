@@ -23,7 +23,8 @@ static struct VblankHandler sSoundVblankHandler;
 
 static u8 D_8032C6C0 = 0;
 static u8 D_8032C6C4 = 0;
-static u16 sCurrentMusic = MUSIC_NONE;
+// make currrent music nonstatic so we can reference it in other files
+u16 sCurrentMusic = MUSIC_NONE;
 static u16 sCurrentShellMusic = MUSIC_NONE;
 static u16 sCurrentCapMusic = MUSIC_NONE;
 static u8 sPlayingInfiniteStairs = FALSE;

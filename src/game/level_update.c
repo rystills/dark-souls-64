@@ -1138,6 +1138,10 @@ void rgfx_update_scroll() {
             // shift fog door quickly
             shift_s(&fogDoor_texLoad, 6, PACK_TILESIZE(0, 7));
             shift_t(&fogDoor_texLoad, 6, PACK_TILESIZE(0, 2));
+
+            // shift smough mass slowly
+            shift_t(&smoughMass_texLoad, 6, PACK_TILESIZE(0, 1));
+            shift_t(&smoughMass_texLoad, 6, PACK_TILESIZE(0, 1));
         //}
       //  break;
    // }
@@ -1239,15 +1243,9 @@ s32 init_level(void) {
     // transport mario to the last used bonfire, or the 1st one if no bonfire has been used yet
     gCurrCourseNum = 1;
     if (save_file_get_course_coin_score(0,0) <= 1) {
-        //gMarioState->pos[0] = -14871;
-        //gMarioState->pos[1] = 100;
-        //gMarioState->pos[2] = -2158;
-        //gMarioState->pos[0] = 277;
-        //gMarioState->pos[1] = 55;
-        //gMarioState->pos[2] = 463;
         gMarioState->pos[0] = 277;
-        gMarioState->pos[1] = 2000;
-        gMarioState->pos[2] = 2000;
+        gMarioState->pos[1] = 55;
+        gMarioState->pos[2] = 463;
     }
     else if (save_file_get_course_coin_score(0,0) & 0x0002) {
         gMarioState->pos[0] = -14871;
