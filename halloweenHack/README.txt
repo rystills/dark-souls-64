@@ -12,3 +12,10 @@ I'd like to give a huge shout out to all of the amazing members of the SM64 Deco
 who suffered through my endless questioning. Without you guys, I would never have made it this far.
 
 Have fun! Oh, and of course, shout outs to SimpleFlips.
+
+-----------------------------------------------------------------------------------------------------------
+
+Changelog
+
+v1.01:
+	-made the hanging section much more forgiving
